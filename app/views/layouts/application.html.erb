@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Wampus</title>
+    <title>TApp</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -10,8 +10,10 @@
   </head>
 
   <body>
-    <%= yield %>
-    <p class="notice"><%= notice %></p>
-       <p class="alert"><%= alert %></p>
+    <%= render "homes/navbar" %>    
+    <div class="container-fluid">
+      <%= yield %>
+    </div>
+    <%= render "homes/notification" %>
   </body>
 </html>
