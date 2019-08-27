@@ -1,0 +1,46 @@
+Rails.application.routes.draw do
+ 
+ 
+  devise_for :mdosens, path: 'mdosens',controllers: { sessions: 'mdosens/sessions'}
+  devise_scope :mdosen do
+    get 'sign_in', to: 'mdosen/sessions#new'
+    get '/mdosens/sign_out' => 'mdosen/sessions#destroy'
+  end
+
+  authenticated :mdosen do
+    resources :hdosens
+    root 'hdosens#index', as: :authenticated_mdosen
+  end
+
+  devise_for :mahasiswas, path: 'mahasiswas',controllers: { sessions: 'mahasiswas/sessions'}
+  devise_scope :mahasiswa do
+    get 'sign_in', to: 'mahasiswa/sessions#new'
+    get '/mahasiswas/sign_out' => 'mahasiswa/sessions#destroy'
+  end
+
+  authenticated :mahasiswa do
+    resources :mhshomes
+    root 'mhshomes#index', as: :authenticated_root
+  end
+
+  devise_for :users,path: 'users', controllers: { sessions: 'users/sessions' }   
+  devise_scope :user do
+    get 'sign_in', to: 'user/sessions#new'
+    get '/users/sign_out' => 'user/sessions#destroy'
+    
+  end
+  authenticated :user do
+    resources :rumahs
+    root 'rumahs#index', as: :authentic_user
+  end
+
+
+  resources :homes
+  root 'homes#index'
+  
+  resources :bimbingans
+  resources :admins
+  resources :dosens
+  resources :students
+  
+end

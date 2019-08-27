@@ -1,0 +1,2 @@
+module RumahsHelper
+end

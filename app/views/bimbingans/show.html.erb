@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nama:</strong>
+  <%= @bimbingan.nama %>
+</p>
+
+<p>
+  <strong>Judul:</strong>
+  <%= @bimbingan.judul %>
+</p>
+
+<p>
+  <strong>Dosen:</strong>
+  <%= @bimbingan.dosen %>
+</p>
+
+<%= link_to 'Edit', edit_bimbingan_path(@bimbingan) %> |
+<%= link_to 'Back', bimbingans_path %>

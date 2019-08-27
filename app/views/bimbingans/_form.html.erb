@@ -1,0 +1,32 @@
+<%= form_with(model: bimbingan, local: true) do |form| %>
+  <% if bimbingan.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(bimbingan.errors.count, "error") %> prohibited this bimbingan from being saved:</h2>
+
+      <ul>
+        <% bimbingan.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :nim %>
+    <%= form.text_field :nama %>
+  </div>
+
+  <div class="field">
+    <%= form.label :judul %>
+    <%= form.text_field :judul %>
+  </div>
+
+  <div class="field">
+    <%= form.label :nip %>
+    <%= form.text_field :dosen %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nip:</strong>
+  <%= @dosen.nip %>
+</p>
+
+<p>
+  <strong>Nama:</strong>
+  <%= @dosen.nama %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @dosen.email %>
+</p>
+
+<p>
+  <strong>Username:</strong>
+  <%= @dosen.username %>
+</p>
+
+<p>
+  <strong>Password:</strong>
+  <%= @dosen.password %>
+</p>
+
+<%= link_to 'Edit', edit_dosen_path(@dosen) %> |
+<%= link_to 'Back', dosens_path %>
