@@ -2,7 +2,7 @@ class AdminsController < ApplicationController
   before_action :authenticate_user!
   before_action :set_admin, only: [:show, :edit, :update, :destroy]
 
-  
+
 
   # GET /admins
   # GET /admins.json
@@ -58,9 +58,11 @@ class AdminsController < ApplicationController
   # DELETE /admins/1.json
   def destroy
     @admin.destroy
+  
     respond_to do |format|
       format.html { redirect_to admins_url, notice: 'Admin was successfully destroyed.' }
       format.json { head :no_content }
+
     end
   end
 

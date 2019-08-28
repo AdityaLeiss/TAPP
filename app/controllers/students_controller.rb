@@ -56,6 +56,7 @@ class StudentsController < ApplicationController
   # DELETE /students/1.json
   def destroy
     @student.destroy
+    @maha.destroy
     respond_to do |format|
       format.html { redirect_to students_url, notice: 'Student was successfully destroyed.' }
       format.json { head :no_content }
@@ -66,6 +67,7 @@ class StudentsController < ApplicationController
     # Use callbacks to share common setup or constraints between actions.
     def set_student
       @student = Student.find(params[:id])
+      @maha = Mahasiswa.find(params[:id])
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.
