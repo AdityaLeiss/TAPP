@@ -9,11 +9,10 @@
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body>
-    <%= render "homes/navbar" %>    
+  <body> 
+    <%= render "homes/notification" %>  
     <div class="container-fluid">
       <%= yield %>
     </div>
-    <%= render "homes/notification" %>
   </body>
 </html>
