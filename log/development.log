@@ -5720,3 +5720,1606 @@ puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
 puma (3.12.1) lib/puma/server.rb:474:in `process_client'
 puma (3.12.1) lib/puma/server.rb:334:in `block in run'
 puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-08-29 09:17:41 +0800
+  [1m[35m (14.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 17.2ms | Allocations: 458)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in D:/Nana/fork/TAPP/public/packs
+[Webpacker] warning You don't appear to have an internet connection. Try the --offline flag to use the cache for registry queries.
+
+  Rendered homes/_navbar.html.erb (Duration: 1.9ms | Allocations: 102)
+  Rendered homes/_notification.html.erb (Duration: 2.2ms | Allocations: 141)
+Completed 200 OK in 14059ms (Views: 14057.5ms | ActiveRecord: 0.0ms | Allocations: 1496977)
+
+
+Started GET "/docs/4.3/assets/brand/bootstrap-solid.svg" for ::1 at 2019-08-29 09:17:59 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/docs/4.3/assets/brand/bootstrap-solid.svg"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/users/sign_in" for ::1 at 2019-08-29 13:56:47 +0800
+  [1m[35m (8.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Users::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 45.6ms | Allocations: 511)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 231.2ms | Allocations: 8668)
+  Rendered homes/_navbar.html.erb (Duration: 2.5ms | Allocations: 101)
+  Rendered homes/_notification.html.erb (Duration: 2.2ms | Allocations: 141)
+Completed 200 OK in 9013ms (Views: 8993.0ms | ActiveRecord: 1.0ms | Allocations: 1484247)
+
+
+Started GET "/docs/4.3/assets/brand/bootstrap-solid.svg" for ::1 at 2019-08-29 13:56:57 +0800
+Started GET "/users/sign_in" for ::1 at 2019-08-29 13:56:57 +0800
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Users::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.2ms | Allocations: 75)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1358)
+  
+ActionController::RoutingError (No route matches [GET] "/docs/4.3/assets/brand/bootstrap-solid.svg"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendered homes/_navbar.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 21)
+Completed 200 OK in 256ms (Views: 255.0ms | ActiveRecord: 0.0ms | Allocations: 93438)
+
+
+Started GET "/docs/4.3/assets/brand/bootstrap-solid.svg" for ::1 at 2019-08-29 13:56:58 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/docs/4.3/assets/brand/bootstrap-solid.svg"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-08-29 13:57:19 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 273)
+  Rendered homes/_navbar.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 49ms (Views: 48.3ms | ActiveRecord: 0.0ms | Allocations: 20777)
+
+
+Started GET "/docs/4.3/assets/brand/bootstrap-solid.svg" for ::1 at 2019-08-29 13:57:19 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/docs/4.3/assets/brand/bootstrap-solid.svg"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/mahasiswas/sign_in" for ::1 at 2019-08-29 13:58:00 +0800
+Processing by Mahasiswas::SessionsController#new as HTML
+  Rendering mahasiswas/sessions/new.html.erb within layouts/application
+  Rendered mahasiswas/shared/_links.html.erb (Duration: 18.2ms | Allocations: 641)
+  Rendered mahasiswas/sessions/new.html.erb within layouts/application (Duration: 47.8ms | Allocations: 2258)
+  Rendered homes/_navbar.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 116ms (Views: 105.3ms | ActiveRecord: 0.7ms | Allocations: 28681)
+
+
+Started GET "/docs/4.3/assets/brand/bootstrap-solid.svg" for ::1 at 2019-08-29 13:58:00 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/docs/4.3/assets/brand/bootstrap-solid.svg"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/docs/4.3/assets/brand/bootstrap-solid.svg" for ::1 at 2019-08-29 13:58:03 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/docs/4.3/assets/brand/bootstrap-solid.svg"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/mdosens/sign_in" for ::1 at 2019-08-29 13:58:04 +0800
+Processing by Mdosens::SessionsController#new as HTML
+  Rendering mdosens/sessions/new.html.erb within layouts/application
+  Rendered mdosens/shared/_links.html.erb (Duration: 2.5ms | Allocations: 638)
+  Rendered mdosens/sessions/new.html.erb within layouts/application (Duration: 12.5ms | Allocations: 2238)
+  Rendered homes/_navbar.html.erb (Duration: 0.1ms | Allocations: 5)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 81ms (Views: 70.8ms | ActiveRecord: 1.1ms | Allocations: 28564)
+
+
+Started GET "/docs/4.3/assets/brand/bootstrap-solid.svg" for ::1 at 2019-08-29 13:58:05 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/docs/4.3/assets/brand/bootstrap-solid.svg"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/docs/4.3/assets/brand/bootstrap-solid.svg" for ::1 at 2019-08-29 13:58:08 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/docs/4.3/assets/brand/bootstrap-solid.svg"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/users/sign_in" for ::1 at 2019-08-29 13:58:09 +0800
+Started GET "/docs/4.3/assets/brand/bootstrap-solid.svg" for ::1 at 2019-08-29 13:58:09 +0800
+Processing by Users::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.2ms | Allocations: 76)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1045)
+  
+ActionController::RoutingError (No route matches [GET] "/docs/4.3/assets/brand/bootstrap-solid.svg"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendered homes/_navbar.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 146ms (Views: 144.8ms | ActiveRecord: 0.0ms | Allocations: 92854)
+
+
+Started GET "/docs/4.3/assets/brand/bootstrap-solid.svg" for ::1 at 2019-08-29 13:58:12 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/docs/4.3/assets/brand/bootstrap-solid.svg"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/mahasiswas/sign_in" for ::1 at 2019-08-29 13:58:15 +0800
+Started GET "/docs/4.3/assets/brand/bootstrap-solid.svg" for ::1 at 2019-08-29 13:58:15 +0800
+Processing by Mahasiswas::SessionsController#new as HTML
+  Rendering mahasiswas/sessions/new.html.erb within layouts/application
+  Rendered mahasiswas/shared/_links.html.erb (Duration: 0.3ms | Allocations: 135)
+  Rendered mahasiswas/sessions/new.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1103)
+  
+ActionController::RoutingError (No route matches [GET] "/docs/4.3/assets/brand/bootstrap-solid.svg"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendered homes/_navbar.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 136ms (Views: 135.1ms | ActiveRecord: 0.0ms | Allocations: 92896)
+
+
+Started GET "/docs/4.3/assets/brand/bootstrap-solid.svg" for ::1 at 2019-08-29 13:58:19 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/docs/4.3/assets/brand/bootstrap-solid.svg"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/docs/4.3/assets/brand/bootstrap-solid.svg" for ::1 at 2019-08-29 13:58:21 +0800
+Started GET "/mdosens/sign_in" for ::1 at 2019-08-29 13:58:21 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/docs/4.3/assets/brand/bootstrap-solid.svg"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Processing by Mdosens::SessionsController#new as HTML
+  Rendering mdosens/sessions/new.html.erb within layouts/application
+  Rendered mdosens/shared/_links.html.erb (Duration: 0.4ms | Allocations: 134)
+  Rendered mdosens/sessions/new.html.erb within layouts/application (Duration: 2.9ms | Allocations: 1096)
+  Rendered homes/_navbar.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 21)
+Completed 200 OK in 55ms (Views: 54.1ms | ActiveRecord: 0.0ms | Allocations: 21612)
+
+
+Started GET "/docs/4.3/assets/brand/bootstrap-solid.svg" for ::1 at 2019-08-29 13:58:21 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/docs/4.3/assets/brand/bootstrap-solid.svg"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/docs/4.3/assets/brand/bootstrap-solid.svg" for ::1 at 2019-08-29 13:58:22 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/docs/4.3/assets/brand/bootstrap-solid.svg"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/users/sign_in" for ::1 at 2019-08-29 13:58:24 +0800
+Started GET "/docs/4.3/assets/brand/bootstrap-solid.svg" for ::1 at 2019-08-29 13:58:24 +0800
+Processing by Users::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.2ms | Allocations: 75)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1034)
+  
+ActionController::RoutingError (No route matches [GET] "/docs/4.3/assets/brand/bootstrap-solid.svg"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendered homes/_navbar.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 21)
+Completed 200 OK in 114ms (Views: 113.1ms | ActiveRecord: 0.0ms | Allocations: 93936)
+
+
+Started GET "/docs/4.3/assets/brand/bootstrap-solid.svg" for ::1 at 2019-08-29 13:58:24 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/docs/4.3/assets/brand/bootstrap-solid.svg"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/users/sign_in" for ::1 at 2019-08-29 14:06:03 +0800
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Users::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.2ms | Allocations: 75)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 2.8ms | Allocations: 1046)
+  Rendered homes/_navbar.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 21)
+Completed 200 OK in 57ms (Views: 55.5ms | ActiveRecord: 0.0ms | Allocations: 21242)
+
+
+Started GET "/docs/4.3/assets/brand/bootstrap-solid.svg" for ::1 at 2019-08-29 14:06:04 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/docs/4.3/assets/brand/bootstrap-solid.svg"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-08-29 16:07:48 +0800
+  [1m[35m (4.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 20.9ms | Allocations: 545)
+  Rendered homes/_navbar.html.erb (Duration: 4.5ms | Allocations: 102)
+  Rendered homes/_notification.html.erb (Duration: 4.5ms | Allocations: 141)
+Completed 200 OK in 3055ms (Views: 3054.0ms | ActiveRecord: 0.0ms | Allocations: 1467270)
+
+
+Started GET "/docs/4.3/assets/brand/bootstrap-solid.svg" for ::1 at 2019-08-29 16:07:52 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/docs/4.3/assets/brand/bootstrap-solid.svg"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-08-29 16:14:01 +0800
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 264)
+  Rendered homes/_navbar.html.erb (Duration: 0.3ms | Allocations: 92)
+  Rendered homes/_notification.html.erb (Duration: 0.4ms | Allocations: 133)
+Completed 200 OK in 50ms (Views: 49.0ms | ActiveRecord: 0.0ms | Allocations: 21653)
+
+
+Started GET "/docs/4.3/assets/brand/bootstrap-solid.svg" for ::1 at 2019-08-29 16:14:01 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/docs/4.3/assets/brand/bootstrap-solid.svg"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-08-29 16:14:12 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 262)
+  Rendered homes/_navbar.html.erb (Duration: 0.3ms | Allocations: 92)
+  Rendered homes/_notification.html.erb (Duration: 0.3ms | Allocations: 133)
+Completed 200 OK in 50ms (Views: 48.8ms | ActiveRecord: 0.0ms | Allocations: 21631)
+
+
+Started GET "/docs/4.3/assets/brand/bootstrap-solid.svg" for ::1 at 2019-08-29 16:14:12 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/docs/4.3/assets/brand/bootstrap-solid.svg"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-08-29 16:14:42 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 264)
+  Rendered homes/_navbar.html.erb (Duration: 0.3ms | Allocations: 92)
+  Rendered homes/_notification.html.erb (Duration: 0.3ms | Allocations: 133)
+Completed 200 OK in 49ms (Views: 48.0ms | ActiveRecord: 0.0ms | Allocations: 21627)
+
+
+Started GET "/docs/4.3/assets/brand/bootstrap-solid.svg" for ::1 at 2019-08-29 16:14:43 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/docs/4.3/assets/brand/bootstrap-solid.svg"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-08-29 16:15:14 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 263)
+  Rendered homes/_navbar.html.erb (Duration: 0.4ms | Allocations: 92)
+  Rendered homes/_notification.html.erb (Duration: 0.4ms | Allocations: 133)
+Completed 200 OK in 51ms (Views: 50.5ms | ActiveRecord: 0.0ms | Allocations: 21627)
+
+
+Started GET "/docs/4.3/assets/brand/bootstrap-solid.svg" for ::1 at 2019-08-29 16:15:14 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/docs/4.3/assets/brand/bootstrap-solid.svg"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-08-29 16:19:53 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 260)
+  Rendered homes/_navbar.html.erb (Duration: 0.5ms | Allocations: 92)
+  Rendered homes/_notification.html.erb (Duration: 0.7ms | Allocations: 133)
+Completed 200 OK in 62ms (Views: 60.8ms | ActiveRecord: 0.0ms | Allocations: 21618)
+
+
+Started GET "/docs/4.3/assets/brand/bootstrap-solid.svg" for ::1 at 2019-08-29 16:19:53 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/docs/4.3/assets/brand/bootstrap-solid.svg"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-08-29 16:22:19 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 262)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in D:/Nana/fork/TAPP/public/packs
+  Rendered homes/_navbar.html.erb (Duration: 0.6ms | Allocations: 93)
+  Rendered homes/_notification.html.erb (Duration: 0.7ms | Allocations: 133)
+Completed 200 OK in 8101ms (Views: 8099.6ms | ActiveRecord: 0.0ms | Allocations: 23853)
+
+
+Started GET "/docs/4.3/assets/brand/bootstrap-solid.svg" for ::1 at 2019-08-29 16:22:27 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/docs/4.3/assets/brand/bootstrap-solid.svg"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-08-29 16:23:52 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 63)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in D:/Nana/fork/TAPP/public/packs
+  Rendered homes/_navbar.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered homes/_notification.html.erb (Duration: 0.0ms | Allocations: 21)
+Completed 200 OK in 4527ms (Views: 4526.7ms | ActiveRecord: 0.0ms | Allocations: 22058)
+
+
+Started GET "/docs/4.3/assets/brand/bootstrap-solid.svg" for ::1 at 2019-08-29 16:23:56 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/docs/4.3/assets/brand/bootstrap-solid.svg"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-08-29 16:26:00 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 261)
+  Rendered homes/_navbar.html.erb (Duration: 0.3ms | Allocations: 92)
+  Rendered homes/_notification.html.erb (Duration: 0.3ms | Allocations: 133)
+Completed 200 OK in 49ms (Views: 48.3ms | ActiveRecord: 0.0ms | Allocations: 21636)
+
+
+Started GET "/docs/4.3/assets/brand/bootstrap-solid.svg" for ::1 at 2019-08-29 16:26:00 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/docs/4.3/assets/brand/bootstrap-solid.svg"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/users/sign_in" for ::1 at 2019-08-29 16:26:05 +0800
+Processing by Users::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 25.1ms | Allocations: 507)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 299.6ms | Allocations: 8159)
+  Rendered homes/_navbar.html.erb (Duration: 0.1ms | Allocations: 5)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 392ms (Views: 363.9ms | ActiveRecord: 7.3ms | Allocations: 37145)
+
+
+Started GET "/docs/4.3/assets/brand/bootstrap-solid.svg" for ::1 at 2019-08-29 16:26:05 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/docs/4.3/assets/brand/bootstrap-solid.svg"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/docs/4.3/assets/brand/bootstrap-solid.svg" for ::1 at 2019-08-29 16:26:07 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/docs/4.3/assets/brand/bootstrap-solid.svg"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-08-29 16:27:27 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 63)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in D:/Nana/fork/TAPP/public/packs
+  Rendered homes/_navbar.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 4473ms (Views: 4472.3ms | ActiveRecord: 0.0ms | Allocations: 22053)
+
+
+Started GET "/docs/4.3/assets/brand/bootstrap-solid.svg" for ::1 at 2019-08-29 16:27:32 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/docs/4.3/assets/brand/bootstrap-solid.svg"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-08-29 16:28:45 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 260)
+  Rendered homes/_notification.html.erb (Duration: 0.4ms | Allocations: 134)
+Completed 200 OK in 50ms (Views: 49.2ms | ActiveRecord: 0.0ms | Allocations: 21311)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-08-29 16:28:49 +0800
+Processing by Users::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.7ms | Allocations: 443)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 3.6ms | Allocations: 1887)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 53ms (Views: 51.7ms | ActiveRecord: 0.0ms | Allocations: 23540)
+
+
+Started POST "/users/sign_in" for ::1 at 2019-08-29 16:28:56 +0800
+Processing by Users::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"Plo4uve4xkPVWheUjNerU8NJZr6/2ze4OqeY1ItrBt5frquXyhQDFfOnBFvp3IZMx/9+RMkrm/fkG55QBpfgOA==", "user"=>{"email"=>"nanasavana99@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "nanasavana99@gmail.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 46ms (ActiveRecord: 0.4ms | Allocations: 2873)
+
+
+Processing by Users::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"Plo4uve4xkPVWheUjNerU8NJZr6/2ze4OqeY1ItrBt5frquXyhQDFfOnBFvp3IZMx/9+RMkrm/fkG55QBpfgOA==", "user"=>{"email"=>"nanasavana99@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.1ms | Allocations: 75)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 2.1ms | Allocations: 1039)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 12)
+Completed 200 OK in 265ms (Views: 46.3ms | ActiveRecord: 0.0ms | Allocations: 22316)
+
+
+Started POST "/users/sign_in" for ::1 at 2019-08-29 16:29:07 +0800
+Processing by Users::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"RxXj2j5wjFKkIS60OtdWRhGpe26f/wW8ZBFwq47HUcHMYuAQabtak9IidsE+NMlofJhlwn8ftQLjWwZJUkRWNA==", "user"=>{"email"=>"savanahagusta@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "savanahagusta@gmail.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 4ms (ActiveRecord: 0.2ms | Allocations: 1822)
+
+
+Processing by Users::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"RxXj2j5wjFKkIS60OtdWRhGpe26f/wW8ZBFwq47HUcHMYuAQabtak9IidsE+NMlofJhlwn8ftQLjWwZJUkRWNA==", "user"=>{"email"=>"savanahagusta@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.1ms | Allocations: 75)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1032)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 12)
+Completed 200 OK in 165ms (Views: 45.4ms | ActiveRecord: 0.0ms | Allocations: 21185)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-08-29 16:29:12 +0800
+Processing by Users::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.1ms | Allocations: 75)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1033)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 21)
+Completed 200 OK in 45ms (Views: 43.5ms | ActiveRecord: 0.0ms | Allocations: 21248)
+
+
+Started GET "/" for ::1 at 2019-08-29 16:29:19 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 63)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 24)
+Completed 200 OK in 44ms (Views: 43.6ms | ActiveRecord: 0.0ms | Allocations: 19796)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-08-29 16:29:21 +0800
+Processing by Users::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.1ms | Allocations: 75)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1033)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 21)
+Completed 200 OK in 48ms (Views: 47.3ms | ActiveRecord: 0.0ms | Allocations: 21249)
+
+
+Started POST "/users/sign_in" for ::1 at 2019-08-29 16:29:39 +0800
+Processing by Users::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"colkAXa0czg/Gq+T5ZuCnXTXSqw1zYXmkeAgjNIECwsTffcsSxi2bhnnvFyAkK+CcGFSVkM9KalPXCYIX/jt7Q==", "user"=>{"email"=>"a@a.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "a@a.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 5ms (ActiveRecord: 0.2ms | Allocations: 1846)
+
+
+Processing by Users::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"colkAXa0czg/Gq+T5ZuCnXTXSqw1zYXmkeAgjNIECwsTffcsSxi2bhnnvFyAkK+CcGFSVkM9KalPXCYIX/jt7Q==", "user"=>{"email"=>"a@a.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.1ms | Allocations: 75)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1032)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 12)
+Completed 200 OK in 164ms (Views: 44.1ms | ActiveRecord: 0.0ms | Allocations: 21207)
+
+
+Started POST "/users/sign_in" for ::1 at 2019-08-29 16:29:44 +0800
+Processing by Users::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"8C7XuiU22cOW6saqsOiSdKEbP6p6s+HDKa87a13Hqhd7WdRwcv0PAuDpnt+0Cw1azCohBppTUX2u5U2JgUSt4g==", "user"=>{"email"=>"a@a.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "a@a.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 3ms (ActiveRecord: 0.1ms | Allocations: 1819)
+
+
+Processing by Users::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"8C7XuiU22cOW6saqsOiSdKEbP6p6s+HDKa87a13Hqhd7WdRwcv0PAuDpnt+0Cw1azCohBppTUX2u5U2JgUSt4g==", "user"=>{"email"=>"a@a.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.1ms | Allocations: 75)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1032)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 12)
+Completed 200 OK in 165ms (Views: 44.5ms | ActiveRecord: 0.0ms | Allocations: 21188)
+
+
+Started POST "/users/sign_in" for ::1 at 2019-08-29 16:29:48 +0800
+Processing by Users::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"vthFIRxUXlHSdEAqh4G/WN29wVEvt3KPtNpX1UBpCqk1r0brS5+IkKR3GF+DYiB2sIzf/c9XwjEzkCE3nOoNXA==", "user"=>{"email"=>"a@a.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "a@a.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 4ms (ActiveRecord: 0.1ms | Allocations: 1831)
+
+
+Processing by Users::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"vthFIRxUXlHSdEAqh4G/WN29wVEvt3KPtNpX1UBpCqk1r0brS5+IkKR3GF+DYiB2sIzf/c9XwjEzkCE3nOoNXA==", "user"=>{"email"=>"a@a.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.2ms | Allocations: 75)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1032)
+  Rendered homes/_notification.html.erb (Duration: 0.0ms | Allocations: 12)
+Completed 200 OK in 172ms (Views: 51.2ms | ActiveRecord: 0.0ms | Allocations: 21188)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-08-29 16:29:50 +0800
+Processing by Users::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.2ms | Allocations: 75)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1033)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 21)
+Completed 200 OK in 50ms (Views: 48.0ms | ActiveRecord: 0.0ms | Allocations: 21258)
+
+
+Started GET "/" for ::1 at 2019-08-29 16:29:54 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 62)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 22)
+Completed 200 OK in 43ms (Views: 42.3ms | ActiveRecord: 0.0ms | Allocations: 19790)
+
+
+Started GET "/mahasiswas/sign_in" for ::1 at 2019-08-29 16:29:56 +0800
+Processing by Mahasiswas::SessionsController#new as HTML
+  Rendering mahasiswas/sessions/new.html.erb within layouts/application
+  Rendered mahasiswas/shared/_links.html.erb (Duration: 12.1ms | Allocations: 641)
+  Rendered mahasiswas/sessions/new.html.erb within layouts/application (Duration: 35.3ms | Allocations: 2241)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 85ms (Views: 78.8ms | ActiveRecord: 0.7ms | Allocations: 28508)
+
+
+Started GET "/" for ::1 at 2019-08-29 16:30:03 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 63)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 24)
+Completed 200 OK in 43ms (Views: 43.0ms | ActiveRecord: 0.0ms | Allocations: 19796)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-08-29 16:30:05 +0800
+Processing by Users::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.1ms | Allocations: 75)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1042)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 46ms (Views: 44.7ms | ActiveRecord: 0.0ms | Allocations: 21273)
+
+
+Started GET "/" for ::1 at 2019-08-29 16:30:10 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 62)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 22)
+Completed 200 OK in 43ms (Views: 42.5ms | ActiveRecord: 0.0ms | Allocations: 19789)
+
+
+Started GET "/mahasiswas/sign_in" for ::1 at 2019-08-29 16:30:12 +0800
+Processing by Mahasiswas::SessionsController#new as HTML
+  Rendering mahasiswas/sessions/new.html.erb within layouts/application
+  Rendered mahasiswas/shared/_links.html.erb (Duration: 0.2ms | Allocations: 135)
+  Rendered mahasiswas/sessions/new.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1097)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 21)
+Completed 200 OK in 46ms (Views: 44.9ms | ActiveRecord: 0.0ms | Allocations: 21320)
+
+
+Started GET "/mahasiswas/sign_up" for ::1 at 2019-08-29 16:30:14 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/devise-4.7.0/app/views/devise/registrations/new.html.erb within layouts/application
+  Rendered C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/devise-4.7.0/app/views/devise/shared/_error_messages.html.erb (Duration: 50.9ms | Allocations: 217)
+  Rendered C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/devise-4.7.0/app/views/devise/shared/_links.html.erb (Duration: 24.5ms | Allocations: 543)
+  Rendered C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/devise-4.7.0/app/views/devise/registrations/new.html.erb within layouts/application (Duration: 95.5ms | Allocations: 2686)
+  Rendered homes/_notification.html.erb (Duration: 0.2ms | Allocations: 23)
+Completed 200 OK in 170ms (Views: 169.1ms | ActiveRecord: 0.0ms | Allocations: 23622)
+
+
+Started POST "/mahasiswas" for ::1 at 2019-08-29 16:30:40 +0800
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"i8YnJzXlCnoEuLhNbLzElLL8D6RTPWNvwSXSC68kskNbqSauHXt4jUrMlllsPGp/d7y39sanv1Jjrd7tXUm3yA==", "mahasiswa"=>{"email"=>"sava@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mMahasiswa Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "mahasiswas" WHERE "mahasiswas"."email" = ? LIMIT ?[0m  [["email", "sava@gmail.com"], ["LIMIT", 1]]
+  [1m[36mMahasiswa Create (13.0ms)[0m  [1m[32mINSERT INTO "mahasiswas" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "sava@gmail.com"], ["encrypted_password", "$2a$11$UsB.bTbz/cKLV/BVOAawgefXCsM5eW21PPf/lJd6Zd7Hk3hkFhobO"], ["created_at", "2019-08-29 08:30:41.001871"], ["updated_at", "2019-08-29 08:30:41.001871"]]
+  [1m[35m (80.9ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 251ms (ActiveRecord: 94.2ms | Allocations: 8395)
+
+
+Started GET "/" for ::1 at 2019-08-29 16:30:41 +0800
+  [1m[36mMahasiswa Load (0.2ms)[0m  [1m[34mSELECT "mahasiswas".* FROM "mahasiswas" WHERE "mahasiswas"."id" = ? ORDER BY "mahasiswas"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Processing by MhshomesController#index as HTML
+  Rendering mhshomes/index.html.erb within layouts/application
+  Rendered mhshomes/index.html.erb within layouts/application (Duration: 2.8ms | Allocations: 177)
+  Rendered homes/_notification.html.erb (Duration: 0.2ms | Allocations: 27)
+Completed 200 OK in 51ms (Views: 49.6ms | ActiveRecord: 0.0ms | Allocations: 20690)
+
+
+Started DELETE "/mahasiswas/sign_out" for ::1 at 2019-08-29 16:30:49 +0800
+Processing by Mahasiswas::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"YXMcFPGT+27QdLFMs0WJF05XJBUti8jpqXWFf9ByD3jqBB/eplgtr6Z36Tm3phY5I2Y6uc1reFcuP/OdDPEIjQ=="}
+  [1m[36mMahasiswa Load (0.2ms)[0m  [1m[34mSELECT "mahasiswas".* FROM "mahasiswas" WHERE "mahasiswas"."id" = ? ORDER BY "mahasiswas"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 28ms (ActiveRecord: 0.2ms | Allocations: 2817)
+
+
+Started GET "/" for ::1 at 2019-08-29 16:30:49 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 63)
+  Rendered homes/_notification.html.erb (Duration: 0.3ms | Allocations: 27)
+Completed 200 OK in 59ms (Views: 58.7ms | ActiveRecord: 0.0ms | Allocations: 19805)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-08-29 16:30:51 +0800
+Processing by Users::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.1ms | Allocations: 75)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1042)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 47ms (Views: 45.2ms | ActiveRecord: 0.0ms | Allocations: 21272)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-08-29 16:31:06 +0800
+Processing by Users::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.1ms | Allocations: 75)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 1.5ms | Allocations: 1033)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 21)
+Completed 200 OK in 56ms (Views: 54.9ms | ActiveRecord: 0.0ms | Allocations: 21254)
+
+
+Started POST "/users/sign_in" for ::1 at 2019-08-29 16:31:19 +0800
+Processing by Users::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"cQErD8qIrRpDxUAw7kthuHD2XiIuWbFoFBineDkK5DdtSdsHLZxwdY/51YaYUeGVdzMuiG09syCcICSGYzEd6Q==", "user"=>{"email"=>"sava@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "sava@gmail.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 3ms (ActiveRecord: 0.2ms | Allocations: 1839)
+
+
+Processing by Users::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"cQErD8qIrRpDxUAw7kthuHD2XiIuWbFoFBineDkK5DdtSdsHLZxwdY/51YaYUeGVdzMuiG09syCcICSGYzEd6Q==", "user"=>{"email"=>"sava@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.1ms | Allocations: 75)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1032)
+  Rendered homes/_notification.html.erb (Duration: 0.0ms | Allocations: 12)
+Completed 200 OK in 164ms (Views: 43.3ms | ActiveRecord: 0.0ms | Allocations: 21207)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-08-29 16:31:22 +0800
+Processing by Users::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.1ms | Allocations: 75)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1033)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 21)
+Completed 200 OK in 46ms (Views: 45.1ms | ActiveRecord: 0.0ms | Allocations: 21258)
+
+
+Started GET "/" for ::1 at 2019-08-29 16:31:24 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 62)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 22)
+Completed 200 OK in 43ms (Views: 42.2ms | ActiveRecord: 0.0ms | Allocations: 19789)
+
+
+Started GET "/" for ::1 at 2019-08-29 16:32:25 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 263)
+  Rendered homes/_notification.html.erb (Duration: 0.4ms | Allocations: 134)
+Completed 200 OK in 48ms (Views: 46.9ms | ActiveRecord: 0.0ms | Allocations: 21310)
+
+
+Started GET "/mahasiswas/sign_in" for ::1 at 2019-08-29 16:32:26 +0800
+Processing by Mahasiswas::SessionsController#new as HTML
+  Rendering mahasiswas/sessions/new.html.erb within layouts/application
+  Rendered mahasiswas/shared/_links.html.erb (Duration: 1.0ms | Allocations: 552)
+  Rendered mahasiswas/sessions/new.html.erb within layouts/application (Duration: 4.2ms | Allocations: 1994)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 53ms (Views: 52.0ms | ActiveRecord: 0.0ms | Allocations: 23639)
+
+
+Started POST "/mahasiswas/sign_in" for ::1 at 2019-08-29 16:32:32 +0800
+Processing by Mahasiswas::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"r9A/obGJS7oeMMPgLGr7dgtIBIOuxeKOabdu8v2azX6fpkShbDOqT2aB09w55IO+RmVE7xj/Vrou8TxxPXic9w==", "mahasiswa"=>{"email"=>"sava@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mMahasiswa Load (0.3ms)[0m  [1m[34mSELECT "mahasiswas".* FROM "mahasiswas" WHERE "mahasiswas"."email" = ? ORDER BY "mahasiswas"."id" ASC LIMIT ?[0m  [["email", "sava@gmail.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 130ms (ActiveRecord: 0.3ms | Allocations: 4246)
+
+
+Started GET "/" for ::1 at 2019-08-29 16:32:32 +0800
+  [1m[36mMahasiswa Load (0.1ms)[0m  [1m[34mSELECT "mahasiswas".* FROM "mahasiswas" WHERE "mahasiswas"."id" = ? ORDER BY "mahasiswas"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Processing by MhshomesController#index as HTML
+  Rendering mhshomes/index.html.erb within layouts/application
+  Rendered mhshomes/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 168)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 26)
+Completed 200 OK in 46ms (Views: 44.8ms | ActiveRecord: 0.0ms | Allocations: 20627)
+
+
+Started DELETE "/mahasiswas/sign_out" for ::1 at 2019-08-29 16:32:33 +0800
+Processing by Mahasiswas::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"RaUUHMkUmOqFVia24hJ0c72UIK1skorgJ397MSloOqrIxh0zKWrp36yJSi2dmUMn2oQMQVaZTr7cP2KZy/W+cg=="}
+  [1m[36mMahasiswa Load (0.2ms)[0m  [1m[34mSELECT "mahasiswas".* FROM "mahasiswas" WHERE "mahasiswas"."id" = ? ORDER BY "mahasiswas"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 5ms (ActiveRecord: 0.2ms | Allocations: 2206)
+
+
+Started GET "/" for ::1 at 2019-08-29 16:32:34 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 63)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 27)
+Completed 200 OK in 41ms (Views: 40.6ms | ActiveRecord: 0.0ms | Allocations: 19803)
+
+
+Started GET "/" for ::1 at 2019-08-29 16:35:23 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 260)
+  Rendered homes/_notification.html.erb (Duration: 0.4ms | Allocations: 134)
+Completed 200 OK in 50ms (Views: 49.5ms | ActiveRecord: 0.0ms | Allocations: 21301)
+
+
+Started GET "/" for ::1 at 2019-08-29 16:37:03 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 263)
+  Rendered homes/_notification.html.erb (Duration: 0.3ms | Allocations: 137)
+Completed 200 OK in 55ms (Views: 54.5ms | ActiveRecord: 0.0ms | Allocations: 21308)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-08-29 16:56:41 +0800
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Users::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.7ms | Allocations: 443)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 3.8ms | Allocations: 1887)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 57ms (Views: 55.7ms | ActiveRecord: 0.0ms | Allocations: 23532)
+
+
