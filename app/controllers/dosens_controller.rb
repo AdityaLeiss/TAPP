@@ -26,7 +26,7 @@ class DosensController < ApplicationController
   # POST /dosens.json
   def create
     @dosen = Dosen.new(dosen_params)
-
+    @userd = Mdosen.new
     respond_to do |format|
       if @dosen.save
         format.html { redirect_to @dosen, notice: 'Dosen was successfully created.' }
@@ -56,6 +56,7 @@ class DosensController < ApplicationController
   # DELETE /dosens/1.json
   def destroy
     @dosen.destroy
+    @userd.destroy
     respond_to do |format|
       format.html { redirect_to dosens_url, notice: 'Dosen was successfully destroyed.' }
       format.json { head :no_content }
@@ -66,10 +67,13 @@ class DosensController < ApplicationController
     # Use callbacks to share common setup or constraints between actions.
     def set_dosen
       @dosen = Dosen.find(params[:id])
+      @userd = Mdosen.find(params[:id])
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def dosen_params
       params.require(:dosen).permit(:nip, :nama, :email, :username, :password)
     end
+
+
 end

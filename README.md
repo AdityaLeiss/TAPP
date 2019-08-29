@@ -6,7 +6,8 @@ application up and running.
 Things you may want to cover:
 
 * Ruby version
-
+* user yang login kecuali yang di admin udah bisa diedit, tugas admin create,delete edit/update dilakukan oleh user yang login
+* untuk alasan kemaman data
 * System dependencies
 
 * Configuration

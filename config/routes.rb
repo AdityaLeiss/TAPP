@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
- 
- 
+
+
   devise_for :mdosens, path: 'mdosens',controllers: { sessions: 'mdosens/sessions'}
   devise_scope :mdosen do
     get 'sign_in', to: 'mdosen/sessions#new'
@@ -23,11 +23,11 @@ Rails.application.routes.draw do
     root 'mhshomes#index', as: :authenticated_root
   end
 
-  devise_for :users,path: 'users', controllers: { sessions: 'users/sessions' }   
+  devise_for :users,path: 'users', controllers: { sessions: 'users/sessions' }
   devise_scope :user do
     get 'sign_in', to: 'user/sessions#new'
     get '/users/sign_out' => 'user/sessions#destroy'
-    
+
   end
   authenticated :user do
     resources :rumahs
@@ -37,10 +37,10 @@ Rails.application.routes.draw do
 
   resources :homes
   root 'homes#index'
-  
+
   resources :bimbingans
   resources :admins
   resources :dosens
   resources :students
-  
+
 end
