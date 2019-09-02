@@ -9095,3 +9095,1396 @@ Processing by HomesController#index as HTML
 Completed 200 OK in 43ms (Views: 42.5ms | ActiveRecord: 0.0ms | Allocations: 19789)
 
 
+Started GET "/mdosens/sign_in" for ::1 at 2019-09-02 10:55:15 +0800
+  [1m[35m (2.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Mdosens::SessionsController#new as HTML
+  Rendering mdosens/sessions/new.html.erb within layouts/application
+  Rendered mdosens/shared/_links.html.erb (Duration: 0.9ms | Allocations: 649)
+  Rendered mdosens/sessions/new.html.erb within layouts/application (Duration: 22.6ms | Allocations: 8540)
+Started GET "/" for ::1 at 2019-09-02 10:55:16 +0800
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 369)
+Started GET "/users/sign_in" for ::1 at 2019-09-02 10:55:17 +0800
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Users::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 1.7ms | Allocations: 728)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 4.9ms | Allocations: 2397)
+Started GET "/" for ::1 at 2019-09-02 10:55:18 +0800
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 64)
+  Rendered homes/_notification.html.erb (Duration: 1.0ms | Allocations: 471)
+Completed 200 OK in 4058ms (Views: 4045.1ms | ActiveRecord: 0.7ms | Allocations: 2388493)
+
+
+Started GET "/mahasiswas/sign_in" for ::1 at 2019-09-02 10:55:19 +0800
+Processing by Mahasiswas::SessionsController#new as HTML
+  Rendering mahasiswas/sessions/new.html.erb within layouts/application
+  Rendered mahasiswas/shared/_links.html.erb (Duration: 1.1ms | Allocations: 806)
+  Rendered mahasiswas/sessions/new.html.erb within layouts/application (Duration: 4.4ms | Allocations: 2802)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 77ms (Views: 68.7ms | ActiveRecord: 1.0ms | Allocations: 57027)
+
+
+Started GET "/" for ::1 at 2019-09-02 10:55:21 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 63)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 24)
+Completed 200 OK in 53ms (Views: 52.5ms | ActiveRecord: 0.0ms | Allocations: 48578)
+
+
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 22)
+Completed 200 OK in 4842ms (Views: 4841.2ms | ActiveRecord: 0.0ms | Allocations: 3333569)
+
+
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 4747ms (Views: 4740.2ms | ActiveRecord: 0.6ms | Allocations: 3286847)
+
+
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 22)
+Completed 200 OK in 4325ms (Views: 4325.1ms | ActiveRecord: 0.0ms | Allocations: 2831898)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-09-02 10:55:36 +0800
+Processing by Users::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 1.6ms | Allocations: 856)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 21)
+Completed 200 OK in 45ms (Views: 44.0ms | ActiveRecord: 0.0ms | Allocations: 21081)
+
+
+Started GET "/" for ::1 at 2019-09-02 10:55:38 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 62)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 22)
+Completed 200 OK in 52ms (Views: 51.7ms | ActiveRecord: 0.0ms | Allocations: 19791)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-09-02 10:55:40 +0800
+Processing by Users::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 1.5ms | Allocations: 843)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 21)
+Completed 200 OK in 44ms (Views: 43.3ms | ActiveRecord: 0.0ms | Allocations: 21070)
+
+
+Started GET "/users/sign_in?authenticity_token=IbmwYppUHggBuHD5p7shf%2FTGqg3QokONLdEnpEO9dXa0hRfXLEtfMD8b6s6%2BKU0GQW5bX0q27S%2B6dvjXM5Jqkw%3D%3D&user%5Bemail%5D=a%40a.com&user%5Bpassword%5D=[FILTERED]&user%5Bremember_me%5D=0&commit=Log+in" for ::1 at 2019-09-02 10:55:49 +0800
+Processing by Users::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"IbmwYppUHggBuHD5p7shf/TGqg3QokONLdEnpEO9dXa0hRfXLEtfMD8b6s6+KU0GQW5bX0q27S+6dvjXM5Jqkw==", "user"=>{"email"=>"a@a.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 1.6ms | Allocations: 849)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 21)
+Completed 200 OK in 1376ms (Views: 45.3ms | ActiveRecord: 0.0ms | Allocations: 22285)
+
+
+Started GET "/users/sign_in?authenticity_token=B0Sx01kk%2BEI0rCblGfS4CKhRBzw7SBSOP4SiepICkH6liq0Qwo2DdHS1lj5ZLRQ1GsmfgbMi5H4Pl1dzceEbrQ%3D%3D&user%5Bemail%5D=a%40a.com&user%5Bpassword%5D=[FILTERED]&user%5Bremember_me%5D=0&commit=Log+in" for ::1 at 2019-09-02 10:55:54 +0800
+Processing by Users::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"B0Sx01kk+EI0rCblGfS4CKhRBzw7SBSOP4SiepICkH6liq0Qwo2DdHS1lj5ZLRQ1GsmfgbMi5H4Pl1dzceEbrQ==", "user"=>{"email"=>"a@a.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 1.3ms | Allocations: 846)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 21)
+Completed 200 OK in 168ms (Views: 44.9ms | ActiveRecord: 0.0ms | Allocations: 21164)
+
+
+Started GET "/users/sign_in?authenticity_token=WmBlbUWVkJBbuUVUyRjev%2Fng%2FOjyvFH2a81g%2BipG2MX4rnmu3jzrphug9Y%2BJwXKCS3hkVXrWoQZb3pXzyaVTFg%3D%3D&user%5Bemail%5D=a%40a.com&user%5Bpassword%5D=[FILTERED]&user%5Bremember_me%5D=0&commit=Log+in" for ::1 at 2019-09-02 10:55:59 +0800
+Processing by Users::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"WmBlbUWVkJBbuUVUyRjev/ng/OjyvFH2a81g+ipG2MX4rnmu3jzrphug9Y+JwXKCS3hkVXrWoQZb3pXzyaVTFg==", "user"=>{"email"=>"a@a.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 2.2ms | Allocations: 846)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 21)
+Completed 200 OK in 167ms (Views: 44.5ms | ActiveRecord: 0.0ms | Allocations: 21169)
+
+
+Started GET "/" for ::1 at 2019-09-02 10:56:00 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 62)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 22)
+Completed 200 OK in 43ms (Views: 42.8ms | ActiveRecord: 0.0ms | Allocations: 19790)
+
+
+Started GET "/" for ::1 at 2019-09-02 11:05:28 +0800
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 62)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 22)
+Completed 200 OK in 65ms (Views: 64.2ms | ActiveRecord: 0.0ms | Allocations: 19790)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-09-02 11:06:31 +0800
+Processing by Users::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 1.6ms | Allocations: 843)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 21)
+Completed 200 OK in 45ms (Views: 43.5ms | ActiveRecord: 0.0ms | Allocations: 21068)
+
+
+Started GET "/" for ::1 at 2019-09-02 11:06:44 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 62)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 22)
+Completed 200 OK in 43ms (Views: 42.3ms | ActiveRecord: 0.0ms | Allocations: 19789)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-09-02 11:07:43 +0800
+Processing by Users::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 2.0ms | Allocations: 843)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 21)
+Completed 200 OK in 47ms (Views: 45.9ms | ActiveRecord: 0.0ms | Allocations: 21060)
+
+
+Started GET "/users/sign_in?authenticity_token=nkZgV2Z9zJ8UqyCB6GBUKruApyDOCMHHpf9jurk5x9ELesfi0GKNpyoIurbx8jhTDihWclQcb2UyWLzJyRbYNA%3D%3D&user%5Bemail%5D=adityaputra368%40gmail.com&user%5Bpassword%5D=[FILTERED]&user%5Bremember_me%5D=0&commit=Log+in" for ::1 at 2019-09-02 11:08:01 +0800
+Processing by Users::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"nkZgV2Z9zJ8UqyCB6GBUKruApyDOCMHHpf9jurk5x9ELesfi0GKNpyoIurbx8jhTDihWclQcb2UyWLzJyRbYNA==", "user"=>{"email"=>"adityaputra368@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 1.5ms | Allocations: 846)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 21)
+Completed 200 OK in 166ms (Views: 45.5ms | ActiveRecord: 0.0ms | Allocations: 21166)
+
+
+Started GET "/" for ::1 at 2019-09-02 11:11:36 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 62)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 22)
+Completed 200 OK in 43ms (Views: 42.6ms | ActiveRecord: 0.0ms | Allocations: 19789)
+
+
+Started GET "/" for ::1 at 2019-09-02 11:13:53 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 62)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 22)
+Completed 200 OK in 48ms (Views: 47.9ms | ActiveRecord: 0.0ms | Allocations: 19790)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-09-02 11:13:55 +0800
+Processing by Users::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 1.5ms | Allocations: 843)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 21)
+Completed 200 OK in 53ms (Views: 52.5ms | ActiveRecord: 0.0ms | Allocations: 21071)
+
+
+Started GET "/users/sign_in?authenticity_token=lED3gTc0%2BxL%2Bm9q5BpGBjookFlJCeL3eZ5Pqwz6BkH8BfFA0gSu6KsA4QI4fA%2B33P4znANhsE3zwNDWwTq6Pmg%3D%3D&user%5Bemail%5D=adityaputra368%40gmail.com&user%5Bpassword%5D=[FILTERED]&user%5Bremember_me%5D=0&commit=Log+in" for ::1 at 2019-09-02 11:14:11 +0800
+Processing by Users::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"lED3gTc0+xL+m9q5BpGBjookFlJCeL3eZ5Pqwz6BkH8BfFA0gSu6KsA4QI4fA+33P4znANhsE3zwNDWwTq6Pmg==", "user"=>{"email"=>"adityaputra368@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 1.5ms | Allocations: 846)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 21)
+Completed 200 OK in 165ms (Views: 44.8ms | ActiveRecord: 0.0ms | Allocations: 21172)
+
+
+Started GET "/users/sign_in?authenticity_token=31aWw32Hiz1RTLUjzRL7xz40QPu3teolQbpYt%2B9n3l99mIoA5i7wCxFVBfiNy1f6jKzYRj%2FfGtVxqa2%2BDIRVjA%3D%3D&user%5Bemail%5D=adityaputra368%40gmail.com&user%5Bpassword%5D=[FILTERED]&user%5Bremember_me%5D=0&commit=Log+in" for ::1 at 2019-09-02 11:14:15 +0800
+Processing by Users::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"31aWw32Hiz1RTLUjzRL7xz40QPu3teolQbpYt+9n3l99mIoA5i7wCxFVBfiNy1f6jKzYRj/fGtVxqa2+DIRVjA==", "user"=>{"email"=>"adityaputra368@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 1.4ms | Allocations: 846)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 21)
+Completed 200 OK in 168ms (Views: 46.3ms | ActiveRecord: 0.0ms | Allocations: 21169)
+
+
+Started GET "/users/sign_in?authenticity_token=1deIcEaUlxcrggD19GDEblne5E67eFzXSibx3XGpZk93GZSz3T3sIWubsC60uWhT60Z88zMSrCd6NQTUkkrtnA%3D%3D&user%5Bemail%5D=adityaputra368%40gmail.com&user%5Bpassword%5D=[FILTERED]&user%5Bremember_me%5D=0&commit=Log+in" for ::1 at 2019-09-02 11:15:39 +0800
+Processing by Users::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"1deIcEaUlxcrggD19GDEblne5E67eFzXSibx3XGpZk93GZSz3T3sIWubsC60uWhT60Z88zMSrCd6NQTUkkrtnA==", "user"=>{"email"=>"adityaputra368@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.6ms | Allocations: 134)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 3.0ms | Allocations: 846)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 21)
+Completed 200 OK in 168ms (Views: 46.9ms | ActiveRecord: 0.0ms | Allocations: 21162)
+
+
+Started GET "/users/sign_in?authenticity_token=avlK47vBVECJeTdw3VAY%2FNbz6VJIs61dPGnKzGPbkgTIN1YgIGgvdslgh6udibTBZGtx78DZXa0Mej%2FFgDgZ1w%3D%3D&user%5Bemail%5D=adityaputra368%40gmail.com&user%5Bpassword%5D=[FILTERED]&user%5Bremember_me%5D=0&commit=Log+in" for ::1 at 2019-09-02 11:16:05 +0800
+Processing by Users::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"avlK47vBVECJeTdw3VAY/Nbz6VJIs61dPGnKzGPbkgTIN1YgIGgvdslgh6udibTBZGtx78DZXa0Mej/FgDgZ1w==", "user"=>{"email"=>"adityaputra368@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 1.5ms | Allocations: 846)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 21)
+Completed 200 OK in 165ms (Views: 45.0ms | ActiveRecord: 0.0ms | Allocations: 21164)
+
+
+Started GET "/" for ::1 at 2019-09-02 11:16:13 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 62)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 22)
+Completed 200 OK in 44ms (Views: 43.8ms | ActiveRecord: 0.0ms | Allocations: 19790)
+
+
+Started GET "/mdosens/sign_in" for ::1 at 2019-09-02 11:16:14 +0800
+Processing by Mdosens::SessionsController#new as HTML
+  Rendering mdosens/sessions/new.html.erb within layouts/application
+  Rendered mdosens/shared/_links.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered mdosens/sessions/new.html.erb within layouts/application (Duration: 1.6ms | Allocations: 856)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 46ms (Views: 45.5ms | ActiveRecord: 0.0ms | Allocations: 21077)
+
+
+Started GET "/mahasiswas/sign_in" for ::1 at 2019-09-02 11:16:41 +0800
+Processing by Mahasiswas::SessionsController#new as HTML
+  Rendering mahasiswas/sessions/new.html.erb within layouts/application
+  Rendered mahasiswas/shared/_links.html.erb (Duration: 0.2ms | Allocations: 135)
+  Rendered mahasiswas/sessions/new.html.erb within layouts/application (Duration: 1.7ms | Allocations: 848)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 21)
+Completed 200 OK in 46ms (Views: 44.8ms | ActiveRecord: 0.0ms | Allocations: 21069)
+
+
+Started GET "/mahasiswas/sign_in?authenticity_token=m4hEWChq5M8c6Nb4kv7jHRedfPD8Rx%2FYmyGhtMI%2F7kBvNmata39nUhTtBJAmBYXJw14I3%2B0M6fkJ9IJi87hiSw%3D%3D&mahasiswa%5Bemail%5D=a%40a&mahasiswa%5Bpassword%5D=[FILTERED]&mahasiswa%5Bremember_me%5D=0&commit=Log+in" for ::1 at 2019-09-02 11:16:49 +0800
+Processing by Mahasiswas::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"m4hEWChq5M8c6Nb4kv7jHRedfPD8Rx/YmyGhtMI/7kBvNmata39nUhTtBJAmBYXJw14I3+0M6fkJ9IJi87hiSw==", "mahasiswa"=>{"email"=>"a@a", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering mahasiswas/sessions/new.html.erb within layouts/application
+  Rendered mahasiswas/shared/_links.html.erb (Duration: 0.2ms | Allocations: 135)
+  Rendered mahasiswas/sessions/new.html.erb within layouts/application (Duration: 1.6ms | Allocations: 848)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 21)
+Completed 200 OK in 166ms (Views: 45.6ms | ActiveRecord: 0.0ms | Allocations: 21174)
+
+
+Started GET "/mahasiswas/sign_in?authenticity_token=dag7YM7c3%2BaDIUI8aoaGtBw9ckK9tpHIYuT4SXxxXGTXZiejVXWk0MM48ucqXyqJrqXq%2FzXcYThS9w1An5LXtw%3D%3D&mahasiswa%5Bemail%5D=a%40a&mahasiswa%5Bpassword%5D=[FILTERED]&mahasiswa%5Bremember_me%5D=0&commit=Log+in" for ::1 at 2019-09-02 11:16:53 +0800
+Processing by Mahasiswas::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"dag7YM7c3+aDIUI8aoaGtBw9ckK9tpHIYuT4SXxxXGTXZiejVXWk0MM48ucqXyqJrqXq/zXcYThS9w1An5LXtw==", "mahasiswa"=>{"email"=>"a@a", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering mahasiswas/sessions/new.html.erb within layouts/application
+  Rendered mahasiswas/shared/_links.html.erb (Duration: 0.2ms | Allocations: 135)
+  Rendered mahasiswas/sessions/new.html.erb within layouts/application (Duration: 1.6ms | Allocations: 848)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 21)
+Completed 200 OK in 166ms (Views: 44.8ms | ActiveRecord: 0.0ms | Allocations: 21163)
+
+
+Started GET "/mahasiswas/sign_in?authenticity_token=d5cKMBsN2XmFT38cgOHjtA8R37Z%2BnJKas6ydzQ1y3UbVWRbzgKSiT8VWz8fAOE%2BJvYlHC%2Fb2YmqDv2jE7pFWlQ%3D%3D&mahasiswa%5Bemail%5D=a%40a&mahasiswa%5Bpassword%5D=[FILTERED]&mahasiswa%5Bremember_me%5D=0&commit=Log+in" for ::1 at 2019-09-02 11:16:58 +0800
+Processing by Mahasiswas::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"d5cKMBsN2XmFT38cgOHjtA8R37Z+nJKas6ydzQ1y3UbVWRbzgKSiT8VWz8fAOE+JvYlHC/b2YmqDv2jE7pFWlQ==", "mahasiswa"=>{"email"=>"a@a", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering mahasiswas/sessions/new.html.erb within layouts/application
+  Rendered mahasiswas/shared/_links.html.erb (Duration: 0.2ms | Allocations: 135)
+  Rendered mahasiswas/sessions/new.html.erb within layouts/application (Duration: 1.4ms | Allocations: 847)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 21)
+Completed 200 OK in 164ms (Views: 43.1ms | ActiveRecord: 0.0ms | Allocations: 21166)
+
+
+Started GET "/mahasiswas/sign_in?authenticity_token=vKPYuuva4inRE8iGsE4LgjLXC1MmVg8%2BjhxsPFWCaksebcR5cHOZH5EKeF3wl6e%2FgE%2BT7q48%2F86%2BD5k1tmHhmA%3D%3D&mahasiswa%5Bemail%5D=a%40a&mahasiswa%5Bpassword%5D=[FILTERED]&mahasiswa%5Bremember_me%5D=0&commit=Log+in" for ::1 at 2019-09-02 11:17:01 +0800
+Processing by Mahasiswas::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"vKPYuuva4inRE8iGsE4LgjLXC1MmVg8+jhxsPFWCaksebcR5cHOZH5EKeF3wl6e/gE+T7q48/86+D5k1tmHhmA==", "mahasiswa"=>{"email"=>"a@a", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering mahasiswas/sessions/new.html.erb within layouts/application
+  Rendered mahasiswas/shared/_links.html.erb (Duration: 0.2ms | Allocations: 135)
+  Rendered mahasiswas/sessions/new.html.erb within layouts/application (Duration: 1.6ms | Allocations: 847)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 21)
+Completed 200 OK in 165ms (Views: 44.2ms | ActiveRecord: 0.0ms | Allocations: 21166)
+
+
+Started GET "/" for ::1 at 2019-09-02 11:17:06 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 62)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 22)
+Completed 200 OK in 43ms (Views: 42.9ms | ActiveRecord: 0.0ms | Allocations: 19790)
+
+
+Started GET "/mdosens/sign_in" for ::1 at 2019-09-02 11:17:08 +0800
+Processing by Mdosens::SessionsController#new as HTML
+  Rendering mdosens/sessions/new.html.erb within layouts/application
+  Rendered mdosens/shared/_links.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered mdosens/sessions/new.html.erb within layouts/application (Duration: 1.5ms | Allocations: 843)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 21)
+Completed 200 OK in 51ms (Views: 50.0ms | ActiveRecord: 0.0ms | Allocations: 21062)
+
+
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for ::1 at 2019-09-02 11:19:41 +0800
+  [1m[35m (2.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 551)
+  Rendered homes/_notification.html.erb (Duration: 0.4ms | Allocations: 149)
+Completed 200 OK in 3125ms (Views: 3122.9ms | ActiveRecord: 0.0ms | Allocations: 1466939)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-09-02 11:19:45 +0800
+Processing by Users::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 2.1ms | Allocations: 649)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 23.4ms | Allocations: 8261)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 79ms (Views: 70.2ms | ActiveRecord: 1.0ms | Allocations: 37058)
+
+
+Started GET "/users/sign_up" for ::1 at 2019-09-02 11:19:58 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering users/registrations/new.html.erb within layouts/application
+  Rendered C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/devise-4.7.0/app/views/devise/shared/_error_messages.html.erb (Duration: 16.4ms | Allocations: 218)
+  Rendered users/shared/_links.html.erb (Duration: 0.3ms | Allocations: 119)
+  Rendered users/registrations/new.html.erb within layouts/application (Duration: 74.8ms | Allocations: 2118)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 123ms (Views: 122.2ms | ActiveRecord: 0.0ms | Allocations: 22970)
+
+
+Started POST "/users" for ::1 at 2019-09-02 11:31:50 +0800
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"1MmxFK8w7xKb312AH2Ht1hrn7SrP6gOZUF9JpL2z+4mJZBQZVUMXACl5fKwaz9r9K2PCWVL72ZzMoG1P/7lLaw==", "user"=>{"email"=>"sava@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "sava@gmail.com"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendering users/registrations/new.html.erb within layouts/application
+  Rendered C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/devise-4.7.0/app/views/devise/shared/_error_messages.html.erb (Duration: 0.9ms | Allocations: 243)
+  Rendered users/shared/_links.html.erb (Duration: 0.3ms | Allocations: 78)
+  Rendered users/registrations/new.html.erb within layouts/application (Duration: 4.8ms | Allocations: 1347)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 21)
+Completed 200 OK in 376ms (Views: 50.3ms | ActiveRecord: 0.3ms | Allocations: 34054)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-09-02 11:32:00 +0800
+Processing by Users::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 1.5ms | Allocations: 856)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 45ms (Views: 44.1ms | ActiveRecord: 0.0ms | Allocations: 21076)
+
+
+Started GET "/" for ::1 at 2019-09-02 11:32:02 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 63)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 24)
+Completed 200 OK in 52ms (Views: 52.1ms | ActiveRecord: 0.0ms | Allocations: 19798)
+
+
+Started GET "/mdosens/sign_in" for ::1 at 2019-09-02 11:32:06 +0800
+Processing by Mdosens::SessionsController#new as HTML
+  Rendering mdosens/sessions/new.html.erb within layouts/application
+  Rendered mdosens/shared/_links.html.erb (Duration: 0.9ms | Allocations: 629)
+  Rendered mdosens/sessions/new.html.erb within layouts/application (Duration: 3.6ms | Allocations: 1976)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 55ms (Views: 48.2ms | ActiveRecord: 0.8ms | Allocations: 28437)
+
+
+Started GET "/" for ::1 at 2019-09-02 11:32:15 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 64)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 24)
+Completed 200 OK in 43ms (Views: 42.4ms | ActiveRecord: 0.0ms | Allocations: 19801)
+
+
+Started GET "/mahasiswas/sign_in" for ::1 at 2019-09-02 11:32:16 +0800
+Processing by Mahasiswas::SessionsController#new as HTML
+  Rendering mahasiswas/sessions/new.html.erb within layouts/application
+  Rendered mahasiswas/shared/_links.html.erb (Duration: 0.9ms | Allocations: 630)
+  Rendered mahasiswas/sessions/new.html.erb within layouts/application (Duration: 3.8ms | Allocations: 1972)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 57ms (Views: 50.2ms | ActiveRecord: 0.6ms | Allocations: 28204)
+
+
+Started GET "/mahasiswas/sign_in?authenticity_token=0gSdLCJXMQ4Qwyu7HcUf9Q%2BcamziTR2opIxpbEhTwhkmur%2FZYUKykxjG%2BdOpPnkh218eQ%2FMG64k2WUq6edROEg%3D%3D&mahasiswa%5Bemail%5D=sava%40gmail.com&mahasiswa%5Bpassword%5D=[FILTERED]&mahasiswa%5Bremember_me%5D=0&commit=Log+in" for ::1 at 2019-09-02 11:32:24 +0800
+Processing by Mahasiswas::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"0gSdLCJXMQ4Qwyu7HcUf9Q+camziTR2opIxpbEhTwhkmur/ZYUKykxjG+dOpPnkh218eQ/MG64k2WUq6edROEg==", "mahasiswa"=>{"email"=>"sava@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering mahasiswas/sessions/new.html.erb within layouts/application
+  Rendered mahasiswas/shared/_links.html.erb (Duration: 0.2ms | Allocations: 135)
+  Rendered mahasiswas/sessions/new.html.erb within layouts/application (Duration: 1.5ms | Allocations: 852)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 21)
+Completed 200 OK in 168ms (Views: 45.2ms | ActiveRecord: 0.0ms | Allocations: 21182)
+
+
+Started GET "/mahasiswas/sign_up" for ::1 at 2019-09-02 11:32:27 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering mahasiswas/registrations/new.html.erb within layouts/application
+  Rendered C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/devise-4.7.0/app/views/devise/shared/_error_messages.html.erb (Duration: 0.1ms | Allocations: 15)
+  Rendered mahasiswas/registrations/new.html.erb within layouts/application (Duration: 152.5ms | Allocations: 4089)
+Completed 500 Internal Server Error in 155ms (ActiveRecord: 0.0ms | Allocations: 4847)
+
+
+  
+ActionView::Template::Error (undefined method `idm' for #<Mahasiswa id: nil, email: "", created_at: nil, updated_at: nil>
+Did you mean?  id
+               id?
+               id=):
+    12: 
+    13:   <div class="field">
+    14:     <%= f.label :NIM %><br />
+    15:     <%= f.number_field :idm, autofocus: true %>
+    16:   </div>
+    17: 
+    18:   <div class="field">
+  
+app/views/mahasiswas/registrations/new.html.erb:15
+app/views/mahasiswas/registrations/new.html.erb:3
+Started GET "/mahasiswas/sign_in?authenticity_token=0gSdLCJXMQ4Qwyu7HcUf9Q%2BcamziTR2opIxpbEhTwhkmur%2FZYUKykxjG%2BdOpPnkh218eQ%2FMG64k2WUq6edROEg%3D%3D&mahasiswa%5Bemail%5D=sava%40gmail.com&mahasiswa%5Bpassword%5D=[FILTERED]&mahasiswa%5Bremember_me%5D=0&commit=Log+in" for ::1 at 2019-09-02 11:32:34 +0800
+Processing by Mahasiswas::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"0gSdLCJXMQ4Qwyu7HcUf9Q+camziTR2opIxpbEhTwhkmur/ZYUKykxjG+dOpPnkh218eQ/MG64k2WUq6edROEg==", "mahasiswa"=>{"email"=>"sava@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering mahasiswas/sessions/new.html.erb within layouts/application
+  Rendered mahasiswas/shared/_links.html.erb (Duration: 0.2ms | Allocations: 137)
+  Rendered mahasiswas/sessions/new.html.erb within layouts/application (Duration: 1.6ms | Allocations: 883)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 175ms (Views: 53.3ms | ActiveRecord: 0.0ms | Allocations: 21250)
+
+
+Started GET "/mahasiswas/sign_in?authenticity_token=0gSdLCJXMQ4Qwyu7HcUf9Q%2BcamziTR2opIxpbEhTwhkmur%2FZYUKykxjG%2BdOpPnkh218eQ%2FMG64k2WUq6edROEg%3D%3D&mahasiswa%5Bemail%5D=sava%40gmail.com&mahasiswa%5Bpassword%5D=[FILTERED]&mahasiswa%5Bremember_me%5D=0&commit=Log+in" for ::1 at 2019-09-02 11:34:09 +0800
+Processing by Mahasiswas::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"0gSdLCJXMQ4Qwyu7HcUf9Q+camziTR2opIxpbEhTwhkmur/ZYUKykxjG+dOpPnkh218eQ/MG64k2WUq6edROEg==", "mahasiswa"=>{"email"=>"sava@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering mahasiswas/sessions/new.html.erb within layouts/application
+  Rendered mahasiswas/shared/_links.html.erb (Duration: 1.2ms | Allocations: 552)
+  Rendered mahasiswas/sessions/new.html.erb within layouts/application (Duration: 5.4ms | Allocations: 1786)
+  Rendered homes/_notification.html.erb (Duration: 0.6ms | Allocations: 133)
+Completed 200 OK in 186ms (Views: 63.8ms | ActiveRecord: 0.0ms | Allocations: 24198)
+
+
+Started GET "/" for ::1 at 2019-09-02 11:34:11 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 268)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 24)
+Completed 200 OK in 62ms (Views: 61.1ms | ActiveRecord: 0.0ms | Allocations: 20655)
+
+
+Started GET "/" for ::1 at 2019-09-02 11:34:13 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 62)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 22)
+Completed 200 OK in 50ms (Views: 49.7ms | ActiveRecord: 0.0ms | Allocations: 19792)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-09-02 11:34:18 +0800
+Processing by Users::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 2.2ms | Allocations: 560)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 6.9ms | Allocations: 1788)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 66ms (Views: 64.4ms | ActiveRecord: 0.0ms | Allocations: 22662)
+
+
+Started GET "/" for ::1 at 2019-09-02 11:34:19 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 63)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 24)
+Completed 200 OK in 48ms (Views: 48.0ms | ActiveRecord: 0.0ms | Allocations: 19796)
+
+
+Started GET "/mdosens/sign_in" for ::1 at 2019-09-02 11:34:20 +0800
+Processing by Mdosens::SessionsController#new as HTML
+  Rendering mdosens/sessions/new.html.erb within layouts/application
+  Rendered mdosens/shared/_links.html.erb (Duration: 1.3ms | Allocations: 553)
+  Rendered mdosens/sessions/new.html.erb within layouts/application (Duration: 5.4ms | Allocations: 1780)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 56ms (Views: 55.4ms | ActiveRecord: 0.0ms | Allocations: 22653)
+
+
+Started GET "/" for ::1 at 2019-09-02 11:34:23 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 63)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 24)
+Completed 200 OK in 46ms (Views: 45.4ms | ActiveRecord: 0.0ms | Allocations: 19796)
+
+
+Started GET "/mahasiswas/sign_in" for ::1 at 2019-09-02 11:34:24 +0800
+Processing by Mahasiswas::SessionsController#new as HTML
+  Rendering mahasiswas/sessions/new.html.erb within layouts/application
+  Rendered mahasiswas/shared/_links.html.erb (Duration: 0.2ms | Allocations: 135)
+  Rendered mahasiswas/sessions/new.html.erb within layouts/application (Duration: 1.5ms | Allocations: 857)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 52ms (Views: 50.9ms | ActiveRecord: 0.0ms | Allocations: 21082)
+
+
+Started GET "/" for ::1 at 2019-09-02 11:34:25 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 62)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 22)
+Completed 200 OK in 44ms (Views: 43.6ms | ActiveRecord: 0.0ms | Allocations: 19790)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-09-02 11:35:08 +0800
+Processing by Users::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 1.4ms | Allocations: 856)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 44ms (Views: 43.4ms | ActiveRecord: 0.0ms | Allocations: 21082)
+
+
+Started GET "/" for ::1 at 2019-09-02 11:35:14 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 62)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 22)
+Completed 200 OK in 43ms (Views: 42.4ms | ActiveRecord: 0.0ms | Allocations: 19789)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-09-02 11:39:36 +0800
+Processing by Users::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 1.7ms | Allocations: 843)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 21)
+Completed 200 OK in 51ms (Views: 49.6ms | ActiveRecord: 0.0ms | Allocations: 21067)
+
+
+Started GET "/" for ::1 at 2019-09-02 11:39:38 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 62)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 22)
+Completed 200 OK in 42ms (Views: 41.8ms | ActiveRecord: 0.0ms | Allocations: 19789)
+
+
+Started GET "/mdosens/sign_in" for ::1 at 2019-09-02 11:39:38 +0800
+Processing by Mdosens::SessionsController#new as HTML
+  Rendering mdosens/sessions/new.html.erb within layouts/application
+  Rendered mdosens/shared/_links.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered mdosens/sessions/new.html.erb within layouts/application (Duration: 1.4ms | Allocations: 847)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 21)
+Completed 200 OK in 44ms (Views: 42.9ms | ActiveRecord: 0.0ms | Allocations: 21069)
+
+
+Started GET "/mdosens/sign_up" for ::1 at 2019-09-02 11:39:42 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering mdosens/registrations/new.html.erb within layouts/application
+  Rendered C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/devise-4.7.0/app/views/devise/shared/_error_messages.html.erb (Duration: 0.7ms | Allocations: 209)
+  Rendered mdosens/shared/_links.html.erb (Duration: 0.3ms | Allocations: 118)
+  Rendered mdosens/registrations/new.html.erb within layouts/application (Duration: 137.4ms | Allocations: 2076)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 188ms (Views: 187.5ms | ActiveRecord: 0.0ms | Allocations: 22856)
+
+
+Started GET "/mdosens/sign_in" for ::1 at 2019-09-02 11:39:45 +0800
+Processing by Mdosens::SessionsController#new as HTML
+  Rendering mdosens/sessions/new.html.erb within layouts/application
+  Rendered mdosens/shared/_links.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered mdosens/sessions/new.html.erb within layouts/application (Duration: 1.5ms | Allocations: 856)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 44ms (Views: 43.5ms | ActiveRecord: 0.0ms | Allocations: 21075)
+
+
+Started GET "/" for ::1 at 2019-09-02 11:39:47 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 63)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 24)
+Completed 200 OK in 41ms (Views: 40.9ms | ActiveRecord: 0.0ms | Allocations: 19799)
+
+
+Started GET "/mahasiswas/sign_in" for ::1 at 2019-09-02 11:39:48 +0800
+Processing by Mahasiswas::SessionsController#new as HTML
+  Rendering mahasiswas/sessions/new.html.erb within layouts/application
+  Rendered mahasiswas/shared/_links.html.erb (Duration: 0.2ms | Allocations: 135)
+  Rendered mahasiswas/sessions/new.html.erb within layouts/application (Duration: 1.3ms | Allocations: 857)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 43ms (Views: 42.0ms | ActiveRecord: 0.0ms | Allocations: 21077)
+
+
+Started GET "/mahasiswas/sign_up" for ::1 at 2019-09-02 11:39:53 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering mahasiswas/registrations/new.html.erb within layouts/application
+  Rendered C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/devise-4.7.0/app/views/devise/shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 15)
+  Rendered mahasiswas/registrations/new.html.erb within layouts/application (Duration: 5.2ms | Allocations: 3699)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms | Allocations: 4461)
+
+
+  
+ActionView::Template::Error (undefined method `idm' for #<Mahasiswa id: nil, email: "", created_at: nil, updated_at: nil>
+Did you mean?  id
+               id?
+               id=):
+    12: 
+    13:   <div class="field">
+    14:     <%= f.label :NIM %><br />
+    15:     <%= f.number_field :idm, autofocus: true %>
+    16:   </div>
+    17: 
+    18:   <div class="field">
+  
+app/views/mahasiswas/registrations/new.html.erb:15
+app/views/mahasiswas/registrations/new.html.erb:3
+Started GET "/mahasiswas/sign_in" for ::1 at 2019-09-02 11:39:59 +0800
+Processing by Mahasiswas::SessionsController#new as HTML
+  Rendering mahasiswas/sessions/new.html.erb within layouts/application
+  Rendered mahasiswas/shared/_links.html.erb (Duration: 0.2ms | Allocations: 135)
+  Rendered mahasiswas/sessions/new.html.erb within layouts/application (Duration: 1.7ms | Allocations: 857)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 45ms (Views: 44.4ms | ActiveRecord: 0.0ms | Allocations: 21079)
+
+
+Started GET "/" for ::1 at 2019-09-02 11:40:01 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 63)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 24)
+Completed 200 OK in 50ms (Views: 49.4ms | ActiveRecord: 0.0ms | Allocations: 19798)
+
+
+Started GET "/" for ::1 at 2019-09-02 12:09:02 +0800
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 271)
+  Rendered homes/_notification.html.erb (Duration: 0.4ms | Allocations: 134)
+Completed 200 OK in 49ms (Views: 48.3ms | ActiveRecord: 0.0ms | Allocations: 21318)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-09-02 14:45:02 +0800
+  [1m[35m (22.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Users::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 181.3ms | Allocations: 556)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 1166.4ms | Allocations: 1790)
+  Rendered homes/_notification.html.erb (Duration: 66.1ms | Allocations: 133)
+Completed 200 OK in 4775ms (Views: 4044.3ms | ActiveRecord: 0.0ms | Allocations: 24101)
+
+
+Started GET "/users/sign_in?authenticity_token=RDbzLdEoLZZs4FxrqTTR%2Bo4iRkevELMCdQBC0f5sYR7RClSYZzdsrlJDxlywpr2DO4q3FTUEHaDip52ijkN%2B%2Bw%3D%3D&user%5Bemail%5D=&user%5Bpassword%5D=&user%5Bremember_me%5D=0&commit=Log+in" for ::1 at 2019-09-02 14:45:12 +0800
+Processing by Users::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"RDbzLdEoLZZs4FxrqTTR+o4iRkevELMCdQBC0f5sYR7RClSYZzdsrlJDxlywpr2DO4q3FTUEHaDip52ijkN++w==", "user"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 9.4ms | Allocations: 134)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 117.5ms | Allocations: 858)
+  Rendered homes/_notification.html.erb (Duration: 0.2ms | Allocations: 21)
+Completed 200 OK in 1199ms (Views: 1172.1ms | ActiveRecord: 0.0ms | Allocations: 21145)
+
+
+Started GET "/" for ::1 at 2019-09-02 14:51:44 +0800
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 140.9ms | Allocations: 268)
+  Rendered homes/_notification.html.erb (Duration: 0.2ms | Allocations: 24)
+Completed 200 OK in 1396ms (Views: 1360.1ms | ActiveRecord: 0.0ms | Allocations: 20653)
+
+
+Started GET "/admin/index" for ::1 at 2019-09-02 14:51:58 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/admin/index"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/admin/index.html" for ::1 at 2019-09-02 14:52:09 +0800
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [GET] "/admin/index.html"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-09-02 14:52:31 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 62)
+  Rendered homes/_notification.html.erb (Duration: 0.2ms | Allocations: 22)
+Completed 200 OK in 431ms (Views: 430.2ms | ActiveRecord: 0.0ms | Allocations: 19792)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-09-02 14:52:33 +0800
+Processing by Users::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.3ms | Allocations: 134)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 27.9ms | Allocations: 856)
+  Rendered homes/_notification.html.erb (Duration: 0.2ms | Allocations: 23)
+Completed 200 OK in 222ms (Views: 221.1ms | ActiveRecord: 0.0ms | Allocations: 21080)
+
+
+Started GET "/admins/index" for ::1 at 2019-09-02 14:53:52 +0800
+Processing by AdminsController#show as HTML
+  Parameters: {"id"=>"index"}
+Completed 401 Unauthorized in 59ms (ActiveRecord: 0.0ms | Allocations: 369)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-09-02 14:53:53 +0800
+Processing by Users::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 1.8ms | Allocations: 843)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 24)
+Completed 200 OK in 134ms (Views: 115.7ms | ActiveRecord: 0.0ms | Allocations: 21086)
+
+
+Started GET "/" for ::1 at 2019-09-02 14:54:21 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 62)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 22)
+Completed 200 OK in 73ms (Views: 72.7ms | ActiveRecord: 0.0ms | Allocations: 19789)
+
+
+Started GET "/mahasiswas/sign_in" for ::1 at 2019-09-02 14:54:31 +0800
+Processing by Mahasiswas::SessionsController#new as HTML
+  Rendering mahasiswas/sessions/new.html.erb within layouts/application
+  Rendered mahasiswas/shared/_links.html.erb (Duration: 10.8ms | Allocations: 552)
+  Rendered mahasiswas/sessions/new.html.erb within layouts/application (Duration: 33.8ms | Allocations: 1777)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 162ms (Views: 138.0ms | ActiveRecord: 0.0ms | Allocations: 22654)
+
+
+Started GET "/mahasiswas/sign_up" for ::1 at 2019-09-02 14:54:35 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering mahasiswas/registrations/new.html.erb within layouts/application
+  Rendered C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/devise-4.7.0/app/views/devise/shared/_error_messages.html.erb (Duration: 14.4ms | Allocations: 213)
+  Rendered mahasiswas/registrations/new.html.erb within layouts/application (Duration: 770.6ms | Allocations: 4131)
+Completed 500 Internal Server Error in 822ms (ActiveRecord: 0.0ms | Allocations: 5439)
+
+
+  
+ActionView::Template::Error (undefined method `idm' for #<Mahasiswa id: nil, email: "", created_at: nil, updated_at: nil>
+Did you mean?  id
+               id?
+               id=):
+    12: 
+    13:   <div class="field">
+    14:     <%= f.label :NIM %><br />
+    15:     <%= f.number_field :idm, autofocus: true %>
+    16:   </div>
+    17: 
+    18:   <div class="field">
+  
+app/views/mahasiswas/registrations/new.html.erb:15
+app/views/mahasiswas/registrations/new.html.erb:3
+Started GET "/mahasiswas/sign_in" for ::1 at 2019-09-02 14:54:50 +0800
+Processing by Mahasiswas::SessionsController#new as HTML
+  Rendering mahasiswas/sessions/new.html.erb within layouts/application
+Started GET "/" for ::1 at 2019-09-02 14:54:51 +0800
+  Rendered mahasiswas/shared/_links.html.erb (Duration: 11.7ms | Allocations: 221)
+  Rendered mahasiswas/sessions/new.html.erb within layouts/application (Duration: 32.6ms | Allocations: 1295)
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 63)
+Started GET "/mdosens/sign_in" for ::1 at 2019-09-02 14:54:52 +0800
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 321ms (Views: 289.9ms | ActiveRecord: 0.0ms | Allocations: 48776)
+
+
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 24)
+Completed 200 OK in 219ms (Views: 218.5ms | ActiveRecord: 0.0ms | Allocations: 36978)
+
+
+Processing by Mdosens::SessionsController#new as HTML
+  Rendering mdosens/sessions/new.html.erb within layouts/application
+  Rendered mdosens/shared/_links.html.erb (Duration: 13.0ms | Allocations: 953)
+  Rendered mdosens/sessions/new.html.erb within layouts/application (Duration: 134.7ms | Allocations: 2938)
+  Rendered homes/_notification.html.erb (Duration: 0.3ms | Allocations: 23)
+Completed 200 OK in 409ms (Views: 396.8ms | ActiveRecord: 0.0ms | Allocations: 35607)
+
+
+Started GET "/mdosens/sign_up" for ::1 at 2019-09-02 14:54:57 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering mdosens/registrations/new.html.erb within layouts/application
+  Rendered C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/devise-4.7.0/app/views/devise/shared/_error_messages.html.erb (Duration: 0.1ms | Allocations: 15)
+  Rendered mdosens/shared/_links.html.erb (Duration: 0.4ms | Allocations: 79)
+  Rendered mdosens/registrations/new.html.erb within layouts/application (Duration: 46.0ms | Allocations: 1494)
+  Rendered homes/_notification.html.erb (Duration: 0.2ms | Allocations: 23)
+Completed 200 OK in 141ms (Views: 139.9ms | ActiveRecord: 0.0ms | Allocations: 21747)
+
+
+Started POST "/mdosens" for ::1 at 2019-09-02 14:55:17 +0800
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"jlqTbKby5rxL8pffITGmv388l8xEszV60AZN6QCq45GEhKq7YLEpnUoWsZ5Y3F1rHkjkiWq2lwfOxeQ7AqWlwQ==", "mdosen"=>{"email"=>"nana@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mMdosen Exists? (9.8ms)[0m  [1m[34mSELECT 1 AS one FROM "mdosens" WHERE "mdosens"."email" = ? LIMIT ?[0m  [["email", "nana@gmail.com"], ["LIMIT", 1]]
+  [1m[36mMdosen Create (2.2ms)[0m  [1m[32mINSERT INTO "mdosens" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "nana@gmail.com"], ["encrypted_password", "$2a$11$hEd6PZicTjql8qKoMRGDa.yw.gbAhoHzyM4jeXHnfq4l1qzQponwm"], ["created_at", "2019-09-02 06:55:18.700978"], ["updated_at", "2019-09-02 06:55:18.700978"]]
+  [1m[35m (261.1ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 1814ms (ActiveRecord: 273.2ms | Allocations: 8678)
+
+
+Started GET "/" for ::1 at 2019-09-02 14:55:19 +0800
+  [1m[36mMdosen Load (7.4ms)[0m  [1m[34mSELECT "mdosens".* FROM "mdosens" WHERE "mdosens"."id" = ? ORDER BY "mdosens"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Processing by HdosensController#index as HTML
+  Rendering hdosens/index.html.erb within layouts/application
+  Rendered hdosens/index.html.erb within layouts/application (Duration: 102.4ms | Allocations: 225)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 27)
+Completed 200 OK in 187ms (Views: 184.1ms | ActiveRecord: 0.0ms | Allocations: 20736)
+
+
+Started DELETE "/mdosens/sign_out" for ::1 at 2019-09-02 14:55:23 +0800
+Processing by Mdosens::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"09KZoCY7kqgIbEH8cyWCu5330DG4jNP2fDFsQpsQMXNxHIVjvZLpnkh18Scz/C6GL29IjDDmIwZMIplLePO6oA=="}
+  [1m[36mMdosen Load (0.1ms)[0m  [1m[34mSELECT "mdosens".* FROM "mdosens" WHERE "mdosens"."id" = ? ORDER BY "mdosens"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 489ms (ActiveRecord: 0.1ms | Allocations: 2828)
+
+
+Started GET "/" for ::1 at 2019-09-02 14:55:24 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 63)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 27)
+Completed 200 OK in 75ms (Views: 74.7ms | ActiveRecord: 0.0ms | Allocations: 19804)
+
+
+Started GET "/mdosens/sign_in" for ::1 at 2019-09-02 14:55:26 +0800
+Processing by Mdosens::SessionsController#new as HTML
+  Rendering mdosens/sessions/new.html.erb within layouts/application
+  Rendered mdosens/shared/_links.html.erb (Duration: 0.4ms | Allocations: 134)
+  Rendered mdosens/sessions/new.html.erb within layouts/application (Duration: 1.7ms | Allocations: 856)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 77ms (Views: 66.9ms | ActiveRecord: 0.0ms | Allocations: 21080)
+
+
+Started GET "/mdosens/sign_in?authenticity_token=ZJe1n1ZS4Gi2YJ%2BHy4WunBwhbaJSuETwFXU0fON%2F3BTbMenvy5SZBxwDt8Tyq35HGnQbeKUe1Lu9Ctt%2F55gYgQ%3D%3D&mdosen%5Bemail%5D=nana%40gmail.com&mdosen%5Bpassword%5D=[FILTERED]&mdosen%5Bremember_me%5D=0&commit=Log+in" for ::1 at 2019-09-02 14:55:31 +0800
+Processing by Mdosens::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"ZJe1n1ZS4Gi2YJ+Hy4WunBwhbaJSuETwFXU0fON/3BTbMenvy5SZBxwDt8Tyq35HGnQbeKUe1Lu9Ctt/55gYgQ==", "mdosen"=>{"email"=>"nana@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering mdosens/sessions/new.html.erb within layouts/application
+  Rendered mdosens/shared/_links.html.erb (Duration: 6.0ms | Allocations: 134)
+  Rendered mdosens/sessions/new.html.erb within layouts/application (Duration: 25.0ms | Allocations: 847)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 21)
+Completed 200 OK in 233ms (Views: 110.2ms | ActiveRecord: 0.0ms | Allocations: 21174)
+
+
+Started GET "/mdosens/sign_in?authenticity_token=N638QWtSUMKJLHJm7alADciZbbjVx%2B1H3S6Y%2BF0lfy%2BQO6hGl9AzA7h4WPZG41HX5VBPVzPk3RLuvKsjNKEdpA%3D%3D&mdosen%5Bemail%5D=nana%40gmail.com&mdosen%5Bpassword%5D=[FILTERED]&mdosen%5Bremember_me%5D=0&commit=Log+in" for ::1 at 2019-09-02 14:55:38 +0800
+Processing by Mdosens::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"N638QWtSUMKJLHJm7alADciZbbjVx+1H3S6Y+F0lfy+QO6hGl9AzA7h4WPZG41HX5VBPVzPk3RLuvKsjNKEdpA==", "mdosen"=>{"email"=>"nana@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering mdosens/sessions/new.html.erb within layouts/application
+  Rendered mdosens/shared/_links.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered mdosens/sessions/new.html.erb within layouts/application (Duration: 2.6ms | Allocations: 846)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 21)
+Completed 200 OK in 211ms (Views: 83.3ms | ActiveRecord: 0.0ms | Allocations: 21164)
+
+
+Started GET "/mdosens/sign_up" for ::1 at 2019-09-02 14:55:40 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering mdosens/registrations/new.html.erb within layouts/application
+  Rendered C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/devise-4.7.0/app/views/devise/shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 15)
+  Rendered mdosens/shared/_links.html.erb (Duration: 7.4ms | Allocations: 79)
+  Rendered mdosens/registrations/new.html.erb within layouts/application (Duration: 9.1ms | Allocations: 1122)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 70ms (Views: 69.0ms | ActiveRecord: 0.0ms | Allocations: 21242)
+
+
+Started POST "/mdosens" for ::1 at 2019-09-02 14:55:49 +0800
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"SxUVKi9OqEujxH4l1H3lfcH6VlUG5Vyc02IoMS1k5h3vQbD8L2wwFI7P27fTeaWuMLbMXWgJmAo+IqJarMs17g==", "mdosen"=>{"email"=>"nana@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mMdosen Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "mdosens" WHERE "mdosens"."email" = ? LIMIT ?[0m  [["email", "nana@gmail.com"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendering mdosens/registrations/new.html.erb within layouts/application
+  Rendered C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/devise-4.7.0/app/views/devise/shared/_error_messages.html.erb (Duration: 20.6ms | Allocations: 230)
+  Rendered mdosens/shared/_links.html.erb (Duration: 0.5ms | Allocations: 78)
+  Rendered mdosens/registrations/new.html.erb within layouts/application (Duration: 26.8ms | Allocations: 1329)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 21)
+Completed 200 OK in 330ms (Views: 105.6ms | ActiveRecord: 0.5ms | Allocations: 27015)
+
+
+Started GET "/mdosens/sign_in" for ::1 at 2019-09-02 14:56:00 +0800
+Processing by Mdosens::SessionsController#new as HTML
+  Rendering mdosens/sessions/new.html.erb within layouts/application
+  Rendered mdosens/shared/_links.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered mdosens/sessions/new.html.erb within layouts/application (Duration: 1.5ms | Allocations: 843)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 21)
+Completed 200 OK in 46ms (Views: 44.5ms | ActiveRecord: 0.0ms | Allocations: 21067)
+
+
+Started GET "/mdosens/sign_in?authenticity_token=EVHKwlIUk4fOASciHw%2Fg9VVutFwl9Jb%2FiMa%2BTMmhY4eu95ayz9Lq6GRiD2EmITAuUzvChtJSBrQguVFPzUanEg%3D%3D&mdosen%5Bemail%5D=nana%40gmail.com&mdosen%5Bpassword%5D=[FILTERED]&mdosen%5Bremember_me%5D=0&commit=Log+in" for ::1 at 2019-09-02 14:56:05 +0800
+Processing by Mdosens::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"EVHKwlIUk4fOASciHw/g9VVutFwl9Jb/iMa+TMmhY4eu95ayz9Lq6GRiD2EmITAuUzvChtJSBrQguVFPzUanEg==", "mdosen"=>{"email"=>"nana@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering mdosens/sessions/new.html.erb within layouts/application
+  Rendered mdosens/shared/_links.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered mdosens/sessions/new.html.erb within layouts/application (Duration: 1.3ms | Allocations: 846)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 21)
+Completed 200 OK in 177ms (Views: 56.7ms | ActiveRecord: 0.0ms | Allocations: 21170)
+
+
+Started GET "/mdosens/password/new" for ::1 at 2019-09-02 14:56:10 +0800
+Processing by Devise::PasswordsController#new as HTML
+  Rendering mdosens/passwords/new.html.erb within layouts/application
+  Rendered C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/devise-4.7.0/app/views/devise/shared/_error_messages.html.erb (Duration: 0.1ms | Allocations: 15)
+  Rendered mdosens/shared/_links.html.erb (Duration: 0.4ms | Allocations: 132)
+  Rendered mdosens/passwords/new.html.erb within layouts/application (Duration: 100.9ms | Allocations: 1040)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 210ms (Views: 204.0ms | ActiveRecord: 0.0ms | Allocations: 21810)
+
+
+Started GET "/mdosens/sign_in" for ::1 at 2019-09-02 14:56:56 +0800
+Processing by Mdosens::SessionsController#new as HTML
+  Rendering mdosens/sessions/new.html.erb within layouts/application
+  Rendered mdosens/shared/_links.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered mdosens/sessions/new.html.erb within layouts/application (Duration: 1.5ms | Allocations: 856)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 43ms (Views: 42.1ms | ActiveRecord: 0.0ms | Allocations: 21075)
+
+
+Started GET "/" for ::1 at 2019-09-02 14:56:59 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 63)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 24)
+Completed 200 OK in 54ms (Views: 53.9ms | ActiveRecord: 0.0ms | Allocations: 19796)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-09-02 14:57:01 +0800
+Processing by Users::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.4ms | Allocations: 134)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 2.1ms | Allocations: 856)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 45ms (Views: 43.9ms | ActiveRecord: 0.0ms | Allocations: 21085)
+
+
+Started GET "/users/password/new" for ::1 at 2019-09-02 14:57:02 +0800
+Processing by Devise::PasswordsController#new as HTML
+  Rendering users/passwords/new.html.erb within layouts/application
+  Rendered C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/devise-4.7.0/app/views/devise/shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 15)
+  Rendered users/shared/_links.html.erb (Duration: 0.2ms | Allocations: 133)
+  Rendered users/passwords/new.html.erb within layouts/application (Duration: 28.3ms | Allocations: 1034)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 88ms (Views: 86.6ms | ActiveRecord: 0.0ms | Allocations: 21230)
+
+
+Started GET "/users/password/new" for ::1 at 2019-09-02 14:59:17 +0800
+Processing by Devise::PasswordsController#new as HTML
+  Rendering users/passwords/new.html.erb within layouts/application
+  Rendered C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/devise-4.7.0/app/views/devise/shared/_error_messages.html.erb (Duration: 0.5ms | Allocations: 209)
+  Rendered users/shared/_links.html.erb (Duration: 13.6ms | Allocations: 553)
+  Rendered users/passwords/new.html.erb within layouts/application (Duration: 28.4ms | Allocations: 2000)
+  Rendered homes/_notification.html.erb (Duration: 0.4ms | Allocations: 133)
+Completed 200 OK in 78ms (Views: 76.3ms | ActiveRecord: 0.0ms | Allocations: 23773)
+
+
+Started GET "/users/password/new" for ::1 at 2019-09-02 14:59:44 +0800
+Processing by Devise::PasswordsController#new as HTML
+  Rendering users/passwords/new.html.erb within layouts/application
+  Rendered C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/devise-4.7.0/app/views/devise/shared/_error_messages.html.erb (Duration: 0.7ms | Allocations: 209)
+  Rendered users/shared/_links.html.erb (Duration: 8.5ms | Allocations: 553)
+  Rendered users/passwords/new.html.erb within layouts/application (Duration: 30.2ms | Allocations: 2013)
+  Rendered homes/_notification.html.erb (Duration: 0.3ms | Allocations: 133)
+Completed 200 OK in 81ms (Views: 79.2ms | ActiveRecord: 0.0ms | Allocations: 23785)
+
+
+Started GET "/users/password/new" for ::1 at 2019-09-02 15:00:06 +0800
+Processing by Devise::PasswordsController#new as HTML
+  Rendering users/passwords/new.html.erb within layouts/application
+  Rendered C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/devise-4.7.0/app/views/devise/shared/_error_messages.html.erb (Duration: 0.6ms | Allocations: 209)
+  Rendered users/shared/_links.html.erb (Duration: 12.2ms | Allocations: 553)
+  Rendered users/passwords/new.html.erb within layouts/application (Duration: 67.6ms | Allocations: 2022)
+  Rendered homes/_notification.html.erb (Duration: 12.4ms | Allocations: 133)
+Completed 200 OK in 185ms (Views: 183.3ms | ActiveRecord: 0.0ms | Allocations: 23791)
+
+
+Started GET "/users/password/new" for ::1 at 2019-09-02 15:00:29 +0800
+Processing by Devise::PasswordsController#new as HTML
+  Rendering users/passwords/new.html.erb within layouts/application
+  Rendered C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/devise-4.7.0/app/views/devise/shared/_error_messages.html.erb (Duration: 0.5ms | Allocations: 209)
+  Rendered users/shared/_links.html.erb (Duration: 17.5ms | Allocations: 553)
+  Rendered users/passwords/new.html.erb within layouts/application (Duration: 46.6ms | Allocations: 1850)
+  Rendered homes/_notification.html.erb (Duration: 0.4ms | Allocations: 133)
+Completed 200 OK in 112ms (Views: 111.1ms | ActiveRecord: 0.0ms | Allocations: 23614)
+
+
+Started GET "/users/password/new" for ::1 at 2019-09-02 15:00:42 +0800
+Processing by Devise::PasswordsController#new as HTML
+  Rendering users/passwords/new.html.erb within layouts/application
+  Rendered C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/devise-4.7.0/app/views/devise/shared/_error_messages.html.erb (Duration: 11.7ms | Allocations: 209)
+  Rendered users/shared/_links.html.erb (Duration: 0.8ms | Allocations: 553)
+  Rendered users/passwords/new.html.erb within layouts/application (Duration: 27.1ms | Allocations: 1850)
+  Rendered homes/_notification.html.erb (Duration: 0.4ms | Allocations: 133)
+Completed 200 OK in 89ms (Views: 87.3ms | ActiveRecord: 0.0ms | Allocations: 23618)
+
+
+Started GET "/users/password/new" for ::1 at 2019-09-02 15:01:42 +0800
+Processing by Devise::PasswordsController#new as HTML
+  Rendering users/passwords/new.html.erb within layouts/application
+  Rendered C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/devise-4.7.0/app/views/devise/shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 15)
+  Rendered users/shared/_links.html.erb (Duration: 0.2ms | Allocations: 132)
+  Rendered users/passwords/new.html.erb within layouts/application (Duration: 1.7ms | Allocations: 615)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in D:/Nana/fork/TAPP/public/packs
+  Rendered homes/_notification.html.erb (Duration: 0.4ms | Allocations: 21)
+Completed 200 OK in 11760ms (Views: 11759.4ms | ActiveRecord: 0.0ms | Allocations: 22920)
+
+
+Started GET "/users/password/new" for ::1 at 2019-09-02 15:02:03 +0800
+Processing by Devise::PasswordsController#new as HTML
+  Rendering users/passwords/new.html.erb within layouts/application
+  Rendered C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/devise-4.7.0/app/views/devise/shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 15)
+  Rendered users/shared/_links.html.erb (Duration: 0.1ms | Allocations: 131)
+  Rendered users/passwords/new.html.erb within layouts/application (Duration: 0.9ms | Allocations: 606)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in D:/Nana/fork/TAPP/public/packs
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 21)
+Completed 200 OK in 5390ms (Views: 5389.1ms | ActiveRecord: 0.0ms | Allocations: 22856)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-09-02 15:02:45 +0800
+Processing by Users::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 12.7ms | Allocations: 1227)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 82ms (Views: 80.9ms | ActiveRecord: 0.0ms | Allocations: 22483)
+
+
+Started GET "/" for ::1 at 2019-09-02 15:03:07 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 268)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 24)
+Completed 200 OK in 67ms (Views: 66.2ms | ActiveRecord: 0.0ms | Allocations: 20654)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-09-02 15:03:16 +0800
+Processing by Users::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 1.8ms | Allocations: 856)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 48ms (Views: 47.0ms | ActiveRecord: 0.0ms | Allocations: 21079)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-09-02 15:03:31 +0800
+Processing by Users::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 1.7ms | Allocations: 843)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in D:/Nana/fork/TAPP/public/packs
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 21)
+Completed 200 OK in 5486ms (Views: 5484.2ms | ActiveRecord: 0.0ms | Allocations: 23261)
+
+
+Started GET "/" for ::1 at 2019-09-02 15:18:07 +0800
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 62)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 22)
+Completed 200 OK in 57ms (Views: 56.2ms | ActiveRecord: 0.0ms | Allocations: 19790)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-09-02 15:18:09 +0800
+Processing by Users::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 1.4ms | Allocations: 843)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 21)
+Completed 200 OK in 43ms (Views: 41.8ms | ActiveRecord: 0.0ms | Allocations: 21060)
+
+
+Started GET "/" for ::1 at 2019-09-02 15:18:19 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 62)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 22)
+Completed 200 OK in 56ms (Views: 56.0ms | ActiveRecord: 0.0ms | Allocations: 19790)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-09-02 15:18:36 +0800
+Processing by Users::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 1.2ms | Allocations: 843)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 21)
+Completed 200 OK in 44ms (Views: 43.0ms | ActiveRecord: 0.0ms | Allocations: 21064)
+
+
+Started GET "/" for ::1 at 2019-09-02 15:18:46 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 62)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 22)
+Completed 200 OK in 46ms (Views: 46.0ms | ActiveRecord: 0.0ms | Allocations: 19790)
+
+
+Started GET "/" for ::1 at 2019-09-02 15:20:21 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 62)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 22)
+Completed 200 OK in 65ms (Views: 65.1ms | ActiveRecord: 0.0ms | Allocations: 19791)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-09-02 15:20:22 +0800
+Processing by Users::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 1.5ms | Allocations: 843)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 21)
+Completed 200 OK in 45ms (Views: 43.5ms | ActiveRecord: 0.0ms | Allocations: 21071)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-09-02 15:21:00 +0800
+Processing by Users::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 486.4ms | Allocations: 552)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 501.7ms | Allocations: 1786)
+  Rendered homes/_notification.html.erb (Duration: 15.4ms | Allocations: 134)
+Completed 200 OK in 576ms (Views: 574.7ms | ActiveRecord: 0.0ms | Allocations: 24094)
+
+
+Started GET "/users/sign_up" for ::1 at 2019-09-02 15:21:02 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering users/registrations/new.html.erb within layouts/application
+  Rendered C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/devise-4.7.0/app/views/devise/shared/_error_messages.html.erb (Duration: 0.5ms | Allocations: 209)
+  Rendered users/shared/_links.html.erb (Duration: 0.3ms | Allocations: 80)
+  Rendered users/registrations/new.html.erb within layouts/application (Duration: 4.6ms | Allocations: 1928)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 51ms (Views: 50.4ms | ActiveRecord: 0.0ms | Allocations: 22716)
+
+
+Started POST "/users" for ::1 at 2019-09-02 15:21:11 +0800
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"cNnAAenGQ8NyUroTqB/ZY7PP/85pxNqACGmhQjjiE6zMFbP+dh2PRA95gn3ZI/gpvuUEbo44CaUCJ2vBtu/MYQ==", "user"=>{"email"=>"nanasavana99@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "nanasavana99@gmail.com"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  Rendering users/registrations/new.html.erb within layouts/application
+  Rendered C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/devise-4.7.0/app/views/devise/shared/_error_messages.html.erb (Duration: 0.4ms | Allocations: 230)
+  Rendered users/shared/_links.html.erb (Duration: 0.1ms | Allocations: 78)
+  Rendered users/registrations/new.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1330)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 21)
+Completed 200 OK in 198ms (Views: 44.6ms | ActiveRecord: 0.4ms | Allocations: 28414)
+
+
+Started POST "/users" for ::1 at 2019-09-02 15:21:29 +0800
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"+gJcdlN1F2jKaKeCOvRDOI1fm6vyeH5V1BSQg96eHwtdlAhxr/d0qfs8jRKRvlLioJa5RBRbTgDnhqNYtxp9gA==", "user"=>{"email"=>"nana@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "nana@gmail.com"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  Rendering users/registrations/new.html.erb within layouts/application
+  Rendered C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/devise-4.7.0/app/views/devise/shared/_error_messages.html.erb (Duration: 0.3ms | Allocations: 230)
+  Rendered users/shared/_links.html.erb (Duration: 0.1ms | Allocations: 78)
+  Rendered users/registrations/new.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1326)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 21)
+Completed 200 OK in 187ms (Views: 60.3ms | ActiveRecord: 0.3ms | Allocations: 26941)
+
+
+Started GET "/users" for ::1 at 2019-09-02 15:22:04 +0800
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [GET] "/users"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-09-02 15:22:11 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 7.0ms | Allocations: 268)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 24)
+Completed 200 OK in 55ms (Views: 54.5ms | ActiveRecord: 0.0ms | Allocations: 20660)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-09-02 15:22:13 +0800
+Processing by Users::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.3ms | Allocations: 138)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 4.9ms | Allocations: 915)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 267ms (Views: 68.7ms | ActiveRecord: 3.3ms | Allocations: 27827)
+
+
+Started GET "/users/sign_up" for ::1 at 2019-09-02 15:22:17 +0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering users/registrations/new.html.erb within layouts/application
+  Rendered C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/devise-4.7.0/app/views/devise/shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 15)
+  Rendered users/shared/_links.html.erb (Duration: 0.2ms | Allocations: 81)
+  Rendered users/registrations/new.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1126)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 50ms (Views: 49.1ms | ActiveRecord: 0.0ms | Allocations: 21459)
+
+
+Started POST "/users" for ::1 at 2019-09-02 15:22:24 +0800
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"QM2VSU5jNf5KjFmISzJ35jI9RK93aOWt7AjZ0Qs06Bb8Aea20bj5eTenYeY6DlasPxe/D5CUNojmRhNShTk32w==", "user"=>{"email"=>"nana@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "nana@gmail.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "nana@gmail.com"], ["encrypted_password", "$2a$11$NH/EpspFESshC6tbrazo6.vROA22qIZT2N9PjdoaIwCZUv8OVx0Z6"], ["created_at", "2019-09-02 07:22:24.459174"], ["updated_at", "2019-09-02 07:22:24.459174"]]
+  [1m[35m (172.8ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 309ms (ActiveRecord: 173.7ms | Allocations: 7096)
+
+
+Started GET "/" for ::1 at 2019-09-02 15:22:24 +0800
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Processing by RumahsController#index as HTML
+  Rendering rumahs/index.html.erb within layouts/application
+  Rendered rumahs/index.html.erb within layouts/application (Duration: 12.5ms | Allocations: 359)
+  Rendered homes/_notification.html.erb (Duration: 0.2ms | Allocations: 27)
+Completed 200 OK in 76ms (Views: 74.2ms | ActiveRecord: 0.0ms | Allocations: 20871)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2019-09-02 15:22:31 +0800
+Processing by Users::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"KcpoN4vrizxWLVh6Jasxkb1omo0gDTlIFwpliKpsx0KOXDwwd2no/Wd5cuqO4SBLkKG4YsYuCR0kmFZTw+ilyQ=="}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 5ms (ActiveRecord: 0.2ms | Allocations: 2316)
+
+
+Started GET "/" for ::1 at 2019-09-02 15:22:31 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 63)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 27)
+Completed 200 OK in 42ms (Views: 41.6ms | ActiveRecord: 0.0ms | Allocations: 19803)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-09-02 15:22:39 +0800
+Processing by Users::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 1.3ms | Allocations: 856)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 44ms (Views: 42.7ms | ActiveRecord: 0.0ms | Allocations: 21076)
+
+
+Started GET "/" for ::1 at 2019-09-02 15:23:04 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 62)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 22)
+Completed 200 OK in 57ms (Views: 56.2ms | ActiveRecord: 0.0ms | Allocations: 19789)
+
+
+Started GET "/mdosens/sign_in" for ::1 at 2019-09-02 15:24:15 +0800
+Processing by Mdosens::SessionsController#new as HTML
+  Rendering mdosens/sessions/new.html.erb within layouts/application
+  Rendered mdosens/shared/_links.html.erb (Duration: 4.2ms | Allocations: 555)
+  Rendered mdosens/sessions/new.html.erb within layouts/application (Duration: 7.1ms | Allocations: 1835)
+  Rendered homes/_notification.html.erb (Duration: 0.2ms | Allocations: 23)
+Completed 200 OK in 98ms (Views: 90.2ms | ActiveRecord: 0.8ms | Allocations: 28066)
+
+
+Started GET "/mdosens/sign_in" for ::1 at 2019-09-02 15:44:21 +0800
+  [1m[35m (5.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Mdosens::SessionsController#new as HTML
+  Rendering mdosens/sessions/new.html.erb within layouts/application
+  Rendered mdosens/shared/_links.html.erb (Duration: 1.9ms | Allocations: 649)
+  Rendered mdosens/sessions/new.html.erb within layouts/application (Duration: 45.0ms | Allocations: 8540)
+Started GET "/" for ::1 at 2019-09-02 15:44:26 +0800
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 369)
+  Rendered homes/_notification.html.erb (Duration: 0.6ms | Allocations: 225)
+Completed 200 OK in 6402ms (Views: 6389.1ms | ActiveRecord: 0.7ms | Allocations: 1954608)
+
+
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 24)
+Completed 200 OK in 2852ms (Views: 2851.5ms | ActiveRecord: 0.0ms | Allocations: 1343915)
+
+
+Started GET "/" for ::1 at 2019-09-02 15:44:33 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 64)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 22)
+Completed 200 OK in 44ms (Views: 44.1ms | ActiveRecord: 0.0ms | Allocations: 19800)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-09-02 15:44:38 +0800
+Processing by Users::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 1.1ms | Allocations: 630)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 4.2ms | Allocations: 1978)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 75ms (Views: 58.8ms | ActiveRecord: 0.7ms | Allocations: 29248)
+
+
