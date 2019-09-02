@@ -1,33 +1,40 @@
 <div class="container-fluid">
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">Selamat Datang</h1>
+      <p class="lead">Terimakasih karena Anda telah menggunakan Aplikasi kami.</p>
+    </div>
+  </div>
   <div class="container">
-    <div class="row">
-      <div class="col-sm-4">
-        <div class="card border-primary mb-3">
-          <div class="card-body">
-            <h5 class="card-title">Admin</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional
-            content.</p>
-            <%= link_to 'Admin', "/options", class:"btn btn-outline-primary"%>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="card border-primary mb-3">
-          <div class="card-body">
-            <h5 class="card-title">Dosen</h5>
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="card border-secondary mb-3">
+            <div class="card-body">
+              <h5 class="card-title">Admin</h5>
               <p class="card-text">With supporting text below as a natural lead-in to additional
               content.</p>
-              <%= link_to 'Dosen', "/mdosens/sign_in", class:"btn btn-outline-primary" %>
+              <%= link_to 'Admin', "/options", class:"btn btn-outline-secondary"%>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-sm-4">
-      <div class="card border-primary mb-3">
-        <div class="card-body">
-          <h5 class="card-title">Mahasiswa</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional
-            content.</p>
-            <%= link_to 'Mahasiswa', "/mahasiswas/sign_in", class:"btn btn-outline-primary" %>
+        <div class="col-lg-4 col-md-6">
+          <div class="card border-secondary mb-3">
+            <div class="card-body">
+              <h5 class="card-title">Dosen</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional
+                content.</p>
+                <%= link_to 'Login', "/mdosens/sign_in", class:"btn btn-outline-secondary" %>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-12">
+        <div class="card border-secondary mb-3">
+          <div class="card-body">
+            <h5 class="card-title">Mahasiswa</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional
+              content.</p>
+              <%= link_to 'Login', "/mahasiswas/sign_in", class:"btn btn-outline-secondary" %>
+          </div>
         </div>
       </div>
     </div>

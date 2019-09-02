@@ -1,14 +1,18 @@
-<h2>Log in</h2>
+
+<body class="text-center">
+<form class="form-signin ">
+
+<h1 style="font-family:courier;">Super Admin</h1>
+<h3 class="h3 mb-3 font-weight-normal">Log in</h3>
 
 <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+
   <div class="field">
-    <%= f.label :email %><br />
-    <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
+    <%= f.email_field :email, autofocus: true, autocomplete: "email", class:"form-control", placeholder: "Email address" %>
   </div>
 
   <div class="field">
-    <%= f.label :password %><br />
-    <%= f.password_field :password, autocomplete: "current-password" %>
+    <%= f.password_field :password, autocomplete: "current-password", class:"form-control", placeholder: "Password" %>
   </div>
 
   <% if devise_mapping.rememberable? %>
@@ -19,8 +23,12 @@
   <% end %>
 
   <div class="actions">
-    <%= f.submit "Log in" %>
+    <%= f.submit "Log in", class:"btn btn-secondary btn-block" %>
   </div>
 <% end %>
 
 <%= render "supers/shared/links" %>
+<%= link_to root_path, :class => 'nav-icon' do %><span class="icon-home">Back</span><% end %>
+
+</form>
+</body>
