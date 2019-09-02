@@ -1,6 +1,17 @@
 Rails.application.routes.draw do
 
 
+  devise_for :supers,path: 'supers',controllers: {sessions: 'supers/sessions'}
+  devise_scope :super do
+    get 'sign_in', to: 'super/sessions#new'
+    get '/supers/sign_out' => 'super/sessions#destroy'
+  end
+
+  authenticated :super do
+    resources :superadmins
+    root 'superadmins#index', as: :authenticated_super
+  end
+
   devise_for :mdosens, path: 'mdosens',controllers: { sessions: 'mdosens/sessions'}
   devise_scope :mdosen do
     get 'sign_in', to: 'mdosen/sessions#new'
@@ -42,5 +53,6 @@ Rails.application.routes.draw do
   resources :admins
   resources :dosens
   resources :students
+  resources :options
 
 end
