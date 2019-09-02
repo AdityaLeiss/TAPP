@@ -1,11 +1,30 @@
-.container{
+.container {
+    position: relative;
     margin-top: 20px;
 }
-.blue{
+
+.center {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+
+.blue {
     background-color: aquamarine;
     color: black;
 }
-.blue.hover{
+
+.blue.hover {
     background-color: green;
     color: white;
 }

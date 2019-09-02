@@ -7433,3 +7433,1665 @@ Processing by Users::SessionsController#new as HTML
 Completed 200 OK in 801ms (Views: 729.6ms | ActiveRecord: 11.3ms | Allocations: 37407)
 
 
+Started GET "/users/sign_in" for ::1 at 2019-08-30 13:48:46 +0800
+  [1m[35m (2.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Users::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 1.0ms | Allocations: 656)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 23.5ms | Allocations: 8813)
+  Rendered homes/_notification.html.erb (Duration: 0.4ms | Allocations: 148)
+Completed 200 OK in 3229ms (Views: 3215.9ms | ActiveRecord: 0.7ms | Allocations: 1484053)
+
+
+Started GET "/" for ::1 at 2019-08-30 13:49:14 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 9.7ms | Allocations: 282)
+  Rendered homes/_notification.html.erb (Duration: 0.3ms | Allocations: 137)
+Completed 200 OK in 64ms (Views: 62.9ms | ActiveRecord: 0.0ms | Allocations: 21386)
+
+
+Started GET "/" for ::1 at 2019-08-30 13:49:27 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 64)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 22)
+Completed 200 OK in 44ms (Views: 43.6ms | ActiveRecord: 0.0ms | Allocations: 19800)
+
+
+Started GET "/" for ::1 at 2019-08-30 13:49:28 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 62)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 22)
+Completed 200 OK in 43ms (Views: 42.7ms | ActiveRecord: 0.0ms | Allocations: 19789)
+
+
+Started GET "/" for ::1 at 2019-08-30 13:49:58 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 10.2ms | Allocations: 273)
+  Rendered homes/_notification.html.erb (Duration: 0.3ms | Allocations: 134)
+Completed 200 OK in 56ms (Views: 55.5ms | ActiveRecord: 0.0ms | Allocations: 21324)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-08-30 13:50:26 +0800
+Processing by Users::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.8ms | Allocations: 556)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 4.3ms | Allocations: 2001)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 58ms (Views: 56.7ms | ActiveRecord: 0.0ms | Allocations: 23662)
+
+
+Started GET "/mdosens/sign_in" for ::1 at 2019-08-30 13:52:47 +0800
+Processing by Mdosens::SessionsController#new as HTML
+  Rendering mdosens/sessions/new.html.erb within layouts/application
+  Rendered mdosens/shared/_links.html.erb (Duration: 28.4ms | Allocations: 629)
+  Rendered mdosens/sessions/new.html.erb within layouts/application (Duration: 61.0ms | Allocations: 2228)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 113ms (Views: 105.1ms | ActiveRecord: 0.8ms | Allocations: 28519)
+
+
+Started GET "/" for ::1 at 2019-08-30 15:17:45 +0800
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 63)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 24)
+Completed 200 OK in 52ms (Views: 51.8ms | ActiveRecord: 0.0ms | Allocations: 19796)
+
+
+Started GET "/mdosens/sign_in" for ::1 at 2019-08-30 16:06:54 +0800
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Mdosens::SessionsController#new as HTML
+  Rendering mdosens/sessions/new.html.erb within layouts/application
+  Rendered mdosens/shared/_links.html.erb (Duration: 0.9ms | Allocations: 551)
+  Rendered mdosens/sessions/new.html.erb within layouts/application (Duration: 13.3ms | Allocations: 2006)
+  Rendered homes/_notification.html.erb (Duration: 0.4ms | Allocations: 134)
+Completed 200 OK in 65ms (Views: 64.3ms | ActiveRecord: 0.0ms | Allocations: 24291)
+
+
+Started GET "/mdosens/sign_in" for ::1 at 2019-08-30 16:08:17 +0800
+Processing by Mdosens::SessionsController#new as HTML
+  Rendering mdosens/sessions/new.html.erb within layouts/application
+  Rendered mdosens/shared/_links.html.erb (Duration: 0.9ms | Allocations: 554)
+  Rendered mdosens/sessions/new.html.erb within layouts/application (Duration: 20.2ms | Allocations: 2000)
+  Rendered homes/_notification.html.erb (Duration: 0.4ms | Allocations: 134)
+Completed 200 OK in 73ms (Views: 71.9ms | ActiveRecord: 0.0ms | Allocations: 24299)
+
+
+Started GET "/mdosens/sign_in" for ::1 at 2019-08-30 16:09:58 +0800
+Processing by Mdosens::SessionsController#new as HTML
+  Rendering mdosens/sessions/new.html.erb within layouts/application
+  Rendered mdosens/shared/_links.html.erb (Duration: 0.3ms | Allocations: 134)
+  Rendered mdosens/sessions/new.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1101)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 21)
+Completed 200 OK in 54ms (Views: 52.4ms | ActiveRecord: 0.0ms | Allocations: 21324)
+
+
+Started GET "/mdosens/sign_in" for ::1 at 2019-08-30 16:09:59 +0800
+Processing by Mdosens::SessionsController#new as HTML
+  Rendering mdosens/sessions/new.html.erb within layouts/application
+  Rendered mdosens/shared/_links.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered mdosens/sessions/new.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1092)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 21)
+Completed 200 OK in 45ms (Views: 44.5ms | ActiveRecord: 0.0ms | Allocations: 21310)
+
+
+Started GET "/mdosens/sign_in" for ::1 at 2019-08-30 16:10:00 +0800
+Processing by Mdosens::SessionsController#new as HTML
+  Rendering mdosens/sessions/new.html.erb within layouts/application
+  Rendered mdosens/shared/_links.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered mdosens/sessions/new.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1092)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 21)
+Completed 200 OK in 45ms (Views: 43.8ms | ActiveRecord: 0.0ms | Allocations: 21314)
+
+
+Started GET "/mdosens/sign_in" for ::1 at 2019-08-30 16:10:00 +0800
+Processing by Mdosens::SessionsController#new as HTML
+  Rendering mdosens/sessions/new.html.erb within layouts/application
+  Rendered mdosens/shared/_links.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered mdosens/sessions/new.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1092)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 21)
+Completed 200 OK in 45ms (Views: 44.6ms | ActiveRecord: 0.0ms | Allocations: 21316)
+
+
+Started GET "/mdosens/sign_in" for ::1 at 2019-08-30 16:10:00 +0800
+Processing by Mdosens::SessionsController#new as HTML
+  Rendering mdosens/sessions/new.html.erb within layouts/application
+  Rendered mdosens/shared/_links.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered mdosens/sessions/new.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1092)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 21)
+Completed 200 OK in 45ms (Views: 44.1ms | ActiveRecord: 0.0ms | Allocations: 21311)
+
+
+Started GET "/mdosens/sign_in" for ::1 at 2019-08-30 16:10:01 +0800
+Processing by Mdosens::SessionsController#new as HTML
+  Rendering mdosens/sessions/new.html.erb within layouts/application
+  Rendered mdosens/shared/_links.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered mdosens/sessions/new.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1092)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 21)
+Completed 200 OK in 46ms (Views: 45.1ms | ActiveRecord: 0.0ms | Allocations: 21318)
+
+
+Started GET "/mdosens/sign_in" for ::1 at 2019-08-30 16:10:01 +0800
+Processing by Mdosens::SessionsController#new as HTML
+  Rendering mdosens/sessions/new.html.erb within layouts/application
+  Rendered mdosens/shared/_links.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered mdosens/sessions/new.html.erb within layouts/application (Duration: 1.5ms | Allocations: 1092)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 21)
+Completed 200 OK in 46ms (Views: 44.7ms | ActiveRecord: 0.0ms | Allocations: 21314)
+
+
+Started GET "/mdosens/sign_in" for ::1 at 2019-08-30 16:10:01 +0800
+Processing by Mdosens::SessionsController#new as HTML
+  Rendering mdosens/sessions/new.html.erb within layouts/application
+  Rendered mdosens/shared/_links.html.erb (Duration: 0.3ms | Allocations: 134)
+  Rendered mdosens/sessions/new.html.erb within layouts/application (Duration: 3.9ms | Allocations: 1092)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 21)
+Completed 200 OK in 47ms (Views: 46.1ms | ActiveRecord: 0.0ms | Allocations: 21307)
+
+
+Started GET "/mdosens/sign_in" for ::1 at 2019-08-30 16:10:01 +0800
+Processing by Mdosens::SessionsController#new as HTML
+  Rendering mdosens/sessions/new.html.erb within layouts/application
+  Rendered mdosens/shared/_links.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered mdosens/sessions/new.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1092)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 21)
+Completed 200 OK in 51ms (Views: 50.0ms | ActiveRecord: 0.0ms | Allocations: 21319)
+
+
+Started GET "/mdosens/sign_in" for ::1 at 2019-08-30 16:10:02 +0800
+Processing by Mdosens::SessionsController#new as HTML
+  Rendering mdosens/sessions/new.html.erb within layouts/application
+  Rendered mdosens/shared/_links.html.erb (Duration: 0.3ms | Allocations: 134)
+  Rendered mdosens/sessions/new.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1092)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 21)
+Completed 200 OK in 46ms (Views: 44.9ms | ActiveRecord: 0.0ms | Allocations: 21316)
+
+
+Started GET "/mdosens/sign_in" for ::1 at 2019-08-30 16:10:02 +0800
+Processing by Mdosens::SessionsController#new as HTML
+  Rendering mdosens/sessions/new.html.erb within layouts/application
+  Rendered mdosens/shared/_links.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered mdosens/sessions/new.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1092)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 21)
+Completed 200 OK in 45ms (Views: 44.2ms | ActiveRecord: 0.0ms | Allocations: 21310)
+
+
+Started GET "/mdosens/sign_in" for ::1 at 2019-08-30 16:10:02 +0800
+Processing by Mdosens::SessionsController#new as HTML
+  Rendering mdosens/sessions/new.html.erb within layouts/application
+  Rendered mdosens/shared/_links.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered mdosens/sessions/new.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1092)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 21)
+Completed 200 OK in 45ms (Views: 44.4ms | ActiveRecord: 0.0ms | Allocations: 21309)
+
+
+Started GET "/" for ::1 at 2019-09-02 09:30:21 +0800
+  [1m[35m (6.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 44.3ms | Allocations: 551)
+Started GET "/" for ::1 at 2019-09-02 09:30:25 +0800
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 64)
+[Webpacker] Compiling…
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in D:/Nana/fork/TAPP/public/packs
+[Webpacker] Compiled all packs in D:/Nana/fork/TAPP/public/packs
+  Rendered homes/_notification.html.erb (Duration: 3.4ms | Allocations: 148)
+Completed 200 OK in 15666ms (Views: 15665.3ms | ActiveRecord: 0.0ms | Allocations: 2657696)
+
+
+  Rendered homes/_notification.html.erb (Duration: 3.9ms | Allocations: 243)
+Completed 200 OK in 12630ms (Views: 12629.3ms | ActiveRecord: 0.0ms | Allocations: 1511664)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-09-02 09:35:41 +0800
+Processing by Users::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 81.2ms | Allocations: 652)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 407.7ms | Allocations: 8533)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 516ms (Views: 465.4ms | ActiveRecord: 0.8ms | Allocations: 37439)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-09-02 09:39:01 +0800
+Processing by Users::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.8ms | Allocations: 556)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 4.0ms | Allocations: 2000)
+  Rendered homes/_notification.html.erb (Duration: 0.6ms | Allocations: 133)
+Completed 200 OK in 59ms (Views: 58.1ms | ActiveRecord: 0.0ms | Allocations: 24306)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-09-02 09:39:44 +0800
+Processing by Users::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 1.3ms | Allocations: 556)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 4.9ms | Allocations: 1999)
+  Rendered homes/_notification.html.erb (Duration: 0.3ms | Allocations: 133)
+Completed 200 OK in 56ms (Views: 55.4ms | ActiveRecord: 0.0ms | Allocations: 24290)
+
+
+Started GET "/" for ::1 at 2019-09-02 09:40:58 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 268)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 24)
+Completed 200 OK in 52ms (Views: 50.3ms | ActiveRecord: 0.0ms | Allocations: 20653)
+
+
+Started GET "/mdosens/sign_in" for ::1 at 2019-09-02 09:41:01 +0800
+Processing by Mdosens::SessionsController#new as HTML
+  Rendering mdosens/sessions/new.html.erb within layouts/application
+  Rendered mdosens/shared/_links.html.erb (Duration: 38.0ms | Allocations: 629)
+  Rendered mdosens/sessions/new.html.erb within layouts/application (Duration: 50.1ms | Allocations: 2233)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 122ms (Views: 115.2ms | ActiveRecord: 0.6ms | Allocations: 28482)
+
+
+Started GET "/mdosens/sign_in" for ::1 at 2019-09-02 09:42:20 +0800
+Processing by Mdosens::SessionsController#new as HTML
+  Rendering mdosens/sessions/new.html.erb within layouts/application
+  Rendered mdosens/shared/_links.html.erb (Duration: 0.8ms | Allocations: 551)
+  Rendered mdosens/sessions/new.html.erb within layouts/application (Duration: 15.3ms | Allocations: 2005)
+  Rendered homes/_notification.html.erb (Duration: 0.6ms | Allocations: 136)
+Completed 200 OK in 85ms (Views: 83.9ms | ActiveRecord: 0.0ms | Allocations: 24304)
+
+
+Started GET "/mdosens/sign_in" for ::1 at 2019-09-02 09:43:55 +0800
+Processing by Mdosens::SessionsController#new as HTML
+  Rendering mdosens/sessions/new.html.erb within layouts/application
+  Rendered mdosens/shared/_links.html.erb (Duration: 0.8ms | Allocations: 551)
+  Rendered mdosens/sessions/new.html.erb within layouts/application (Duration: 28.2ms | Allocations: 2016)
+  Rendered homes/_notification.html.erb (Duration: 0.4ms | Allocations: 133)
+Completed 200 OK in 84ms (Views: 82.6ms | ActiveRecord: 0.0ms | Allocations: 24324)
+
+
+Started GET "/mdosens/sign_in" for ::1 at 2019-09-02 09:44:04 +0800
+Processing by Mdosens::SessionsController#new as HTML
+  Rendering mdosens/sessions/new.html.erb within layouts/application
+  Rendered mdosens/shared/_links.html.erb (Duration: 0.8ms | Allocations: 551)
+  Rendered mdosens/sessions/new.html.erb within layouts/application (Duration: 14.4ms | Allocations: 2015)
+  Rendered homes/_notification.html.erb (Duration: 0.3ms | Allocations: 133)
+Completed 200 OK in 68ms (Views: 66.8ms | ActiveRecord: 0.0ms | Allocations: 24306)
+
+
+Started GET "/mdosens/sign_in" for ::1 at 2019-09-02 09:44:50 +0800
+Processing by Mdosens::SessionsController#new as HTML
+  Rendering mdosens/sessions/new.html.erb within layouts/application
+  Rendered mdosens/sessions/new.html.erb within layouts/application (Duration: 94.6ms | Allocations: 4181)
+Completed 500 Internal Server Error in 103ms (ActiveRecord: 0.0ms | Allocations: 6506)
+
+
+Started GET "/mdosens/sign_in" for ::1 at 2019-09-02 09:45:34 +0800
+Processing by Mdosens::SessionsController#new as HTML
+  Rendering mdosens/sessions/new.html.erb within layouts/application
+  Rendered mdosens/shared/_links.html.erb (Duration: 1.9ms | Allocations: 551)
+  Rendered mdosens/sessions/new.html.erb within layouts/application (Duration: 239.0ms | Allocations: 2024)
+  Rendered homes/_notification.html.erb (Duration: 0.4ms | Allocations: 133)
+Completed 200 OK in 316ms (Views: 314.3ms | ActiveRecord: 0.0ms | Allocations: 24311)
+
+
+Started GET "/mdosens/sign_in" for ::1 at 2019-09-02 09:46:15 +0800
+Processing by Mdosens::SessionsController#new as HTML
+  Rendering mdosens/sessions/new.html.erb within layouts/application
+  Rendered mdosens/shared/_links.html.erb (Duration: 1.0ms | Allocations: 551)
+  Rendered mdosens/sessions/new.html.erb within layouts/application (Duration: 16.6ms | Allocations: 2040)
+  Rendered homes/_notification.html.erb (Duration: 0.9ms | Allocations: 133)
+Completed 200 OK in 83ms (Views: 81.7ms | ActiveRecord: 0.0ms | Allocations: 24329)
+
+
+Started GET "/mdosens/sign_in" for ::1 at 2019-09-02 09:46:44 +0800
+Processing by Mdosens::SessionsController#new as HTML
+  Rendering mdosens/sessions/new.html.erb within layouts/application
+  Rendered mdosens/shared/_links.html.erb (Duration: 1.2ms | Allocations: 551)
+  Rendered mdosens/sessions/new.html.erb within layouts/application (Duration: 16.2ms | Allocations: 2040)
+  Rendered homes/_notification.html.erb (Duration: 0.3ms | Allocations: 133)
+Completed 200 OK in 86ms (Views: 85.0ms | ActiveRecord: 0.0ms | Allocations: 24327)
+
+
+Started GET "/mdosens/sign_in" for ::1 at 2019-09-02 09:46:58 +0800
+Processing by Mdosens::SessionsController#new as HTML
+  Rendering mdosens/sessions/new.html.erb within layouts/application
+  Rendered mdosens/shared/_links.html.erb (Duration: 1.6ms | Allocations: 551)
+  Rendered mdosens/sessions/new.html.erb within layouts/application (Duration: 66.7ms | Allocations: 1700)
+  Rendered homes/_notification.html.erb (Duration: 0.5ms | Allocations: 138)
+Completed 200 OK in 148ms (Views: 146.9ms | ActiveRecord: 0.0ms | Allocations: 23992)
+
+
+Started GET "/mdosens/sign_in" for ::1 at 2019-09-02 09:47:08 +0800
+Processing by Mdosens::SessionsController#new as HTML
+  Rendering mdosens/sessions/new.html.erb within layouts/application
+  Rendered mdosens/shared/_links.html.erb (Duration: 1.1ms | Allocations: 551)
+  Rendered mdosens/sessions/new.html.erb within layouts/application (Duration: 13.6ms | Allocations: 1696)
+  Rendered homes/_notification.html.erb (Duration: 0.4ms | Allocations: 134)
+Completed 200 OK in 69ms (Views: 67.6ms | ActiveRecord: 0.0ms | Allocations: 24000)
+
+
+Started GET "/mdosens/sign_in" for ::1 at 2019-09-02 09:49:43 +0800
+Processing by Mdosens::SessionsController#new as HTML
+  Rendering mdosens/sessions/new.html.erb within layouts/application
+  Rendered mdosens/shared/_links.html.erb (Duration: 0.9ms | Allocations: 551)
+  Rendered mdosens/sessions/new.html.erb within layouts/application (Duration: 13.6ms | Allocations: 1698)
+  Rendered homes/_notification.html.erb (Duration: 0.4ms | Allocations: 133)
+Completed 200 OK in 69ms (Views: 67.7ms | ActiveRecord: 0.0ms | Allocations: 23995)
+
+
+Started GET "/mdosens/sign_in?authenticity_token=gMfoJjxkqQYnQvqRpPlpki5hjiTrXyVG5%2FOY9mXyjb0iCfTlp83SMGdbSkrkIMWvnPkWmWM11bbX4G3%2FhhEGbg%3D%3D&mdosen%5Bemail%5D=&mdosen%5Bpassword%5D=&mdosen%5Bremember_me%5D=0&commit=Log+in" for ::1 at 2019-09-02 09:49:45 +0800
+Processing by Mdosens::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"gMfoJjxkqQYnQvqRpPlpki5hjiTrXyVG5/OY9mXyjb0iCfTlp83SMGdbSkrkIMWvnPkWmWM11bbX4G3/hhEGbg==", "mdosen"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering mdosens/sessions/new.html.erb within layouts/application
+  Rendered mdosens/shared/_links.html.erb (Duration: 0.4ms | Allocations: 134)
+  Rendered mdosens/sessions/new.html.erb within layouts/application (Duration: 2.6ms | Allocations: 822)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 21)
+Completed 200 OK in 52ms (Views: 49.7ms | ActiveRecord: 0.0ms | Allocations: 21114)
+
+
+Started GET "/mdosens/sign_in?authenticity_token=gMfoJjxkqQYnQvqRpPlpki5hjiTrXyVG5%2FOY9mXyjb0iCfTlp83SMGdbSkrkIMWvnPkWmWM11bbX4G3%2FhhEGbg%3D%3D&mdosen%5Bemail%5D=&mdosen%5Bpassword%5D=&mdosen%5Bremember_me%5D=0&commit=Log+in" for ::1 at 2019-09-02 09:50:31 +0800
+Processing by Mdosens::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"gMfoJjxkqQYnQvqRpPlpki5hjiTrXyVG5/OY9mXyjb0iCfTlp83SMGdbSkrkIMWvnPkWmWM11bbX4G3/hhEGbg==", "mdosen"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering mdosens/sessions/new.html.erb within layouts/application
+  Rendered mdosens/shared/_links.html.erb (Duration: 0.8ms | Allocations: 551)
+  Rendered mdosens/sessions/new.html.erb within layouts/application (Duration: 4.6ms | Allocations: 1697)
+  Rendered homes/_notification.html.erb (Duration: 0.4ms | Allocations: 133)
+Completed 200 OK in 57ms (Views: 56.2ms | ActiveRecord: 0.0ms | Allocations: 24046)
+
+
+Started GET "/mdosens/sign_in?authenticity_token=gMfoJjxkqQYnQvqRpPlpki5hjiTrXyVG5%2FOY9mXyjb0iCfTlp83SMGdbSkrkIMWvnPkWmWM11bbX4G3%2FhhEGbg%3D%3D&mdosen%5Bemail%5D=&mdosen%5Bpassword%5D=&mdosen%5Bremember_me%5D=0&commit=Log+in" for ::1 at 2019-09-02 09:51:38 +0800
+Processing by Mdosens::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"gMfoJjxkqQYnQvqRpPlpki5hjiTrXyVG5/OY9mXyjb0iCfTlp83SMGdbSkrkIMWvnPkWmWM11bbX4G3/hhEGbg==", "mdosen"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering mdosens/sessions/new.html.erb within layouts/application
+  Rendered mdosens/shared/_links.html.erb (Duration: 0.9ms | Allocations: 551)
+  Rendered mdosens/sessions/new.html.erb within layouts/application (Duration: 5.1ms | Allocations: 1697)
+  Rendered homes/_notification.html.erb (Duration: 0.3ms | Allocations: 133)
+Completed 200 OK in 58ms (Views: 56.4ms | ActiveRecord: 0.0ms | Allocations: 24046)
+
+
+Started GET "/mdosens/sign_in?authenticity_token=gMfoJjxkqQYnQvqRpPlpki5hjiTrXyVG5%2FOY9mXyjb0iCfTlp83SMGdbSkrkIMWvnPkWmWM11bbX4G3%2FhhEGbg%3D%3D&mdosen%5Bemail%5D=&mdosen%5Bpassword%5D=&mdosen%5Bremember_me%5D=0&commit=Log+in" for ::1 at 2019-09-02 09:53:48 +0800
+Processing by Mdosens::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"gMfoJjxkqQYnQvqRpPlpki5hjiTrXyVG5/OY9mXyjb0iCfTlp83SMGdbSkrkIMWvnPkWmWM11bbX4G3/hhEGbg==", "mdosen"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering mdosens/sessions/new.html.erb within layouts/application
+  Rendered mdosens/shared/_links.html.erb (Duration: 0.9ms | Allocations: 551)
+  Rendered mdosens/sessions/new.html.erb within layouts/application (Duration: 31.8ms | Allocations: 1698)
+  Rendered homes/_notification.html.erb (Duration: 0.5ms | Allocations: 133)
+Completed 200 OK in 89ms (Views: 87.5ms | ActiveRecord: 0.0ms | Allocations: 24044)
+
+
+Started GET "/mdosens/sign_in?authenticity_token=gMfoJjxkqQYnQvqRpPlpki5hjiTrXyVG5%2FOY9mXyjb0iCfTlp83SMGdbSkrkIMWvnPkWmWM11bbX4G3%2FhhEGbg%3D%3D&mdosen%5Bemail%5D=&mdosen%5Bpassword%5D=&mdosen%5Bremember_me%5D=0&commit=Log+in" for ::1 at 2019-09-02 09:54:17 +0800
+Processing by Mdosens::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"gMfoJjxkqQYnQvqRpPlpki5hjiTrXyVG5/OY9mXyjb0iCfTlp83SMGdbSkrkIMWvnPkWmWM11bbX4G3/hhEGbg==", "mdosen"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering mdosens/sessions/new.html.erb within layouts/application
+  Rendered mdosens/shared/_links.html.erb (Duration: 0.8ms | Allocations: 551)
+  Rendered mdosens/sessions/new.html.erb within layouts/application (Duration: 27.7ms | Allocations: 1697)
+  Rendered homes/_notification.html.erb (Duration: 0.4ms | Allocations: 133)
+Completed 200 OK in 82ms (Views: 80.7ms | ActiveRecord: 0.0ms | Allocations: 24051)
+
+
+Started GET "/mdosens/sign_in?authenticity_token=gMfoJjxkqQYnQvqRpPlpki5hjiTrXyVG5%2FOY9mXyjb0iCfTlp83SMGdbSkrkIMWvnPkWmWM11bbX4G3%2FhhEGbg%3D%3D&mdosen%5Bemail%5D=&mdosen%5Bpassword%5D=&mdosen%5Bremember_me%5D=0&commit=Log+in" for ::1 at 2019-09-02 09:54:36 +0800
+Processing by Mdosens::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"gMfoJjxkqQYnQvqRpPlpki5hjiTrXyVG5/OY9mXyjb0iCfTlp83SMGdbSkrkIMWvnPkWmWM11bbX4G3/hhEGbg==", "mdosen"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering mdosens/sessions/new.html.erb within layouts/application
+  Rendered mdosens/shared/_links.html.erb (Duration: 1.0ms | Allocations: 551)
+  Rendered mdosens/sessions/new.html.erb within layouts/application (Duration: 14.3ms | Allocations: 1702)
+  Rendered homes/_notification.html.erb (Duration: 0.5ms | Allocations: 133)
+Completed 200 OK in 67ms (Views: 66.0ms | ActiveRecord: 0.0ms | Allocations: 24050)
+
+
+Started GET "/mdosens/sign_in?authenticity_token=gMfoJjxkqQYnQvqRpPlpki5hjiTrXyVG5%2FOY9mXyjb0iCfTlp83SMGdbSkrkIMWvnPkWmWM11bbX4G3%2FhhEGbg%3D%3D&mdosen%5Bemail%5D=&mdosen%5Bpassword%5D=&mdosen%5Bremember_me%5D=0&commit=Log+in" for ::1 at 2019-09-02 09:55:42 +0800
+Processing by Mdosens::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"gMfoJjxkqQYnQvqRpPlpki5hjiTrXyVG5/OY9mXyjb0iCfTlp83SMGdbSkrkIMWvnPkWmWM11bbX4G3/hhEGbg==", "mdosen"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering mdosens/sessions/new.html.erb within layouts/application
+  Rendered mdosens/shared/_links.html.erb (Duration: 0.9ms | Allocations: 551)
+  Rendered mdosens/sessions/new.html.erb within layouts/application (Duration: 30.1ms | Allocations: 1708)
+  Rendered homes/_notification.html.erb (Duration: 0.4ms | Allocations: 133)
+Completed 200 OK in 83ms (Views: 81.7ms | ActiveRecord: 0.0ms | Allocations: 24054)
+
+
+Started GET "/mdosens/sign_in?authenticity_token=gMfoJjxkqQYnQvqRpPlpki5hjiTrXyVG5%2FOY9mXyjb0iCfTlp83SMGdbSkrkIMWvnPkWmWM11bbX4G3%2FhhEGbg%3D%3D&mdosen%5Bemail%5D=&mdosen%5Bpassword%5D=&mdosen%5Bremember_me%5D=0&commit=Log+in" for ::1 at 2019-09-02 09:56:16 +0800
+Processing by Mdosens::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"gMfoJjxkqQYnQvqRpPlpki5hjiTrXyVG5/OY9mXyjb0iCfTlp83SMGdbSkrkIMWvnPkWmWM11bbX4G3/hhEGbg==", "mdosen"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering mdosens/sessions/new.html.erb within layouts/application
+  Rendered mdosens/shared/_links.html.erb (Duration: 0.8ms | Allocations: 551)
+  Rendered mdosens/sessions/new.html.erb within layouts/application (Duration: 4.7ms | Allocations: 1708)
+  Rendered homes/_notification.html.erb (Duration: 0.4ms | Allocations: 133)
+Completed 200 OK in 58ms (Views: 57.4ms | ActiveRecord: 0.0ms | Allocations: 24059)
+
+
+Started GET "/mdosens/sign_in?authenticity_token=gMfoJjxkqQYnQvqRpPlpki5hjiTrXyVG5%2FOY9mXyjb0iCfTlp83SMGdbSkrkIMWvnPkWmWM11bbX4G3%2FhhEGbg%3D%3D&mdosen%5Bemail%5D=&mdosen%5Bpassword%5D=&mdosen%5Bremember_me%5D=0&commit=Log+in" for ::1 at 2019-09-02 09:58:44 +0800
+Processing by Mdosens::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"gMfoJjxkqQYnQvqRpPlpki5hjiTrXyVG5/OY9mXyjb0iCfTlp83SMGdbSkrkIMWvnPkWmWM11bbX4G3/hhEGbg==", "mdosen"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering mdosens/sessions/new.html.erb within layouts/application
+  Rendered mdosens/shared/_links.html.erb (Duration: 0.8ms | Allocations: 551)
+  Rendered mdosens/sessions/new.html.erb within layouts/application (Duration: 14.4ms | Allocations: 1710)
+  Rendered homes/_notification.html.erb (Duration: 0.4ms | Allocations: 134)
+Completed 200 OK in 67ms (Views: 65.8ms | ActiveRecord: 0.0ms | Allocations: 24080)
+
+
+Started GET "/mdosens/sign_in?authenticity_token=gMfoJjxkqQYnQvqRpPlpki5hjiTrXyVG5%2FOY9mXyjb0iCfTlp83SMGdbSkrkIMWvnPkWmWM11bbX4G3%2FhhEGbg%3D%3D&mdosen%5Bemail%5D=&mdosen%5Bpassword%5D=&mdosen%5Bremember_me%5D=0&commit=Log+in" for ::1 at 2019-09-02 10:01:16 +0800
+Processing by Mdosens::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"gMfoJjxkqQYnQvqRpPlpki5hjiTrXyVG5/OY9mXyjb0iCfTlp83SMGdbSkrkIMWvnPkWmWM11bbX4G3/hhEGbg==", "mdosen"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering mdosens/sessions/new.html.erb within layouts/application
+  Rendered mdosens/shared/_links.html.erb (Duration: 1.1ms | Allocations: 551)
+  Rendered mdosens/sessions/new.html.erb within layouts/application (Duration: 29.0ms | Allocations: 1709)
+  Rendered homes/_notification.html.erb (Duration: 0.4ms | Allocations: 134)
+Completed 200 OK in 82ms (Views: 80.9ms | ActiveRecord: 0.0ms | Allocations: 24070)
+
+
+Started GET "/mdosens/sign_in?authenticity_token=gMfoJjxkqQYnQvqRpPlpki5hjiTrXyVG5%2FOY9mXyjb0iCfTlp83SMGdbSkrkIMWvnPkWmWM11bbX4G3%2FhhEGbg%3D%3D&mdosen%5Bemail%5D=&mdosen%5Bpassword%5D=&mdosen%5Bremember_me%5D=0&commit=Log+in" for ::1 at 2019-09-02 10:02:27 +0800
+Processing by Mdosens::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"gMfoJjxkqQYnQvqRpPlpki5hjiTrXyVG5/OY9mXyjb0iCfTlp83SMGdbSkrkIMWvnPkWmWM11bbX4G3/hhEGbg==", "mdosen"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering mdosens/sessions/new.html.erb within layouts/application
+  Rendered mdosens/shared/_links.html.erb (Duration: 0.9ms | Allocations: 551)
+  Rendered mdosens/sessions/new.html.erb within layouts/application (Duration: 75.8ms | Allocations: 1709)
+  Rendered homes/_notification.html.erb (Duration: 0.9ms | Allocations: 133)
+Completed 200 OK in 140ms (Views: 138.8ms | ActiveRecord: 0.0ms | Allocations: 24068)
+
+
+Started GET "/mdosens/sign_in?authenticity_token=gMfoJjxkqQYnQvqRpPlpki5hjiTrXyVG5%2FOY9mXyjb0iCfTlp83SMGdbSkrkIMWvnPkWmWM11bbX4G3%2FhhEGbg%3D%3D&mdosen%5Bemail%5D=&mdosen%5Bpassword%5D=&mdosen%5Bremember_me%5D=0&commit=Log+in" for ::1 at 2019-09-02 10:02:43 +0800
+Processing by Mdosens::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"gMfoJjxkqQYnQvqRpPlpki5hjiTrXyVG5/OY9mXyjb0iCfTlp83SMGdbSkrkIMWvnPkWmWM11bbX4G3/hhEGbg==", "mdosen"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering mdosens/sessions/new.html.erb within layouts/application
+  Rendered mdosens/shared/_links.html.erb (Duration: 0.9ms | Allocations: 551)
+  Rendered mdosens/sessions/new.html.erb within layouts/application (Duration: 13.6ms | Allocations: 1708)
+  Rendered homes/_notification.html.erb (Duration: 0.7ms | Allocations: 133)
+Completed 200 OK in 68ms (Views: 66.8ms | ActiveRecord: 0.0ms | Allocations: 24051)
+
+
+Started GET "/mdosens/sign_in?authenticity_token=gMfoJjxkqQYnQvqRpPlpki5hjiTrXyVG5%2FOY9mXyjb0iCfTlp83SMGdbSkrkIMWvnPkWmWM11bbX4G3%2FhhEGbg%3D%3D&mdosen%5Bemail%5D=&mdosen%5Bpassword%5D=&mdosen%5Bremember_me%5D=0&commit=Log+in" for ::1 at 2019-09-02 10:02:50 +0800
+Processing by Mdosens::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"gMfoJjxkqQYnQvqRpPlpki5hjiTrXyVG5/OY9mXyjb0iCfTlp83SMGdbSkrkIMWvnPkWmWM11bbX4G3/hhEGbg==", "mdosen"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering mdosens/sessions/new.html.erb within layouts/application
+  Rendered mdosens/shared/_links.html.erb (Duration: 0.8ms | Allocations: 551)
+  Rendered mdosens/sessions/new.html.erb within layouts/application (Duration: 18.4ms | Allocations: 1708)
+  Rendered homes/_notification.html.erb (Duration: 0.4ms | Allocations: 133)
+Completed 200 OK in 70ms (Views: 69.0ms | ActiveRecord: 0.0ms | Allocations: 24056)
+
+
+Started GET "/mdosens/sign_in?authenticity_token=gMfoJjxkqQYnQvqRpPlpki5hjiTrXyVG5%2FOY9mXyjb0iCfTlp83SMGdbSkrkIMWvnPkWmWM11bbX4G3%2FhhEGbg%3D%3D&mdosen%5Bemail%5D=&mdosen%5Bpassword%5D=&mdosen%5Bremember_me%5D=0&commit=Log+in" for ::1 at 2019-09-02 10:12:46 +0800
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Mdosens::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"gMfoJjxkqQYnQvqRpPlpki5hjiTrXyVG5/OY9mXyjb0iCfTlp83SMGdbSkrkIMWvnPkWmWM11bbX4G3/hhEGbg==", "mdosen"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering mdosens/sessions/new.html.erb within layouts/application
+  Rendered mdosens/shared/_links.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered mdosens/sessions/new.html.erb within layouts/application (Duration: 1.8ms | Allocations: 819)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 21)
+Completed 200 OK in 47ms (Views: 46.2ms | ActiveRecord: 0.0ms | Allocations: 21112)
+
+
+Started GET "/mdosens/sign_in?authenticity_token=gMfoJjxkqQYnQvqRpPlpki5hjiTrXyVG5%2FOY9mXyjb0iCfTlp83SMGdbSkrkIMWvnPkWmWM11bbX4G3%2FhhEGbg%3D%3D&mdosen%5Bemail%5D=&mdosen%5Bpassword%5D=&mdosen%5Bremember_me%5D=0&commit=Log+in" for ::1 at 2019-09-02 10:13:04 +0800
+Processing by Mdosens::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"gMfoJjxkqQYnQvqRpPlpki5hjiTrXyVG5/OY9mXyjb0iCfTlp83SMGdbSkrkIMWvnPkWmWM11bbX4G3/hhEGbg==", "mdosen"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering mdosens/sessions/new.html.erb within layouts/application
+  Rendered mdosens/shared/_links.html.erb (Duration: 2.2ms | Allocations: 551)
+  Rendered mdosens/sessions/new.html.erb within layouts/application (Duration: 161.7ms | Allocations: 1708)
+  Rendered homes/_notification.html.erb (Duration: 0.4ms | Allocations: 133)
+Completed 200 OK in 229ms (Views: 227.7ms | ActiveRecord: 0.0ms | Allocations: 24055)
+
+
+Started GET "/mdosens/sign_in?authenticity_token=gMfoJjxkqQYnQvqRpPlpki5hjiTrXyVG5%2FOY9mXyjb0iCfTlp83SMGdbSkrkIMWvnPkWmWM11bbX4G3%2FhhEGbg%3D%3D&mdosen%5Bemail%5D=&mdosen%5Bpassword%5D=&mdosen%5Bremember_me%5D=0&commit=Log+in" for ::1 at 2019-09-02 10:13:27 +0800
+Processing by Mdosens::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"gMfoJjxkqQYnQvqRpPlpki5hjiTrXyVG5/OY9mXyjb0iCfTlp83SMGdbSkrkIMWvnPkWmWM11bbX4G3/hhEGbg==", "mdosen"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering mdosens/sessions/new.html.erb within layouts/application
+  Rendered mdosens/shared/_links.html.erb (Duration: 0.8ms | Allocations: 551)
+  Rendered mdosens/sessions/new.html.erb within layouts/application (Duration: 13.7ms | Allocations: 1708)
+  Rendered homes/_notification.html.erb (Duration: 0.5ms | Allocations: 133)
+Completed 200 OK in 69ms (Views: 68.2ms | ActiveRecord: 0.0ms | Allocations: 24054)
+
+
+Started GET "/mdosens/sign_in?authenticity_token=gMfoJjxkqQYnQvqRpPlpki5hjiTrXyVG5%2FOY9mXyjb0iCfTlp83SMGdbSkrkIMWvnPkWmWM11bbX4G3%2FhhEGbg%3D%3D&mdosen%5Bemail%5D=&mdosen%5Bpassword%5D=&mdosen%5Bremember_me%5D=0&commit=Log+in" for ::1 at 2019-09-02 10:16:51 +0800
+Processing by Mdosens::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"gMfoJjxkqQYnQvqRpPlpki5hjiTrXyVG5/OY9mXyjb0iCfTlp83SMGdbSkrkIMWvnPkWmWM11bbX4G3/hhEGbg==", "mdosen"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering mdosens/sessions/new.html.erb within layouts/application
+  Rendered mdosens/shared/_links.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered mdosens/sessions/new.html.erb within layouts/application (Duration: 2.0ms | Allocations: 819)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 21)
+Completed 200 OK in 48ms (Views: 46.5ms | ActiveRecord: 0.0ms | Allocations: 21107)
+
+
+Started GET "/mdosens/sign_in" for ::1 at 2019-09-02 10:20:09 +0800
+Processing by Mdosens::SessionsController#new as HTML
+  Rendering mdosens/sessions/new.html.erb within layouts/application
+  Rendered mdosens/shared/_links.html.erb (Duration: 0.8ms | Allocations: 551)
+  Rendered mdosens/sessions/new.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1706)
+  Rendered homes/_notification.html.erb (Duration: 0.4ms | Allocations: 133)
+Completed 200 OK in 56ms (Views: 55.1ms | ActiveRecord: 0.0ms | Allocations: 23992)
+
+
+Started GET "/" for ::1 at 2019-09-02 10:20:21 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 268)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 24)
+Completed 200 OK in 63ms (Views: 61.7ms | ActiveRecord: 0.0ms | Allocations: 20656)
+
+
+Started GET "/mdosens/sign_in" for ::1 at 2019-09-02 10:20:26 +0800
+Processing by Mdosens::SessionsController#new as HTML
+  Rendering mdosens/sessions/new.html.erb within layouts/application
+  Rendered mdosens/shared/_links.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered mdosens/sessions/new.html.erb within layouts/application (Duration: 1.3ms | Allocations: 818)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 45ms (Views: 44.0ms | ActiveRecord: 0.0ms | Allocations: 21046)
+
+
+Started GET "/" for ::1 at 2019-09-02 10:20:30 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 62)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 22)
+Completed 200 OK in 43ms (Views: 42.2ms | ActiveRecord: 0.0ms | Allocations: 19792)
+
+
+Started GET "/mahasiswas/sign_in" for ::1 at 2019-09-02 10:20:32 +0800
+Processing by Mahasiswas::SessionsController#new as HTML
+  Rendering mahasiswas/sessions/new.html.erb within layouts/application
+  Rendered mahasiswas/shared/_links.html.erb (Duration: 18.7ms | Allocations: 630)
+  Rendered mahasiswas/sessions/new.html.erb within layouts/application (Duration: 36.5ms | Allocations: 2245)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 94ms (Views: 83.6ms | ActiveRecord: 1.0ms | Allocations: 28730)
+
+
+Started GET "/mahasiswas/sign_in" for ::1 at 2019-09-02 10:22:06 +0800
+Processing by Mahasiswas::SessionsController#new as HTML
+  Rendering mahasiswas/sessions/new.html.erb within layouts/application
+  Rendered mahasiswas/shared/_links.html.erb (Duration: 1.4ms | Allocations: 552)
+  Rendered mahasiswas/sessions/new.html.erb within layouts/application (Duration: 15.7ms | Allocations: 1705)
+  Rendered homes/_notification.html.erb (Duration: 0.4ms | Allocations: 133)
+Completed 200 OK in 67ms (Views: 65.7ms | ActiveRecord: 0.0ms | Allocations: 24002)
+
+
+Started GET "/mahasiswas/sign_in" for ::1 at 2019-09-02 10:22:26 +0800
+Processing by Mahasiswas::SessionsController#new as HTML
+  Rendering mahasiswas/sessions/new.html.erb within layouts/application
+  Rendered mahasiswas/shared/_links.html.erb (Duration: 0.7ms | Allocations: 552)
+  Rendered mahasiswas/sessions/new.html.erb within layouts/application (Duration: 16.8ms | Allocations: 1706)
+  Rendered homes/_notification.html.erb (Duration: 0.3ms | Allocations: 133)
+Completed 200 OK in 70ms (Views: 68.5ms | ActiveRecord: 0.0ms | Allocations: 23989)
+
+
+Started GET "/mahasiswas/sign_in" for ::1 at 2019-09-02 10:22:41 +0800
+Processing by Mahasiswas::SessionsController#new as HTML
+  Rendering mahasiswas/sessions/new.html.erb within layouts/application
+  Rendered mahasiswas/shared/_links.html.erb (Duration: 1.2ms | Allocations: 552)
+  Rendered mahasiswas/sessions/new.html.erb within layouts/application (Duration: 3.9ms | Allocations: 1705)
+  Rendered homes/_notification.html.erb (Duration: 0.4ms | Allocations: 133)
+Completed 200 OK in 55ms (Views: 54.1ms | ActiveRecord: 0.0ms | Allocations: 23992)
+
+
+Started GET "/" for ::1 at 2019-09-02 10:22:46 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 268)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 24)
+Completed 200 OK in 45ms (Views: 43.9ms | ActiveRecord: 0.0ms | Allocations: 20653)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-09-02 10:22:50 +0800
+Processing by Users::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.8ms | Allocations: 556)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1993)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 50ms (Views: 48.6ms | ActiveRecord: 0.0ms | Allocations: 22876)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-09-02 10:23:29 +0800
+Processing by Users::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 1.7ms | Allocations: 556)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 13.2ms | Allocations: 2012)
+  Rendered homes/_notification.html.erb (Duration: 0.5ms | Allocations: 133)
+Completed 200 OK in 68ms (Views: 66.7ms | ActiveRecord: 0.0ms | Allocations: 24307)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-09-02 10:24:32 +0800
+Processing by Users::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.9ms | Allocations: 556)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 13.8ms | Allocations: 2046)
+  Rendered homes/_notification.html.erb (Duration: 0.4ms | Allocations: 133)
+Completed 200 OK in 67ms (Views: 65.9ms | ActiveRecord: 0.0ms | Allocations: 24344)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-09-02 10:25:22 +0800
+Processing by Users::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.8ms | Allocations: 556)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 14.1ms | Allocations: 1711)
+  Rendered homes/_notification.html.erb (Duration: 0.4ms | Allocations: 136)
+Completed 200 OK in 71ms (Views: 70.3ms | ActiveRecord: 0.0ms | Allocations: 24011)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-09-02 10:28:48 +0800
+Processing by Users::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 2.9ms | Allocations: 556)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 48.3ms | Allocations: 1744)
+  Rendered homes/_notification.html.erb (Duration: 0.5ms | Allocations: 133)
+Completed 200 OK in 134ms (Views: 132.6ms | ActiveRecord: 0.0ms | Allocations: 24048)
+
+
+Started GET "/homes/index" for ::1 at 2019-09-02 10:28:50 +0800
+  
+AbstractController::ActionNotFound (The action 'show' could not be found for HomesController):
+  
+actionpack (6.0.0) lib/abstract_controller/base.rb:131:in `process'
+actionview (6.0.0) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.0) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (6.0.0) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (6.0.0) lib/action_dispatch/routing/route_set.rb:51:in `dispatch'
+actionpack (6.0.0) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.0) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.0) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.0) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.0) lib/action_dispatch/routing/route_set.rb:837:in `call'
+warden (1.2.8) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.8) lib/warden/manager.rb:34:in `catch'
+warden (1.2.8) lib/warden/manager.rb:34:in `call'
+rack (2.0.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+actionpack (6.0.0) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.7) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.7) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.0) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.0) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.0) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/homes/index" for ::1 at 2019-09-02 10:29:12 +0800
+  
+AbstractController::ActionNotFound (The action 'show' could not be found for HomesController):
+  
+actionpack (6.0.0) lib/abstract_controller/base.rb:131:in `process'
+actionview (6.0.0) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.0) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (6.0.0) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (6.0.0) lib/action_dispatch/routing/route_set.rb:51:in `dispatch'
+actionpack (6.0.0) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.0) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.0) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.0) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.0) lib/action_dispatch/routing/route_set.rb:837:in `call'
+warden (1.2.8) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.8) lib/warden/manager.rb:34:in `catch'
+warden (1.2.8) lib/warden/manager.rb:34:in `call'
+rack (2.0.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+actionpack (6.0.0) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.7) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.7) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.0) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.0) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.0) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/homes/index" for ::1 at 2019-09-02 10:29:24 +0800
+  
+AbstractController::ActionNotFound (The action 'show' could not be found for HomesController):
+  
+actionpack (6.0.0) lib/abstract_controller/base.rb:131:in `process'
+actionview (6.0.0) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.0) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (6.0.0) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (6.0.0) lib/action_dispatch/routing/route_set.rb:51:in `dispatch'
+actionpack (6.0.0) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.0) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.0) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.0) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.0) lib/action_dispatch/routing/route_set.rb:837:in `call'
+warden (1.2.8) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.8) lib/warden/manager.rb:34:in `catch'
+warden (1.2.8) lib/warden/manager.rb:34:in `call'
+rack (2.0.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+actionpack (6.0.0) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.7) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.7) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.0) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.0) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.0) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/homes/index" for ::1 at 2019-09-02 10:29:29 +0800
+  
+AbstractController::ActionNotFound (The action 'show' could not be found for HomesController):
+  
+actionpack (6.0.0) lib/abstract_controller/base.rb:131:in `process'
+actionview (6.0.0) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.0) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (6.0.0) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (6.0.0) lib/action_dispatch/routing/route_set.rb:51:in `dispatch'
+actionpack (6.0.0) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.0) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.0) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.0) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.0) lib/action_dispatch/routing/route_set.rb:837:in `call'
+warden (1.2.8) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.8) lib/warden/manager.rb:34:in `catch'
+warden (1.2.8) lib/warden/manager.rb:34:in `call'
+rack (2.0.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+actionpack (6.0.0) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.7) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.7) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.0) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.0) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.0) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/homes/index" for ::1 at 2019-09-02 10:29:33 +0800
+  
+AbstractController::ActionNotFound (The action 'show' could not be found for HomesController):
+  
+actionpack (6.0.0) lib/abstract_controller/base.rb:131:in `process'
+actionview (6.0.0) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.0) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (6.0.0) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (6.0.0) lib/action_dispatch/routing/route_set.rb:51:in `dispatch'
+actionpack (6.0.0) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.0) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.0) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.0) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.0) lib/action_dispatch/routing/route_set.rb:837:in `call'
+warden (1.2.8) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.8) lib/warden/manager.rb:34:in `catch'
+warden (1.2.8) lib/warden/manager.rb:34:in `call'
+rack (2.0.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+actionpack (6.0.0) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.7) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.7) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.0) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.0) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.0) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-09-02 10:29:46 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 268)
+  Rendered homes/_notification.html.erb (Duration: 0.4ms | Allocations: 134)
+Completed 200 OK in 48ms (Views: 46.8ms | ActiveRecord: 0.0ms | Allocations: 21341)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-09-02 10:30:22 +0800
+Processing by Users::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.8ms | Allocations: 558)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 17.0ms | Allocations: 3548)
+Completed 500 Internal Server Error in 26ms (ActiveRecord: 0.0ms | Allocations: 5900)
+
+
+  
+ActionView::Template::Error (undefined method `keys' for "homes/index":String):
+    26: <% end %>
+    27: 
+    28: <%= render "users/shared/links" %>
+    29: <%= render 'Back', "homes/index" %>
+    30: 
+    31: </form>
+    32: </body>
+  
+app/views/users/sessions/new.html.erb:29
+Started GET "/users/sign_in" for ::1 at 2019-09-02 10:30:35 +0800
+Processing by Users::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.7ms | Allocations: 556)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 13.9ms | Allocations: 1742)
+  Rendered homes/_notification.html.erb (Duration: 0.4ms | Allocations: 133)
+Completed 200 OK in 65ms (Views: 64.6ms | ActiveRecord: 0.0ms | Allocations: 24049)
+
+
+Started GET "/users/homes/index" for ::1 at 2019-09-02 10:30:37 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/users/homes/index"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/users/homes/index" for ::1 at 2019-09-02 10:32:08 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/users/homes/index"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/rails/info/routes?path=home" for ::1 at 2019-09-02 10:32:13 +0800
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"home"}
+Completed 200 OK in 4ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 5335)
+
+
+Started GET "/rails/info/routes?path=homes" for ::1 at 2019-09-02 10:32:14 +0800
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"homes"}
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 1896)
+
+
+Started GET "/users/homes/index" for ::1 at 2019-09-02 10:33:44 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/users/homes/index"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/users/homes/index" for ::1 at 2019-09-02 10:34:07 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/users/homes/index"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/users/homes/index" for ::1 at 2019-09-02 10:34:17 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/users/homes/index"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/users/homes/index" for ::1 at 2019-09-02 10:38:14 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/users/homes/index"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/users/homes/index" for ::1 at 2019-09-02 10:39:03 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/users/homes/index"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/users/homes/index" for ::1 at 2019-09-02 10:39:04 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/users/homes/index"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-09-02 10:39:07 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 268)
+  Rendered homes/_notification.html.erb (Duration: 0.4ms | Allocations: 134)
+Completed 200 OK in 46ms (Views: 45.6ms | ActiveRecord: 0.0ms | Allocations: 21315)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-09-02 10:39:08 +0800
+Processing by Users::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.8ms | Allocations: 556)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 14.6ms | Allocations: 1741)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 62ms (Views: 61.6ms | ActiveRecord: 0.0ms | Allocations: 23384)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-09-02 10:39:10 +0800
+Processing by Users::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.1ms | Allocations: 134)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 1.4ms | Allocations: 824)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 21)
+Completed 200 OK in 44ms (Views: 43.0ms | ActiveRecord: 0.0ms | Allocations: 21043)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-09-02 10:39:23 +0800
+Processing by Users::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.8ms | Allocations: 556)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 45.2ms | Allocations: 1741)
+  Rendered homes/_notification.html.erb (Duration: 0.3ms | Allocations: 133)
+Completed 200 OK in 96ms (Views: 94.7ms | ActiveRecord: 0.0ms | Allocations: 24036)
+
+
+Started GET "/users/root_path" for ::1 at 2019-09-02 10:39:27 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/users/root_path"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/users/root_path" for ::1 at 2019-09-02 10:39:50 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/users/root_path"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-09-02 10:39:53 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 268)
+  Rendered homes/_notification.html.erb (Duration: 0.4ms | Allocations: 134)
+Completed 200 OK in 49ms (Views: 47.7ms | ActiveRecord: 0.0ms | Allocations: 21315)
+
+
+Started GET "/" for ::1 at 2019-09-02 10:40:25 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 268)
+  Rendered homes/_notification.html.erb (Duration: 0.5ms | Allocations: 134)
+Completed 200 OK in 49ms (Views: 47.8ms | ActiveRecord: 0.0ms | Allocations: 21309)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-09-02 10:40:27 +0800
+Processing by Users::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.9ms | Allocations: 556)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 14.4ms | Allocations: 1753)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 66ms (Views: 65.3ms | ActiveRecord: 0.0ms | Allocations: 23395)
+
+
+Started GET "/users/Back" for ::1 at 2019-09-02 10:40:31 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/users/Back"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/users/Back" for ::1 at 2019-09-02 10:40:58 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/users/Back"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-09-02 10:41:03 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 273)
+  Rendered homes/_notification.html.erb (Duration: 0.4ms | Allocations: 135)
+Completed 200 OK in 48ms (Views: 47.6ms | ActiveRecord: 0.0ms | Allocations: 21321)
+
+
+Started GET "/" for ::1 at 2019-09-02 10:43:57 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 268)
+  Rendered homes/_notification.html.erb (Duration: 0.4ms | Allocations: 134)
+Completed 200 OK in 50ms (Views: 49.2ms | ActiveRecord: 0.0ms | Allocations: 21308)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-09-02 10:43:58 +0800
+Processing by Users::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.8ms | Allocations: 556)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 52.6ms | Allocations: 1791)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 107ms (Views: 106.2ms | ActiveRecord: 0.0ms | Allocations: 23434)
+
+
+Started GET "/" for ::1 at 2019-09-02 10:44:00 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 63)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 24)
+Completed 200 OK in 42ms (Views: 42.2ms | ActiveRecord: 0.0ms | Allocations: 19796)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-09-02 10:44:04 +0800
+Processing by Users::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.1ms | Allocations: 134)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 1.3ms | Allocations: 847)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 21)
+Completed 200 OK in 67ms (Views: 66.4ms | ActiveRecord: 0.0ms | Allocations: 21070)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-09-02 10:44:16 +0800
+Processing by Users::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 1.0ms | Allocations: 556)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 15.0ms | Allocations: 1789)
+  Rendered homes/_notification.html.erb (Duration: 0.3ms | Allocations: 133)
+Completed 200 OK in 67ms (Views: 66.0ms | ActiveRecord: 0.0ms | Allocations: 24093)
+
+
+Started GET "/" for ::1 at 2019-09-02 10:44:35 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 268)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 24)
+Completed 200 OK in 54ms (Views: 53.0ms | ActiveRecord: 0.0ms | Allocations: 20653)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-09-02 10:44:38 +0800
+Processing by Users::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 1.5ms | Allocations: 856)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 45ms (Views: 43.9ms | ActiveRecord: 0.0ms | Allocations: 21080)
+
+
+Started GET "/" for ::1 at 2019-09-02 10:44:40 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 62)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 22)
+Completed 200 OK in 47ms (Views: 46.4ms | ActiveRecord: 0.0ms | Allocations: 19790)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-09-02 10:44:41 +0800
+Processing by Users::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 1.8ms | Allocations: 843)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 21)
+Completed 200 OK in 45ms (Views: 44.2ms | ActiveRecord: 0.0ms | Allocations: 21063)
+
+
+Started GET "/" for ::1 at 2019-09-02 10:45:13 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 268)
+  Rendered homes/_notification.html.erb (Duration: 0.4ms | Allocations: 134)
+Completed 200 OK in 50ms (Views: 49.1ms | ActiveRecord: 0.0ms | Allocations: 21308)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-09-02 10:45:27 +0800
+Processing by Users::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.8ms | Allocations: 556)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1787)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 67ms (Views: 65.5ms | ActiveRecord: 0.0ms | Allocations: 23418)
+
+
+Started GET "/" for ::1 at 2019-09-02 10:45:29 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 63)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 24)
+Completed 200 OK in 42ms (Views: 41.6ms | ActiveRecord: 0.0ms | Allocations: 19796)
+
+
+Started GET "/mdosens/sign_in" for ::1 at 2019-09-02 10:45:30 +0800
+Processing by Mdosens::SessionsController#new as HTML
+  Rendering mdosens/sessions/new.html.erb within layouts/application
+  Rendered mdosens/shared/_links.html.erb (Duration: 1.3ms | Allocations: 553)
+  Rendered mdosens/sessions/new.html.erb within layouts/application (Duration: 15.7ms | Allocations: 1785)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 62ms (Views: 60.9ms | ActiveRecord: 0.0ms | Allocations: 22662)
+
+
+Started GET "/" for ::1 at 2019-09-02 10:45:31 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 63)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 24)
+Completed 200 OK in 59ms (Views: 58.3ms | ActiveRecord: 0.0ms | Allocations: 19797)
+
+
+Started GET "/mahasiswas/sign_in" for ::1 at 2019-09-02 10:45:32 +0800
+Processing by Mahasiswas::SessionsController#new as HTML
+  Rendering mahasiswas/sessions/new.html.erb within layouts/application
+  Rendered mahasiswas/shared/_links.html.erb (Duration: 0.9ms | Allocations: 554)
+  Rendered mahasiswas/sessions/new.html.erb within layouts/application (Duration: 17.4ms | Allocations: 1780)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 63ms (Views: 62.5ms | ActiveRecord: 0.0ms | Allocations: 22653)
+
+
+Started GET "/" for ::1 at 2019-09-02 10:45:33 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 63)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 24)
+Completed 200 OK in 55ms (Views: 54.4ms | ActiveRecord: 0.0ms | Allocations: 19796)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-09-02 10:45:35 +0800
+Processing by Users::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 1.5ms | Allocations: 856)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 45ms (Views: 44.5ms | ActiveRecord: 0.0ms | Allocations: 21078)
+
+
+Started GET "/" for ::1 at 2019-09-02 10:45:36 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 62)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 22)
+Completed 200 OK in 43ms (Views: 42.6ms | ActiveRecord: 0.0ms | Allocations: 19789)
+
+
+Started GET "/mdosens/sign_in" for ::1 at 2019-09-02 10:45:36 +0800
+Processing by Mdosens::SessionsController#new as HTML
+  Rendering mdosens/sessions/new.html.erb within layouts/application
+  Rendered mdosens/shared/_links.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered mdosens/sessions/new.html.erb within layouts/application (Duration: 1.3ms | Allocations: 856)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 45ms (Views: 44.0ms | ActiveRecord: 0.0ms | Allocations: 21077)
+
+
+Started GET "/" for ::1 at 2019-09-02 10:45:38 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 62)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 22)
+Completed 200 OK in 43ms (Views: 42.2ms | ActiveRecord: 0.0ms | Allocations: 19792)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-09-02 10:47:27 +0800
+Processing by Users::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 1.7ms | Allocations: 843)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 21)
+Completed 200 OK in 46ms (Views: 44.5ms | ActiveRecord: 0.0ms | Allocations: 21056)
+
+
+Started GET "/" for ::1 at 2019-09-02 10:47:29 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 62)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 22)
+Completed 200 OK in 43ms (Views: 42.5ms | ActiveRecord: 0.0ms | Allocations: 19789)
+
+
