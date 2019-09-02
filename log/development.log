@@ -19654,3 +19654,452 @@ Processing by OptionsController#index as HTML
 Completed 200 OK in 115ms (Views: 113.8ms | ActiveRecord: 0.0ms | Allocations: 14289)
 
 
+  [1m[35m (7.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to DeviseCreateSupers (20190829063846)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.8ms)[0m  [1m[35mCREATE TABLE "supers" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_supers_on_email" ON "supers" ("email")[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_supers_on_reset_password_token" ON "supers" ("reset_password_token")[0m
+  [1m[36mprimary::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190829063846"]]
+  [1m[35m (87.6ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateActiveStorageTables (20190830062649)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCREATE TABLE "active_storage_blobs" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "key" varchar NOT NULL, "filename" varchar NOT NULL, "content_type" varchar, "metadata" text, "byte_size" bigint NOT NULL, "checksum" varchar NOT NULL, "created_at" datetime NOT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_active_storage_blobs_on_key" ON "active_storage_blobs" ("key")[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "active_storage_attachments" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar NOT NULL, "record_type" varchar NOT NULL, "record_id" integer NOT NULL, "blob_id" integer NOT NULL, "created_at" datetime NOT NULL, CONSTRAINT "fk_rails_c3b3935057"
+FOREIGN KEY ("blob_id")
+  REFERENCES "active_storage_blobs" ("id")
+)[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE  INDEX "index_active_storage_attachments_on_blob_id" ON "active_storage_attachments" ("blob_id")[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_active_storage_attachments_uniqueness" ON "active_storage_attachments" ("record_type", "record_id", "name", "blob_id")[0m
+  [1m[36mprimary::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190830062649"]]
+  [1m[35m (82.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 127.0.0.1 at 2019-08-30 14:29:04 +0800
+  [1m[35m (2.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 16.7ms | Allocations: 552)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/anna/Downloads/project1/TAPP-master/public/packs
+  Rendered homes/_notification.html.erb (Duration: 43.0ms | Allocations: 150)
+Completed 200 OK in 10869ms (Views: 10866.4ms | ActiveRecord: 0.0ms | Allocations: 1468860)
+
+
+Started GET "/mahasiswas/sign_in" for 127.0.0.1 at 2019-08-30 14:29:16 +0800
+Processing by Mahasiswas::SessionsController#new as HTML
+  Rendering mahasiswas/sessions/new.html.erb within layouts/application
+  Rendered mahasiswas/shared/_links.html.erb (Duration: 9.0ms | Allocations: 647)
+  Rendered mahasiswas/sessions/new.html.erb within layouts/application (Duration: 80.2ms | Allocations: 5876)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 116ms (Views: 99.8ms | ActiveRecord: 0.9ms | Allocations: 27527)
+
+
+Started POST "/mahasiswas/sign_in" for 127.0.0.1 at 2019-08-30 14:29:24 +0800
+Processing by Mahasiswas::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"D2PZTk/Luv2DtCvVLuc1kpphrUSwzxzOVB54kRIUr49+BCNomiPGb+WP1P78V3mCEX4DliBRJoAFeGImhIdqVQ==", "mahasiswa"=>{"email"=>"bambi@bambi.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mMahasiswa Load (0.7ms)[0m  [1m[34mSELECT "mahasiswas".* FROM "mahasiswas" WHERE "mahasiswas"."email" = ? ORDER BY "mahasiswas"."id" ASC LIMIT ?[0m  [["email", "bambi@bambi.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 236ms (ActiveRecord: 0.7ms | Allocations: 7214)
+
+
+Started GET "/" for 127.0.0.1 at 2019-08-30 14:29:24 +0800
+  [1m[36mMahasiswa Load (0.2ms)[0m  [1m[34mSELECT "mahasiswas".* FROM "mahasiswas" WHERE "mahasiswas"."id" = ? ORDER BY "mahasiswas"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Processing by MhshomesController#index as HTML
+  Rendering mhshomes/index.html.erb within layouts/application
+  Rendered mhshomes/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 1070)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 2126)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1> Adit anda telah berhasil membuat multiuser platform </h1>
+<div class="field">
+  <%= f.label :file %><br />
+  <%= f.file.field
+</div>
+
+
+<%= link_to "Logout", destroy_mahasiswa_session_path, method: :delete, :class => 'navbar-link'  %>
+<%= link_to "Change your password", edit_mahasiswa_registration_path %>
+
+):
+1:    <h1> Adit anda telah berhasil membuat multiuser platform </h1>
+2:    <div class="field">
+3:      <%= f.label :file %><br />
+4:      <%= f.file.field
+5:    </div>
+6:    
+7:    
+8:    <%= link_to "Logout", destroy_mahasiswa_session_path, method: :delete, :class => 'navbar-link'  %>
+9:    <%= link_to "Change your password", edit_mahasiswa_registration_path %>
+  
+app/views/mhshomes/index.html.erb:5: syntax error, unexpected '<', expecting ')'
+app/views/mhshomes/index.html.erb:12: unterminated regexp meets end of file
+app/views/mhshomes/index.html.erb:12: unmatched close parenthesis: /div>
+app/views/mhshomes/index.html.erb:12: syntax error, unexpected end-of-input, expecting ')'
+app/views/mhshomes/index.html.erb:5: syntax error, unexpected '<', expecting ')'
+app/views/mhshomes/index.html.erb:12: unterminated regexp meets end of file
+app/views/mhshomes/index.html.erb:12: unmatched close parenthesis: /div>
+app/views/mhshomes/index.html.erb:12: syntax error, unexpected end-of-input, expecting ')'
+app/views/mhshomes/index.html.erb:5: syntax error, unexpected '<', expecting ')'
+app/views/mhshomes/index.html.erb:12: unterminated regexp meets end of file
+app/views/mhshomes/index.html.erb:12: unmatched close parenthesis: /div>
+app/views/mhshomes/index.html.erb:12: syntax error, unexpected end-of-input, expecting ')'
+app/views/mhshomes/index.html.erb:5: syntax error, unexpected '<', expecting ')'
+app/views/mhshomes/index.html.erb:12: unterminated regexp meets end of file
+app/views/mhshomes/index.html.erb:12: unmatched close parenthesis: /div>
+app/views/mhshomes/index.html.erb:12: syntax error, unexpected end-of-input, expecting ')'
+app/views/mhshomes/index.html.erb:5: syntax error, unexpected '<', expecting ')'
+app/views/mhshomes/index.html.erb:12: unterminated regexp meets end of file
+app/views/mhshomes/index.html.erb:12: unmatched close parenthesis: /div>
+app/views/mhshomes/index.html.erb:12: syntax error, unexpected end-of-input, expecting ')'
+app/views/mhshomes/index.html.erb:5: syntax error, unexpected '<', expecting ')'
+app/views/mhshomes/index.html.erb:12: unterminated regexp meets end of file
+app/views/mhshomes/index.html.erb:12: unmatched close parenthesis: /div>
+app/views/mhshomes/index.html.erb:12: syntax error, unexpected end-of-input, expecting ')'
+Started POST "/mahasiswas/sign_in" for 127.0.0.1 at 2019-08-30 14:29:37 +0800
+Processing by Mahasiswas::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"D2PZTk/Luv2DtCvVLuc1kpphrUSwzxzOVB54kRIUr49+BCNomiPGb+WP1P78V3mCEX4DliBRJoAFeGImhIdqVQ==", "mahasiswa"=>{"email"=>"bambi@bambi.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mMahasiswa Load (0.1ms)[0m  [1m[34mSELECT "mahasiswas".* FROM "mahasiswas" WHERE "mahasiswas"."id" = ? ORDER BY "mahasiswas"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.1ms | Allocations: 1914)
+
+
+Started GET "/" for 127.0.0.1 at 2019-08-30 14:29:37 +0800
+  [1m[36mMahasiswa Load (0.1ms)[0m  [1m[34mSELECT "mahasiswas".* FROM "mahasiswas" WHERE "mahasiswas"."id" = ? ORDER BY "mahasiswas"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Processing by MhshomesController#index as HTML
+  Rendering mhshomes/index.html.erb within layouts/application
+  Rendered mhshomes/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 1060)
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1386)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1> Adit anda telah berhasil membuat multiuser platform </h1>
+<div class="field">
+  <%= f.label :file %><br />
+  <%= f.file.field
+</div>
+
+
+<%= link_to "Logout", destroy_mahasiswa_session_path, method: :delete, :class => 'navbar-link'  %>
+<%= link_to "Change your password", edit_mahasiswa_registration_path %>
+
+):
+1:    <h1> Adit anda telah berhasil membuat multiuser platform </h1>
+2:    <div class="field">
+3:      <%= f.label :file %><br />
+4:      <%= f.file.field
+5:    </div>
+6:    
+7:    
+8:    <%= link_to "Logout", destroy_mahasiswa_session_path, method: :delete, :class => 'navbar-link'  %>
+9:    <%= link_to "Change your password", edit_mahasiswa_registration_path %>
+  
+app/views/mhshomes/index.html.erb:5: syntax error, unexpected '<', expecting ')'
+app/views/mhshomes/index.html.erb:12: unterminated regexp meets end of file
+app/views/mhshomes/index.html.erb:12: unmatched close parenthesis: /div>
+app/views/mhshomes/index.html.erb:12: syntax error, unexpected end-of-input, expecting ')'
+app/views/mhshomes/index.html.erb:5: syntax error, unexpected '<', expecting ')'
+app/views/mhshomes/index.html.erb:12: unterminated regexp meets end of file
+app/views/mhshomes/index.html.erb:12: unmatched close parenthesis: /div>
+app/views/mhshomes/index.html.erb:12: syntax error, unexpected end-of-input, expecting ')'
+app/views/mhshomes/index.html.erb:5: syntax error, unexpected '<', expecting ')'
+app/views/mhshomes/index.html.erb:12: unterminated regexp meets end of file
+app/views/mhshomes/index.html.erb:12: unmatched close parenthesis: /div>
+app/views/mhshomes/index.html.erb:12: syntax error, unexpected end-of-input, expecting ')'
+app/views/mhshomes/index.html.erb:5: syntax error, unexpected '<', expecting ')'
+app/views/mhshomes/index.html.erb:12: unterminated regexp meets end of file
+app/views/mhshomes/index.html.erb:12: unmatched close parenthesis: /div>
+app/views/mhshomes/index.html.erb:12: syntax error, unexpected end-of-input, expecting ')'
+app/views/mhshomes/index.html.erb:5: syntax error, unexpected '<', expecting ')'
+app/views/mhshomes/index.html.erb:12: unterminated regexp meets end of file
+app/views/mhshomes/index.html.erb:12: unmatched close parenthesis: /div>
+app/views/mhshomes/index.html.erb:12: syntax error, unexpected end-of-input, expecting ')'
+app/views/mhshomes/index.html.erb:5: syntax error, unexpected '<', expecting ')'
+app/views/mhshomes/index.html.erb:12: unterminated regexp meets end of file
+app/views/mhshomes/index.html.erb:12: unmatched close parenthesis: /div>
+app/views/mhshomes/index.html.erb:12: syntax error, unexpected end-of-input, expecting ')'
+Started GET "/" for 127.0.0.1 at 2019-08-30 14:30:01 +0800
+  [1m[36mMahasiswa Load (0.4ms)[0m  [1m[34mSELECT "mahasiswas".* FROM "mahasiswas" WHERE "mahasiswas"."id" = ? ORDER BY "mahasiswas"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Processing by MhshomesController#index as HTML
+  Rendering mhshomes/index.html.erb within layouts/application
+  Rendered mhshomes/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 1074)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 2261)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1> Adit anda telah berhasil membuat multiuser platform </h1>
+<div class="field">
+  <%= f.label :file %><br />
+  <%= f.file.field :file
+</div>
+
+
+<%= link_to "Logout", destroy_mahasiswa_session_path, method: :delete, :class => 'navbar-link'  %>
+<%= link_to "Change your password", edit_mahasiswa_registration_path %>
+
+):
+1:    <h1> Adit anda telah berhasil membuat multiuser platform </h1>
+2:    <div class="field">
+3:      <%= f.label :file %><br />
+4:      <%= f.file.field :file
+5:    </div>
+6:    
+7:    
+8:    <%= link_to "Logout", destroy_mahasiswa_session_path, method: :delete, :class => 'navbar-link'  %>
+9:    <%= link_to "Change your password", edit_mahasiswa_registration_path %>
+  
+app/views/mhshomes/index.html.erb:5: syntax error, unexpected '<', expecting ')'
+app/views/mhshomes/index.html.erb:12: unterminated regexp meets end of file
+app/views/mhshomes/index.html.erb:12: unmatched close parenthesis: /div>
+app/views/mhshomes/index.html.erb:12: syntax error, unexpected end-of-input, expecting ')'
+app/views/mhshomes/index.html.erb:5: syntax error, unexpected '<', expecting ')'
+app/views/mhshomes/index.html.erb:12: unterminated regexp meets end of file
+app/views/mhshomes/index.html.erb:12: unmatched close parenthesis: /div>
+app/views/mhshomes/index.html.erb:12: syntax error, unexpected end-of-input, expecting ')'
+app/views/mhshomes/index.html.erb:5: syntax error, unexpected '<', expecting ')'
+app/views/mhshomes/index.html.erb:12: unterminated regexp meets end of file
+app/views/mhshomes/index.html.erb:12: unmatched close parenthesis: /div>
+app/views/mhshomes/index.html.erb:12: syntax error, unexpected end-of-input, expecting ')'
+app/views/mhshomes/index.html.erb:5: syntax error, unexpected '<', expecting ')'
+app/views/mhshomes/index.html.erb:12: unterminated regexp meets end of file
+app/views/mhshomes/index.html.erb:12: unmatched close parenthesis: /div>
+app/views/mhshomes/index.html.erb:12: syntax error, unexpected end-of-input, expecting ')'
+app/views/mhshomes/index.html.erb:5: syntax error, unexpected '<', expecting ')'
+app/views/mhshomes/index.html.erb:12: unterminated regexp meets end of file
+app/views/mhshomes/index.html.erb:12: unmatched close parenthesis: /div>
+app/views/mhshomes/index.html.erb:12: syntax error, unexpected end-of-input, expecting ')'
+app/views/mhshomes/index.html.erb:5: syntax error, unexpected '<', expecting ')'
+app/views/mhshomes/index.html.erb:12: unterminated regexp meets end of file
+app/views/mhshomes/index.html.erb:12: unmatched close parenthesis: /div>
+app/views/mhshomes/index.html.erb:12: syntax error, unexpected end-of-input, expecting ')'
+Started GET "/" for 127.0.0.1 at 2019-08-30 14:30:15 +0800
+  [1m[36mMahasiswa Load (0.2ms)[0m  [1m[34mSELECT "mahasiswas".* FROM "mahasiswas" WHERE "mahasiswas"."id" = ? ORDER BY "mahasiswas"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Processing by MhshomesController#index as HTML
+  Rendering mhshomes/index.html.erb within layouts/application
+  Rendered mhshomes/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 233)
+  Rendered homes/_notification.html.erb (Duration: 0.3ms | Allocations: 138)
+Completed 200 OK in 19ms (Views: 17.7ms | ActiveRecord: 0.0ms | Allocations: 14951)
+
+
+Started GET "/" for 127.0.0.1 at 2019-08-30 14:32:59 +0800
+  [1m[36mMahasiswa Load (0.2ms)[0m  [1m[34mSELECT "mahasiswas".* FROM "mahasiswas" WHERE "mahasiswas"."id" = ? ORDER BY "mahasiswas"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Processing by MhshomesController#index as HTML
+  Rendering mhshomes/index.html.erb within layouts/application
+  Rendered mhshomes/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1127)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 2304)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1> Adit anda telah berhasil membuat multiuser platform </h1>
+<%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+<div class="field">
+  <%= f.label :file %><br />
+  <%= f.file.field :file %>
+</div>
+<%= end %>
+
+
+<%= link_to "Logout", destroy_mahasiswa_session_path, method: :delete, :class => 'navbar-link'  %>
+<%= link_to "Change your password", edit_mahasiswa_registration_path %>
+
+):
+1:    <h1> Adit anda telah berhasil membuat multiuser platform </h1>
+2:    <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+3:    <div class="field">
+4:      <%= f.label :file %><br />
+5:      <%= f.file.field :file %>
+6:    </div>
+7:    <%= end %>
+8:    
+9:    
+10:    <%= link_to "Logout", destroy_mahasiswa_session_path, method: :delete, :class => 'navbar-link'  %>
+11:    <%= link_to "Change your password", edit_mahasiswa_registration_path %>
+  
+app/views/mhshomes/index.html.erb:7: syntax error, unexpected keyword_end
+app/views/mhshomes/index.html.erb:14: syntax error, unexpected keyword_end, expecting ')'
+app/views/mhshomes/index.html.erb:7: syntax error, unexpected keyword_end
+app/views/mhshomes/index.html.erb:14: syntax error, unexpected keyword_end, expecting ')'
+app/views/mhshomes/index.html.erb:7: syntax error, unexpected keyword_end
+app/views/mhshomes/index.html.erb:14: syntax error, unexpected keyword_end, expecting ')'
+app/views/mhshomes/index.html.erb:7: syntax error, unexpected keyword_end
+app/views/mhshomes/index.html.erb:14: syntax error, unexpected keyword_end, expecting ')'
+app/views/mhshomes/index.html.erb:7: syntax error, unexpected keyword_end
+app/views/mhshomes/index.html.erb:14: syntax error, unexpected keyword_end, expecting ')'
+app/views/mhshomes/index.html.erb:7: syntax error, unexpected keyword_end
+app/views/mhshomes/index.html.erb:14: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/" for 127.0.0.1 at 2019-08-30 14:33:34 +0800
+  [1m[36mMahasiswa Load (0.2ms)[0m  [1m[34mSELECT "mahasiswas".* FROM "mahasiswas" WHERE "mahasiswas"."id" = ? ORDER BY "mahasiswas"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Processing by MhshomesController#index as HTML
+  Rendering mhshomes/index.html.erb within layouts/application
+  Rendered mhshomes/index.html.erb within layouts/application (Duration: 251.7ms | Allocations: 162994)
+Completed 500 Internal Server Error in 254ms (ActiveRecord: 0.0ms | Allocations: 164171)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `resource' for #<#<Class:0x00007fa5820f80f0>:0x00007fa5820f24c0>):
+    1: <h1> Adit anda telah berhasil membuat multiuser platform </h1>
+    2: <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+    3: <div class="field">
+    4:   <%= f.label :file %><br />
+    5:   <%= f.file.field :file %>
+  
+app/views/mhshomes/index.html.erb:2
+Started GET "/mahasiswas/sign_in" for 127.0.0.1 at 2019-08-30 14:34:48 +0800
+Processing by Mahasiswas::SessionsController#new as HTML
+  [1m[36mMahasiswa Load (0.3ms)[0m  [1m[34mSELECT "mahasiswas".* FROM "mahasiswas" WHERE "mahasiswas"."id" = ? ORDER BY "mahasiswas"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 7ms (ActiveRecord: 0.3ms | Allocations: 1811)
+
+
+Started GET "/" for 127.0.0.1 at 2019-08-30 14:34:48 +0800
+  [1m[36mMahasiswa Load (0.1ms)[0m  [1m[34mSELECT "mahasiswas".* FROM "mahasiswas" WHERE "mahasiswas"."id" = ? ORDER BY "mahasiswas"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Processing by MhshomesController#index as HTML
+  Rendering mhshomes/index.html.erb within layouts/application
+  Rendered mhshomes/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 218)
+  Rendered homes/_notification.html.erb (Duration: 0.2ms | Allocations: 138)
+Completed 200 OK in 17ms (Views: 16.3ms | ActiveRecord: 0.0ms | Allocations: 14903)
+
+
+Started DELETE "/mahasiswas/sign_out" for 127.0.0.1 at 2019-08-30 14:34:53 +0800
+Processing by Mahasiswas::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"NCsdNajFQKXgXlx6oyt+YOq1t9lc/UZV8rlv9KcCkcws8+MyZ28W7CFrLRe8x0gYsutDu8T+5BbNGjFoH9lzzA=="}
+  [1m[36mMahasiswa Load (0.2ms)[0m  [1m[34mSELECT "mahasiswas".* FROM "mahasiswas" WHERE "mahasiswas"."id" = ? ORDER BY "mahasiswas"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 88ms (ActiveRecord: 0.2ms | Allocations: 6366)
+
+
+Started GET "/" for 127.0.0.1 at 2019-08-30 14:34:53 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 250)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 27)
+Completed 200 OK in 17ms (Views: 15.9ms | ActiveRecord: 0.0ms | Allocations: 14229)
+
+
+Started GET "/" for 127.0.0.1 at 2019-08-30 16:59:39 +0800
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 8.1ms | Allocations: 62)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 22)
+Completed 200 OK in 338ms (Views: 337.2ms | ActiveRecord: 0.0ms | Allocations: 13397)
+
+
+Started GET "/" for 127.0.0.1 at 2019-09-02 09:03:28 +0800
+  [1m[35m (8.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 552)
+  Rendered homes/_notification.html.erb (Duration: 11.7ms | Allocations: 150)
+Completed 200 OK in 804ms (Views: 802.9ms | ActiveRecord: 0.0ms | Allocations: 1461364)
+
+
+Started GET "/options" for 127.0.0.1 at 2019-09-02 09:03:35 +0800
+Processing by OptionsController#index as HTML
+  Rendering options/index.html.erb within layouts/application
+  Rendered options/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 165)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 24)
+Completed 200 OK in 20ms (Views: 18.8ms | ActiveRecord: 0.0ms | Allocations: 14308)
+
+
+Started GET "/mahasiswas/sign_in" for 127.0.0.1 at 2019-09-02 09:03:41 +0800
+Processing by Mahasiswas::SessionsController#new as HTML
+  Rendering mahasiswas/sessions/new.html.erb within layouts/application
+  Rendered mahasiswas/shared/_links.html.erb (Duration: 9.5ms | Allocations: 647)
+  Rendered mahasiswas/sessions/new.html.erb within layouts/application (Duration: 66.8ms | Allocations: 5873)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 98ms (Views: 80.9ms | ActiveRecord: 1.4ms | Allocations: 27535)
+
+
+Started POST "/mahasiswas/sign_in" for 127.0.0.1 at 2019-09-02 09:03:49 +0800
+Processing by Mahasiswas::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"sZyF57ZefqZKPccj9E1yP/ZBj0ntI2GhIEShpxov/Qq0WrS5Z9WpNPgFKn3XCEtVQvtYPgMyCb6JVIGBhNhVDw==", "mahasiswa"=>{"email"=>"bambi@bambi.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mMahasiswa Load (25.2ms)[0m  [1m[34mSELECT "mahasiswas".* FROM "mahasiswas" WHERE "mahasiswas"."email" = ? ORDER BY "mahasiswas"."id" ASC LIMIT ?[0m  [["email", "bambi@bambi.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 301ms (ActiveRecord: 25.2ms | Allocations: 4132)
+
+
+Processing by Mahasiswas::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"sZyF57ZefqZKPccj9E1yP/ZBj0ntI2GhIEShpxov/Qq0WrS5Z9WpNPgFKn3XCEtVQvtYPgMyCb6JVIGBhNhVDw==", "mahasiswa"=>{"email"=>"bambi@bambi.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering mahasiswas/sessions/new.html.erb within layouts/application
+  Rendered mahasiswas/shared/_links.html.erb (Duration: 0.2ms | Allocations: 135)
+  Rendered mahasiswas/sessions/new.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1103)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 12)
+Completed 200 OK in 132ms (Views: 10.7ms | ActiveRecord: 0.0ms | Allocations: 14832)
+
+
+Started POST "/mahasiswas/sign_in" for 127.0.0.1 at 2019-09-02 09:03:54 +0800
+Processing by Mahasiswas::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"4WmxfEjcfdjwbDEg4iYyxM+iTBIEcDjbmQLzpfN+kC049TBu4WqMMbVRBcupCOlVPa/DBxZLT+r2vNvMYas8xA==", "mahasiswa"=>{"email"=>"bambi@bambi.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mMahasiswa Load (0.2ms)[0m  [1m[34mSELECT "mahasiswas".* FROM "mahasiswas" WHERE "mahasiswas"."email" = ? ORDER BY "mahasiswas"."id" ASC LIMIT ?[0m  [["email", "bambi@bambi.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 165ms (ActiveRecord: 0.2ms | Allocations: 4915)
+
+
+Started GET "/" for 127.0.0.1 at 2019-09-02 09:03:54 +0800
+  [1m[36mMahasiswa Load (0.2ms)[0m  [1m[34mSELECT "mahasiswas".* FROM "mahasiswas" WHERE "mahasiswas"."id" = ? ORDER BY "mahasiswas"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Processing by MhshomesController#index as HTML
+  Rendering mhshomes/index.html.erb within layouts/application
+  Rendered mhshomes/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 228)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 26)
+Completed 200 OK in 11ms (Views: 10.7ms | ActiveRecord: 0.0ms | Allocations: 14333)
+
+
+Started DELETE "/mahasiswas/sign_out" for 127.0.0.1 at 2019-09-02 09:03:58 +0800
+Processing by Mahasiswas::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Y40dTEFF8F1ugc0pyxu6zMWWNKL+POvAMP5tNSD3+0c38XoBaQGJz5IgFWzjux4qdNjXYZtPjAeLdZ8uHdPM6Q=="}
+  [1m[36mMahasiswa Load (0.1ms)[0m  [1m[34mSELECT "mahasiswas".* FROM "mahasiswas" WHERE "mahasiswas"."id" = ? ORDER BY "mahasiswas"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 40ms (ActiveRecord: 0.1ms | Allocations: 6363)
+
+
+Started GET "/" for 127.0.0.1 at 2019-09-02 09:03:58 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 64)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 27)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.0ms | Allocations: 13407)
+
+
+Started GET "/" for 127.0.0.1 at 2019-09-02 15:32:11 +0800
+  [1m[35m (31.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 115.1ms | Allocations: 552)
+  Rendered homes/_notification.html.erb (Duration: 9.8ms | Allocations: 150)
+Completed 200 OK in 923ms (Views: 920.9ms | ActiveRecord: 0.0ms | Allocations: 1461352)
+
+
+Started GET "/options" for 127.0.0.1 at 2019-09-02 15:32:14 +0800
+Processing by OptionsController#index as HTML
+  Rendering options/index.html.erb within layouts/application
+  Rendered options/index.html.erb within layouts/application (Duration: 32.5ms | Allocations: 160)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 24)
+Completed 200 OK in 68ms (Views: 65.7ms | ActiveRecord: 0.0ms | Allocations: 14296)
+
+
+Started GET "/supers/sign_in" for 127.0.0.1 at 2019-09-02 15:32:16 +0800
+Processing by Supers::SessionsController#new as HTML
+  Rendering supers/sessions/new.html.erb within layouts/application
+  Rendered supers/shared/_links.html.erb (Duration: 6.6ms | Allocations: 646)
+  Rendered supers/sessions/new.html.erb within layouts/application (Duration: 60.4ms | Allocations: 5873)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 83ms (Views: 71.6ms | ActiveRecord: 0.9ms | Allocations: 27571)
+
+
+Started GET "/" for 127.0.0.1 at 2019-09-02 15:32:25 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 64)
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 24)
+Completed 200 OK in 18ms (Views: 16.9ms | ActiveRecord: 0.0ms | Allocations: 13400)
+
+
