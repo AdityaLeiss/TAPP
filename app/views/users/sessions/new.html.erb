@@ -1,8 +1,7 @@
 <body class="text-center">
 <form class="form-signin ">
 
-<h1 style="font-family:courier;">Super Admin</h1>
-<h3 class="h3 mb-3 font-weight-normal">Log in</h3>
+<h3 class="h3 mb-3 font-weight-normal">Login ke Admin</h3>
 
 <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
 
@@ -27,7 +26,7 @@
 <% end %>
 
 <%= render "users/shared/links" %>
-<%= link_to root_path, :class => 'nav-icon' do %><span class="icon-home">Back</span><% end %>
+<%= link_to options_path, :class => 'nav-icon' do %><span class="icon-home">Back</span><% end %>
 
 </form>
 </body>
