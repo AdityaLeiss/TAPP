@@ -1,11 +1,24 @@
-.container{
+.container {
+    position: relative;
     margin-top: 20px;
 }
-.blue{
-    background-color: aquamarine;
-    color: black;
+
+.center {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
 }
-.blue.hover{
-    background-color: green;
-    color: white;
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+
+.jumbotron {
+    border-radius: 5px;
 }
