@@ -23193,3 +23193,742 @@ Processing by RumahsController#index as HTML
 Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.0ms | Allocations: 14364)
 
 
+Started GET "/users/sign_in" for ::1 at 2019-09-07 17:49:02 +0800
+  [1m[35m (4.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Users::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 2.3ms | Allocations: 653)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 56.5ms | Allocations: 8558)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `exec': No such file or directory - D:\Rails\fork\TAPP\node_modules\.bin/webpack (Errno::ENOENT)
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `block in run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `chdir'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:18:in `block in <main>'
+	from ./bin/webpack:17:in `chdir'
+	from ./bin/webpack:17:in `<main>'
+
+  Rendered homes/_notification.html.erb (Duration: 0.8ms | Allocations: 148)
+Completed 200 OK in 11770ms (Views: 11737.1ms | ActiveRecord: 1.6ms | Allocations: 1492542)
+
+
+Started GET "/options" for ::1 at 2019-09-07 17:49:33 +0800
+Processing by OptionsController#index as HTML
+  Rendering options/index.html.erb within layouts/application
+  Rendered options/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 332)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `exec': No such file or directory - D:\Rails\fork\TAPP\node_modules\.bin/webpack (Errno::ENOENT)
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `block in run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `chdir'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:18:in `block in <main>'
+	from ./bin/webpack:17:in `chdir'
+	from ./bin/webpack:17:in `<main>'
+
+  Rendered homes/_notification.html.erb (Duration: 0.2ms | Allocations: 24)
+Completed 200 OK in 3070ms (Views: 3066.2ms | ActiveRecord: 0.0ms | Allocations: 25434)
+
+
+Started GET "/" for ::1 at 2019-09-07 17:49:39 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 275)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `exec': No such file or directory - D:\Rails\fork\TAPP\node_modules\.bin/webpack (Errno::ENOENT)
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `block in run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `chdir'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:18:in `block in <main>'
+	from ./bin/webpack:17:in `chdir'
+	from ./bin/webpack:17:in `<main>'
+
+  Rendered homes/_notification.html.erb (Duration: 0.2ms | Allocations: 24)
+Completed 200 OK in 3025ms (Views: 3022.0ms | ActiveRecord: 0.0ms | Allocations: 25137)
+
+
+Started GET "/mdosens/sign_in" for ::1 at 2019-09-07 17:58:25 +0800
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Mdosens::SessionsController#new as HTML
+  Rendering mdosens/sessions/new.html.erb within layouts/application
+  Rendered mdosens/shared/_links.html.erb (Duration: 6.2ms | Allocations: 629)
+  Rendered mdosens/sessions/new.html.erb within layouts/application (Duration: 18.8ms | Allocations: 1986)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `exec': No such file or directory - D:\Rails\fork\TAPP\node_modules\.bin/webpack (Errno::ENOENT)
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `block in run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `chdir'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:18:in `block in <main>'
+	from ./bin/webpack:17:in `chdir'
+	from ./bin/webpack:17:in `<main>'
+
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 6168ms (Views: 6144.4ms | ActiveRecord: 2.1ms | Allocations: 32994)
+
+
+Started GET "/" for ::1 at 2019-09-14 15:30:21 +0800
+  [1m[35m (27.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 51.5ms | Allocations: 549)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `exec': No such file or directory - D:\Rails\fork\TAPP\node_modules\.bin/webpack (Errno::ENOENT)
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `block in run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `chdir'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:18:in `block in <main>'
+	from ./bin/webpack:17:in `chdir'
+	from ./bin/webpack:17:in `<main>'
+
+  Rendered homes/_notification.html.erb (Duration: 4.5ms | Allocations: 149)
+Completed 200 OK in 13369ms (Views: 13366.8ms | ActiveRecord: 0.0ms | Allocations: 1540849)
+
+
+Started GET "/mdosens/sign_in" for ::1 at 2019-09-14 15:30:48 +0800
+Processing by Mdosens::SessionsController#new as HTML
+  Rendering mdosens/sessions/new.html.erb within layouts/application
+  Rendered mdosens/shared/_links.html.erb (Duration: 14.8ms | Allocations: 645)
+  Rendered mdosens/sessions/new.html.erb within layouts/application (Duration: 269.3ms | Allocations: 8258)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `exec': No such file or directory - D:\Rails\fork\TAPP\node_modules\.bin/webpack (Errno::ENOENT)
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `block in run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `chdir'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:18:in `block in <main>'
+	from ./bin/webpack:17:in `chdir'
+	from ./bin/webpack:17:in `<main>'
+
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 2453ms (Views: 2426.8ms | ActiveRecord: 1.2ms | Allocations: 40510)
+
+
+Started GET "/" for ::1 at 2019-09-14 15:30:52 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 63)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `exec': No such file or directory - D:\Rails\fork\TAPP\node_modules\.bin/webpack (Errno::ENOENT)
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `block in run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `chdir'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:18:in `block in <main>'
+	from ./bin/webpack:17:in `chdir'
+	from ./bin/webpack:17:in `<main>'
+
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 24)
+Completed 200 OK in 2199ms (Views: 2198.7ms | ActiveRecord: 0.0ms | Allocations: 24474)
+
+
+Started GET "/" for ::1 at 2019-09-14 15:35:29 +0800
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 270)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `exec': No such file or directory - D:\Rails\fork\TAPP\node_modules\.bin/webpack (Errno::ENOENT)
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `block in run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `chdir'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:18:in `block in <main>'
+	from ./bin/webpack:17:in `chdir'
+	from ./bin/webpack:17:in `<main>'
+
+  Rendered homes/_notification.html.erb (Duration: 1.0ms | Allocations: 168)
+Completed 200 OK in 2244ms (Views: 2241.9ms | ActiveRecord: 0.0ms | Allocations: 26038)
+
+
+Started GET "/" for ::1 at 2019-09-14 15:37:03 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 63)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `exec': No such file or directory - D:\Rails\fork\TAPP\node_modules\.bin/webpack (Errno::ENOENT)
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `block in run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `chdir'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:18:in `block in <main>'
+	from ./bin/webpack:17:in `chdir'
+	from ./bin/webpack:17:in `<main>'
+
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 19)
+Completed 200 OK in 2260ms (Views: 2259.5ms | ActiveRecord: 0.0ms | Allocations: 24468)
+
+
+Started GET "/" for ::1 at 2019-09-14 15:37:13 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 62)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `exec': No such file or directory - D:\Rails\fork\TAPP\node_modules\.bin/webpack (Errno::ENOENT)
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `block in run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `chdir'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:18:in `block in <main>'
+	from ./bin/webpack:17:in `chdir'
+	from ./bin/webpack:17:in `<main>'
+
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 19)
+Completed 200 OK in 2329ms (Views: 2328.1ms | ActiveRecord: 0.0ms | Allocations: 24522)
+
+
+Started GET "/" for ::1 at 2019-09-14 15:38:55 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 270)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `exec': No such file or directory - D:\Rails\fork\TAPP\node_modules\.bin/webpack (Errno::ENOENT)
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `block in run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `chdir'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:18:in `block in <main>'
+	from ./bin/webpack:17:in `chdir'
+	from ./bin/webpack:17:in `<main>'
+
+  Rendered homes/_notification.html.erb (Duration: 0.8ms | Allocations: 170)
+Completed 200 OK in 2304ms (Views: 2301.8ms | ActiveRecord: 0.0ms | Allocations: 26030)
+
+
+Started GET "/" for ::1 at 2019-09-14 15:39:35 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 64)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `exec': No such file or directory - D:\Rails\fork\TAPP\node_modules\.bin/webpack (Errno::ENOENT)
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `block in run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `chdir'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:18:in `block in <main>'
+	from ./bin/webpack:17:in `chdir'
+	from ./bin/webpack:17:in `<main>'
+
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 19)
+Completed 200 OK in 2289ms (Views: 2288.1ms | ActiveRecord: 0.0ms | Allocations: 24472)
+
+
+Started GET "/" for ::1 at 2019-09-14 15:40:01 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 62)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `exec': No such file or directory - D:\Rails\fork\TAPP\node_modules\.bin/webpack (Errno::ENOENT)
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `block in run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `chdir'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:18:in `block in <main>'
+	from ./bin/webpack:17:in `chdir'
+	from ./bin/webpack:17:in `<main>'
+
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 19)
+Completed 200 OK in 2244ms (Views: 2243.5ms | ActiveRecord: 0.0ms | Allocations: 24462)
+
+
+Started GET "/options" for ::1 at 2019-09-14 15:40:28 +0800
+Processing by OptionsController#index as HTML
+  Rendering options/index.html.erb within layouts/application
+  Rendered options/index.html.erb within layouts/application (Duration: 15.0ms | Allocations: 329)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `exec': No such file or directory - D:\Rails\fork\TAPP\node_modules\.bin/webpack (Errno::ENOENT)
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `block in run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `chdir'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:18:in `block in <main>'
+	from ./bin/webpack:17:in `chdir'
+	from ./bin/webpack:17:in `<main>'
+
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 19)
+Completed 200 OK in 2519ms (Views: 2516.8ms | ActiveRecord: 0.0ms | Allocations: 25553)
+
+
+Started GET "/" for ::1 at 2019-09-14 15:40:33 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 64)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `exec': No such file or directory - D:\Rails\fork\TAPP\node_modules\.bin/webpack (Errno::ENOENT)
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `block in run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `chdir'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:18:in `block in <main>'
+	from ./bin/webpack:17:in `chdir'
+	from ./bin/webpack:17:in `<main>'
+
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 19)
+Completed 200 OK in 2858ms (Views: 2857.4ms | ActiveRecord: 0.0ms | Allocations: 24472)
+
+
+Started GET "/mahasiswas/sign_in" for ::1 at 2019-09-14 15:40:36 +0800
+Processing by Mahasiswas::SessionsController#new as HTML
+  Rendering mahasiswas/sessions/new.html.erb within layouts/application
+  Rendered mahasiswas/shared/_links.html.erb (Duration: 4.4ms | Allocations: 630)
+  Rendered mahasiswas/sessions/new.html.erb within layouts/application (Duration: 22.8ms | Allocations: 1978)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `exec': No such file or directory - D:\Rails\fork\TAPP\node_modules\.bin/webpack (Errno::ENOENT)
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `block in run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `chdir'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:18:in `block in <main>'
+	from ./bin/webpack:17:in `chdir'
+	from ./bin/webpack:17:in `<main>'
+
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 18)
+Completed 200 OK in 2726ms (Views: 2710.0ms | ActiveRecord: 1.3ms | Allocations: 34075)
+
+
+Started GET "/" for ::1 at 2019-09-14 15:40:41 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 63)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `exec': No such file or directory - D:\Rails\fork\TAPP\node_modules\.bin/webpack (Errno::ENOENT)
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `block in run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `chdir'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:18:in `block in <main>'
+	from ./bin/webpack:17:in `chdir'
+	from ./bin/webpack:17:in `<main>'
+
+  Rendered homes/_notification.html.erb (Duration: 0.2ms | Allocations: 19)
+Completed 200 OK in 2836ms (Views: 2835.5ms | ActiveRecord: 0.0ms | Allocations: 24471)
+
+
+Started GET "/" for ::1 at 2019-09-14 15:41:39 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 62)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `exec': No such file or directory - D:\Rails\fork\TAPP\node_modules\.bin/webpack (Errno::ENOENT)
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `block in run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `chdir'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:18:in `block in <main>'
+	from ./bin/webpack:17:in `chdir'
+	from ./bin/webpack:17:in `<main>'
+
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 19)
+Completed 200 OK in 2238ms (Views: 2237.1ms | ActiveRecord: 0.0ms | Allocations: 24463)
+
+
+Started GET "/" for ::1 at 2019-09-14 15:41:56 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 62)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `exec': No such file or directory - D:\Rails\fork\TAPP\node_modules\.bin/webpack (Errno::ENOENT)
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `block in run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `chdir'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:18:in `block in <main>'
+	from ./bin/webpack:17:in `chdir'
+	from ./bin/webpack:17:in `<main>'
+
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 19)
+Completed 200 OK in 2194ms (Views: 2193.7ms | ActiveRecord: 0.0ms | Allocations: 24466)
+
+
+Started GET "/" for 127.0.0.1 at 2019-09-14 15:42:17 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 62)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `exec': No such file or directory - D:\Rails\fork\TAPP\node_modules\.bin/webpack (Errno::ENOENT)
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `block in run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `chdir'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:18:in `block in <main>'
+	from ./bin/webpack:17:in `chdir'
+	from ./bin/webpack:17:in `<main>'
+
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 19)
+Completed 200 OK in 2500ms (Views: 2499.0ms | ActiveRecord: 0.0ms | Allocations: 24475)
+
+
+Started GET "/" for ::1 at 2019-09-14 15:44:36 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 62)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `exec': No such file or directory - D:\Rails\fork\TAPP\node_modules\.bin/webpack (Errno::ENOENT)
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `block in run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `chdir'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:18:in `block in <main>'
+	from ./bin/webpack:17:in `chdir'
+	from ./bin/webpack:17:in `<main>'
+
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 19)
+Completed 200 OK in 2326ms (Views: 2325.4ms | ActiveRecord: 0.0ms | Allocations: 24454)
+
+
+Started GET "/" for ::1 at 2019-09-14 15:46:10 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 3.9ms | Allocations: 271)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `exec': No such file or directory - D:\Rails\fork\TAPP\node_modules\.bin/webpack (Errno::ENOENT)
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `block in run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `chdir'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:18:in `block in <main>'
+	from ./bin/webpack:17:in `chdir'
+	from ./bin/webpack:17:in `<main>'
+
+  Rendered homes/_notification.html.erb (Duration: 0.7ms | Allocations: 167)
+Completed 200 OK in 2244ms (Views: 2242.8ms | ActiveRecord: 0.0ms | Allocations: 26034)
+
+
+Started GET "/" for ::1 at 2019-09-14 15:46:46 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 4.3ms | Allocations: 266)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `exec': No such file or directory - D:\Rails\fork\TAPP\node_modules\.bin/webpack (Errno::ENOENT)
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `block in run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `chdir'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:18:in `block in <main>'
+	from ./bin/webpack:17:in `chdir'
+	from ./bin/webpack:17:in `<main>'
+
+  Rendered homes/_notification.html.erb (Duration: 0.6ms | Allocations: 165)
+Completed 200 OK in 2207ms (Views: 2205.9ms | ActiveRecord: 0.0ms | Allocations: 26015)
+
+
+Started GET "/" for ::1 at 2019-09-14 15:47:50 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 3.5ms | Allocations: 266)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `exec': No such file or directory - D:\Rails\fork\TAPP\node_modules\.bin/webpack (Errno::ENOENT)
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `block in run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `chdir'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:18:in `block in <main>'
+	from ./bin/webpack:17:in `chdir'
+	from ./bin/webpack:17:in `<main>'
+
+  Rendered homes/_notification.html.erb (Duration: 1.0ms | Allocations: 170)
+Completed 200 OK in 2260ms (Views: 2257.9ms | ActiveRecord: 0.0ms | Allocations: 26023)
+
+
+Started GET "/" for ::1 at 2019-09-14 15:52:06 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 3.9ms | Allocations: 266)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `exec': No such file or directory - D:\Rails\fork\TAPP\node_modules\.bin/webpack (Errno::ENOENT)
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `block in run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `chdir'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:18:in `block in <main>'
+	from ./bin/webpack:17:in `chdir'
+	from ./bin/webpack:17:in `<main>'
+
+  Rendered homes/_notification.html.erb (Duration: 0.7ms | Allocations: 165)
+Completed 200 OK in 2188ms (Views: 2186.1ms | ActiveRecord: 0.0ms | Allocations: 26022)
+
+
+Started GET "/" for ::1 at 2019-09-14 15:52:15 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 266)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `exec': No such file or directory - D:\Rails\fork\TAPP\node_modules\.bin/webpack (Errno::ENOENT)
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `block in run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `chdir'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:18:in `block in <main>'
+	from ./bin/webpack:17:in `chdir'
+	from ./bin/webpack:17:in `<main>'
+
+  Rendered homes/_notification.html.erb (Duration: 0.6ms | Allocations: 165)
+Completed 200 OK in 2399ms (Views: 2396.9ms | ActiveRecord: 0.0ms | Allocations: 26075)
+
+
+Started GET "/" for 127.0.0.1 at 2019-09-14 15:52:23 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 63)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `exec': No such file or directory - D:\Rails\fork\TAPP\node_modules\.bin/webpack (Errno::ENOENT)
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `block in run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `chdir'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:18:in `block in <main>'
+	from ./bin/webpack:17:in `chdir'
+	from ./bin/webpack:17:in `<main>'
+
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 19)
+Completed 200 OK in 2289ms (Views: 2288.4ms | ActiveRecord: 0.0ms | Allocations: 24467)
+
+
+Started GET "/" for ::1 at 2019-09-14 15:56:51 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 266)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `exec': No such file or directory - D:\Rails\fork\TAPP\node_modules\.bin/webpack (Errno::ENOENT)
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `block in run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `chdir'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:18:in `block in <main>'
+	from ./bin/webpack:17:in `chdir'
+	from ./bin/webpack:17:in `<main>'
+
+  Rendered homes/_notification.html.erb (Duration: 0.7ms | Allocations: 167)
+Completed 200 OK in 2293ms (Views: 2291.4ms | ActiveRecord: 0.0ms | Allocations: 26012)
+
+
+Started GET "/" for ::1 at 2019-09-14 15:57:26 +0800
+  [1m[35m (4.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 548)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `exec': No such file or directory - D:\Rails\fork\TAPP\node_modules\.bin/webpack (Errno::ENOENT)
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `block in run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `chdir'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:18:in `block in <main>'
+	from ./bin/webpack:17:in `chdir'
+	from ./bin/webpack:17:in `<main>'
+
+  Rendered homes/_notification.html.erb (Duration: 1.0ms | Allocations: 181)
+Completed 200 OK in 9425ms (Views: 9422.9ms | ActiveRecord: 0.0ms | Allocations: 1495999)
+
+
+Started GET "/" for ::1 at 2019-09-14 16:55:50 +0800
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 64)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `exec': No such file or directory - D:\Rails\fork\TAPP\node_modules\.bin/webpack (Errno::ENOENT)
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `block in run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `chdir'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:18:in `block in <main>'
+	from ./bin/webpack:17:in `chdir'
+	from ./bin/webpack:17:in `<main>'
+
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 19)
+Completed 200 OK in 2289ms (Views: 2288.8ms | ActiveRecord: 0.0ms | Allocations: 24473)
+
+
+Started GET "/options" for ::1 at 2019-09-14 17:08:20 +0800
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by OptionsController#index as HTML
+  Rendering options/index.html.erb within layouts/application
+  Rendered options/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 343)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `exec': No such file or directory - D:\Rails\fork\TAPP\node_modules\.bin/webpack (Errno::ENOENT)
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `block in run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `chdir'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:18:in `block in <main>'
+	from ./bin/webpack:17:in `chdir'
+	from ./bin/webpack:17:in `<main>'
+
+  Rendered homes/_notification.html.erb (Duration: 1.0ms | Allocations: 165)
+Completed 200 OK in 2414ms (Views: 2412.0ms | ActiveRecord: 0.0ms | Allocations: 26273)
+
+
+Started GET "/" for ::1 at 2019-09-14 17:08:26 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 266)
+[Webpacker] Compiling…
+Started GET "/mdosens/sign_in" for ::1 at 2019-09-14 17:08:27 +0800
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Mdosens::SessionsController#new as HTML
+  Rendering mdosens/sessions/new.html.erb within layouts/application
+  Rendered mdosens/shared/_links.html.erb (Duration: 2.0ms | Allocations: 645)
+  Rendered mdosens/sessions/new.html.erb within layouts/application (Duration: 50.7ms | Allocations: 8242)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `exec': No such file or directory - D:\Rails\fork\TAPP\node_modules\.bin/webpack (Errno::ENOENT)
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `block in run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `chdir'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:18:in `block in <main>'
+	from ./bin/webpack:17:in `chdir'
+	from ./bin/webpack:17:in `<main>'
+
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 19)
+Completed 200 OK in 2757ms (Views: 2755.7ms | ActiveRecord: 0.0ms | Allocations: 73903)
+
+
+[Webpacker] Compilation failed:
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `exec': No such file or directory - D:\Rails\fork\TAPP\node_modules\.bin/webpack (Errno::ENOENT)
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `block in run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `chdir'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:18:in `block in <main>'
+	from ./bin/webpack:17:in `chdir'
+	from ./bin/webpack:17:in `<main>'
+
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 18)
+Completed 200 OK in 2738ms (Views: 2720.1ms | ActiveRecord: 1.4ms | Allocations: 42290)
+
+
+Started GET "/" for ::1 at 2019-09-14 17:08:32 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 63)
+[Webpacker] Compiling…
+Started GET "/mahasiswas/sign_in" for ::1 at 2019-09-14 17:08:33 +0800
+Processing by Mahasiswas::SessionsController#new as HTML
+  Rendering mahasiswas/sessions/new.html.erb within layouts/application
+  Rendered mahasiswas/shared/_links.html.erb (Duration: 1.6ms | Allocations: 630)
+  Rendered mahasiswas/sessions/new.html.erb within layouts/application (Duration: 8.4ms | Allocations: 1973)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `exec': No such file or directory - D:\Rails\fork\TAPP\node_modules\.bin/webpack (Errno::ENOENT)
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `block in run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `chdir'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:18:in `block in <main>'
+	from ./bin/webpack:17:in `chdir'
+	from ./bin/webpack:17:in `<main>'
+
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 19)
+Completed 200 OK in 2908ms (Views: 2906.9ms | ActiveRecord: 0.0ms | Allocations: 61493)
+
+
+[Webpacker] Compilation failed:
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `exec': No such file or directory - D:\Rails\fork\TAPP\node_modules\.bin/webpack (Errno::ENOENT)
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `block in run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `chdir'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:18:in `block in <main>'
+	from ./bin/webpack:17:in `chdir'
+	from ./bin/webpack:17:in `<main>'
+
+  Rendered homes/_notification.html.erb (Duration: 0.2ms | Allocations: 18)
+Completed 200 OK in 2766ms (Views: 2750.3ms | ActiveRecord: 1.1ms | Allocations: 34368)
+
+
+Started GET "/" for ::1 at 2019-09-14 17:08:38 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 63)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `exec': No such file or directory - D:\Rails\fork\TAPP\node_modules\.bin/webpack (Errno::ENOENT)
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `block in run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `chdir'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:18:in `block in <main>'
+	from ./bin/webpack:17:in `chdir'
+	from ./bin/webpack:17:in `<main>'
+
+  Rendered homes/_notification.html.erb (Duration: 0.1ms | Allocations: 19)
+Completed 200 OK in 2410ms (Views: 2409.6ms | ActiveRecord: 0.0ms | Allocations: 24468)
+
+
+Started GET "/" for ::1 at 2019-09-14 17:09:10 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 271)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `exec': No such file or directory - D:\Rails\fork\TAPP\node_modules\.bin/webpack (Errno::ENOENT)
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `block in run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `chdir'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:18:in `block in <main>'
+	from ./bin/webpack:17:in `chdir'
+	from ./bin/webpack:17:in `<main>'
+
+  Rendered homes/_notification.html.erb (Duration: 0.6ms | Allocations: 165)
+Completed 200 OK in 2332ms (Views: 2330.2ms | ActiveRecord: 0.0ms | Allocations: 26028)
+
+
+Started GET "/" for ::1 at 2019-09-14 17:09:23 +0800
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 266)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `exec': No such file or directory - D:\Rails\fork\TAPP\node_modules\.bin/webpack (Errno::ENOENT)
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:23:in `block in run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `chdir'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/webpack_runner.rb:22:in `run'
+	from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/webpacker-4.0.7/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:18:in `block in <main>'
+	from ./bin/webpack:17:in `chdir'
+	from ./bin/webpack:17:in `<main>'
+
+  Rendered homes/_notification.html.erb (Duration: 0.8ms | Allocations: 165)
+Completed 200 OK in 2450ms (Views: 2448.0ms | ActiveRecord: 0.0ms | Allocations: 26025)
+
+
