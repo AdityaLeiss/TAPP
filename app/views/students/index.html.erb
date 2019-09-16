@@ -8,7 +8,7 @@
       <th>Nim</th>
       <th>Nama</th>
       <th>Email</th>
-      <th>Username</th>
+
       <th>Status</th>
       <th colspan="3"></th>
     </tr>
@@ -19,7 +19,7 @@
       <tr>
         <td><%= student.nim %></td>
         <td><%= student.nama %></td>
-        <td><%= student.email %></td>
+
         <td><%= Mahasiswa.find(student.nim).email%></td>
         <td><%= student.status %></td>
         <td><%= link_to 'Show', student %></td>
@@ -31,7 +31,7 @@
 </table>
 
 <br>
-<%= link_to "Sign up", "/mahasiswas/sign_up" %><br />
+
 <%= link_to 'New Student', new_student_path %>
 <%= link_to 'Back', "/rumahs" %>
 <%= link_to "Logout", destroy_user_session_path, method: :delete, :class => 'navbar-link'  %>

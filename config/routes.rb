@@ -23,7 +23,7 @@ Rails.application.routes.draw do
     root 'hdosens#index', as: :authenticated_mdosen
   end
 
-  devise_for :mahasiswas, path: 'mahasiswas',controllers: { sessions: 'mahasiswas/sessions'}
+  devise_for :mahasiswas, path: 'mahasiswas',controllers: { sessions: 'mahasiswas/sessions',registrations: 'mahasiswas/registrations'}
   devise_scope :mahasiswa do
     get 'sign_in', to: 'mahasiswa/sessions#new'
     get '/mahasiswas/sign_out' => 'mahasiswa/sessions#destroy'
