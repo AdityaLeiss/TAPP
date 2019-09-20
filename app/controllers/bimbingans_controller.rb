@@ -70,6 +70,6 @@ class BimbingansController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def bimbingan_params
-      params.require(:bimbingan).permit(:nama, :judul, :dosen)
+      params.require(:bimbingan).permit(:nama,:judul,:dosen,:nip,:idb,:nim)
     end
 end

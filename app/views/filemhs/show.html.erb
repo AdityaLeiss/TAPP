@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Id bimbingan:</strong>
+  <%= @filemh.id_bimbingan %>
+</p>
+
+<p>
+  <strong>Nim:</strong>
+  <%= @filemh.nim %>
+</p>
+
+<p>
+  <strong>Nama:</strong>
+  <%= @filemh.nama %>
+</p>
+
+<p>
+  <strong>Judul:</strong>
+  <%= @filemh.judul %>
+</p>
+
+<%= link_to 'Edit', edit_filemh_path(@filemh) %> |
+<%= link_to 'Back', filemhs_path %>

@@ -1,0 +1,33 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Filemhs</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Id bimbingan</th>
+      <th>Nim</th>
+      <th>Nama</th>
+      <th>Judul</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @filemhs.each do |filemh| %>
+      <tr>
+        <td><%= filemh.id_bimbingan %></td>
+        <td><%= filemh.nim %></td>
+        <td><%= filemh.nama %></td>
+        <td><%= filemh.judul %></td>
+        <td><%= link_to 'Show', filemh %></td>
+        <td><%= link_to 'Edit', edit_filemh_path(filemh) %></td>
+        <td><%= link_to 'Destroy', filemh, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Filemh', new_filemh_path %>

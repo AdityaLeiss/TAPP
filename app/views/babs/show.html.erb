@@ -1,0 +1,63 @@
+<p id="notice"><%= notice %></p>
+<table>
+  <tr>
+
+<p>
+  <strong>Nim:</strong>
+  <%= @bab.nim %>
+</p>
+
+<p>
+  <strong>Nama:</strong>
+  <%= @bab.nama %>
+</p>
+
+<p>
+  <strong>Bab:</strong>
+  <%= @bab.bab %>
+</p>
+
+<td>
+<iframe src="<%= url_for(@bab.pdf) %> " width="600" height="780" style="border: none;"></iframe>
+</td>
+<td>
+<p>Comments</p>
+<% @bab.sarans.each do |comment| %>
+  <p>
+    <strong>Page:</strong>
+    <%= comment.halaman %>
+  </p>
+
+  <p>
+    <strong>Comment:</strong>
+    <%= comment.isi %>
+  </p>
+  <p>
+  <%= button_to 'Delete Comment', [comment.bab, comment],
+               method: :delete,
+               data: { confirm: 'Are you sure?' } %>
+
+</p>
+    <% end %>
+  <p>Add a comment:</p>
+<%= form_with(model: [ @bab, @bab.sarans.build ], local: true) do |form| %>
+  <p>
+    <%= form.label :page %><br>
+    <%= form.number_field :halaman %>
+  </p>
+  <p>
+    <%= form.label :comment %><br>
+    <%= form.text_area :isi %>
+  </p>
+  <p>
+    <%= form.submit %>
+  </p>
+<% end %>
+
+
+
+</td>
+</tr>
+</table>
+<%= link_to 'Edit', edit_bab_path(@bab) %> |
+<%= link_to 'Back', babs_path %>

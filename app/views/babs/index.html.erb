@@ -1,0 +1,61 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Babs</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Id Bimbingan</th>
+      <th>NIM</th>
+      <th>Nama</th>
+      <th>Judul</th>
+      <th>Dosen</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @bimbas.each do |bimbingan| %>
+      <tr>
+        <td><%= bimbingan.idb %></td>
+        <td><%= bimbingan.nim %></td>
+        <td><%= Student.find(bimbingan.nim).nama %></td>
+        <td><%= bimbingan.judul %></td>
+        <td><%= Dosen.find(bimbingan.nip).nama %></td>
+
+
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Nim</th>
+      <th>Nama</th>
+      <th>Bab</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @babs.each do |bab| %>
+      <tr>
+        <td><%= bab.nim %></td>
+         <td><%= Student.find(bab.nim).nama %></td>
+        <td><%= bab.bab %></td>
+          <td><%= bab.progress %></td>
+        <td><%= link_to 'Show', bab %></td>
+        <td><%= link_to 'Edit', edit_bab_path(bab) %></td>
+        <td><%= link_to 'Destroy', bab, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Bab', new_bab_path %>
+<%= link_to "Change your password", edit_mahasiswa_registration_path %>
+<%= link_to "Logout", destroy_mahasiswa_session_path, method: :delete, :class => 'navbar-link'  %>

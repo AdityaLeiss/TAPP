@@ -19,8 +19,11 @@ Rails.application.routes.draw do
   end
 
   authenticated :mdosen do
-    resources :hdosens
-    root 'hdosens#index', as: :authenticated_mdosen
+    resources :bimdosens 
+    resources :hdosens do
+      resources :dsarans
+    end
+    root 'bimdosens#index', as: :authenticated_mdosen
   end
 
   devise_for :mahasiswas, path: 'mahasiswas',controllers: { sessions: 'mahasiswas/sessions',registrations: 'mahasiswas/registrations'}
@@ -30,8 +33,10 @@ Rails.application.routes.draw do
   end
 
   authenticated :mahasiswa do
-    resources :mhshomes
-    root 'mhshomes#index', as: :authenticated_root
+    resources :babs do
+      resources :sarans
+    end
+    root 'babs#index', as: :authenticated_root
   end
 
   devise_for :users,path: 'users', controllers: { sessions: 'users/sessions' }
@@ -49,6 +54,8 @@ Rails.application.routes.draw do
   resources :homes
   root 'homes#index'
 
+
+  resources :filemhs
   resources :bimbingans
   resources :admins
   resources :dosens

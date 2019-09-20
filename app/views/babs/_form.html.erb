@@ -1,0 +1,37 @@
+<%= form_with(model: bab, local: true) do |form| %>
+  <% if bab.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(bab.errors.count, "error") %> prohibited this bab from being saved:</h2>
+
+      <ul>
+        <% bab.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :nim %>
+    <%= form.number_field :nim %>
+  </div>
+
+  <div class="field">
+    <%= form.label :nama %>
+    <%= form.text_field :nama %>
+  </div>
+
+  <div class="field">
+    <%= form.label :bab %>
+    <%= form.text_field :bab %>
+  </div>
+
+  <div class="field">
+    <%= form.label :file %>
+    <%= form.file_field :pdf %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

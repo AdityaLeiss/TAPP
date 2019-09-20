@@ -1,0 +1,37 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Bimbingans</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Id Bimbingan</th>
+      <th>NIM</th>
+      <th>Nama</th>
+      <th>Judul</th>
+
+
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @bimdosens.each do |bimdosen| %>
+      <tr>
+        <td><%= bimdosen.idb %></td>
+        <td><%= bimdosen.nim %></td>
+        <td><%= Student.find(bimdosen.nim).nama %></td>
+        <td><%= bimdosen.judul %></td>
+
+
+  <!--      <td><%=  link_to 'Show', bimdosen_path(bimdosen) %></td>  -->
+        <td><%= link_to 'Show file',  hdosens_path(:nim => bimdosen.nim), :method => :get  %> </td>
+
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+
+<%= link_to "Logout", destroy_mdosen_session_path, method: :delete, :class => 'navbar-link'  %>

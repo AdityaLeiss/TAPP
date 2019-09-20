@@ -8,7 +8,7 @@
       <th>Nip</th>
       <th>Nama</th>
       <th>Email</th>
-      <th>Username</th>
+
 
       <th colspan="3"></th>
     </tr>
@@ -20,7 +20,7 @@
         <td><%= dosen.nip %></td>
         <td><%= dosen.nama %></td>
         <td><%= Mdosen.find(dosen.nip).email %></td>
-        <td><%= dosen.username %></td>
+      
 
         <td><%= link_to 'Show', dosen %></td>
         <td><%= link_to 'Edit', edit_dosen_path(dosen) %></td>

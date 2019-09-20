@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_09_13_024302) do
+ActiveRecord::Schema.define(version: 2019_09_19_013146) do
 
   create_table "active_storage_attachments", force: :cascade do |t|
     t.string "name", null: false
@@ -41,12 +41,24 @@ ActiveRecord::Schema.define(version: 2019_09_13_024302) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
+  create_table "babs", force: :cascade do |t|
+    t.integer "nim"
+    t.string "nama"
+    t.string "bab"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.string "progress"
+  end
+
   create_table "bimbingans", force: :cascade do |t|
     t.string "nama"
     t.string "judul"
     t.string "dosen"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.integer "idb"
+    t.integer "nim"
+    t.integer "nip"
   end
 
   create_table "dosens", force: :cascade do |t|
@@ -55,6 +67,22 @@ ActiveRecord::Schema.define(version: 2019_09_13_024302) do
     t.string "email"
     t.string "username"
     t.string "password"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "filemhs", force: :cascade do |t|
+    t.integer "id_bimbingan"
+    t.integer "nim"
+    t.string "nama"
+    t.string "judul"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "komentars", force: :cascade do |t|
+    t.integer "halaman"
+    t.string "isi"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
@@ -83,6 +111,15 @@ ActiveRecord::Schema.define(version: 2019_09_13_024302) do
     t.integer "nip"
     t.index ["email"], name: "index_mdosens_on_email", unique: true
     t.index ["reset_password_token"], name: "index_mdosens_on_reset_password_token", unique: true
+  end
+
+  create_table "sarans", force: :cascade do |t|
+    t.integer "halaman"
+    t.string "isi"
+    t.integer "bab_id", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["bab_id"], name: "index_sarans_on_bab_id"
   end
 
   create_table "students", force: :cascade do |t|
@@ -122,4 +159,5 @@ ActiveRecord::Schema.define(version: 2019_09_13_024302) do
   end
 
   add_foreign_key "active_storage_attachments", "active_storage_blobs", column: "blob_id"
+  add_foreign_key "sarans", "babs"
 end

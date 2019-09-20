@@ -1,2 +1,3 @@
 class Bimbingan < ApplicationRecord
+  
 end

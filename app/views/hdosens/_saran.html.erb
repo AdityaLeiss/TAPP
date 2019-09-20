@@ -1,0 +1,14 @@
+<%= form_with(model: [ @hdosen, @hdosen.sarans.build ],url: hdosen_dsarans_path(@hdosen), local: true) do |form| %>
+  <p>
+    <%= form.label :halaman %><br>
+    <%= form.number_field :halaman %>
+  </p>
+  <p>
+    <%= form.label :saran %><br>
+    <%= form.text_area :isi %>
+  </p>
+  <p>
+    <%= form.submit %>
+  </p>
+<% end %>
+<%= link_to 'Back', bimdosens_path %>

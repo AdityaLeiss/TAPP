@@ -1,0 +1,2 @@
+module BimahasHelper
+end

@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  id_bimbingan: 1
+  nim: 1
+  nama: MyString
+  judul: MyString
+
+two:
+  id_bimbingan: 1
+  nim: 1
+  nama: MyString
+  judul: MyString

@@ -1,0 +1,2 @@
+class Filemh < ApplicationRecord
+end

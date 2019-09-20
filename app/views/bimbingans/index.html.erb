@@ -5,8 +5,11 @@
 <table>
   <thead>
     <tr>
+      <th>Id Bimbingan</th>
+      <th>NIM</th>
       <th>Nama</th>
       <th>Judul</th>
+      <th>NIP</th>
       <th>Dosen</th>
       <th colspan="3"></th>
     </tr>
@@ -15,9 +18,13 @@
   <tbody>
     <% @bimbingans.each do |bimbingan| %>
       <tr>
-        <td><%= Student.find(bimbingan.nama).nama %></td>
+        <td><%= bimbingan.idb %></td>
+        <td><%= bimbingan.nim %></td>
+        <td><%= Student.find(bimbingan.nim).nama %></td>
         <td><%= bimbingan.judul %></td>
-        <td><%= Dosen.find(bimbingan.dosen).nama %></td>
+        <td><%= bimbingan.nip%></td>
+        <td><%= Dosen.find(bimbingan.nip).nama %></td>
+
         <td><%= link_to 'Show', bimbingan %></td>
         <td><%= link_to 'Edit', edit_bimbingan_path(bimbingan) %></td>
         <td><%= link_to 'Destroy', bimbingan, method: :delete, data: { confirm: 'Are you sure?' } %></td>
