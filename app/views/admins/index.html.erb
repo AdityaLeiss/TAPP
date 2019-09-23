@@ -15,7 +15,7 @@
     <% @admins.each do |admin| %>
       <tr>
         <td><%= admin.nama %></td>
-        <td> <%= User.find(admin.id).email%></td>
+        <td> <%= User.find(admin.ida).email%></td>
         <td><%= link_to 'Show', admin %></td>
         <td><%= link_to 'Edit', edit_admin_path(admin) %></td>
         <td><%= link_to 'Destroy', admin, method: :delete, data: { confirm: 'Are you sure?' } %></td>
@@ -25,7 +25,7 @@
 </table>
 
 <br>
-<%= link_to "Sign up", new_user_registration_path %><br />
+
 <%= link_to 'New Admin', new_admin_path %>
-<%= link_to 'Back', "/rumahs" %>
+<%= link_to 'Back', "/superadmins" %>
 <%= link_to "Logout", destroy_user_session_path, method: :delete, :class => 'navbar-link'  %>

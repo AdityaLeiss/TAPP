@@ -19,7 +19,7 @@ Rails.application.routes.draw do
   end
 
   authenticated :mdosen do
-    resources :bimdosens 
+    resources :bimdosens
     resources :hdosens do
       resources :dsarans
     end
@@ -57,6 +57,7 @@ Rails.application.routes.draw do
 
   resources :filemhs
   resources :bimbingans
+  resources :viewadmins
   resources :admins
   resources :dosens
   resources :students
