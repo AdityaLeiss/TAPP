@@ -55,3 +55,5 @@ gem 'wkhtmltopdf-binary'
 gem 'pdf-reader'
 gem 'pdfjs_viewer-rails'
 gem 'jquery-rails'
+gem "font-awesome-rails"
+gem 'font-awesome-sass', '~> 5.10.2'
