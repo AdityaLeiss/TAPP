@@ -1,24 +1,282 @@
+/* part home awal */
 .container {
     position: relative;
     margin-top: 20px;
-}
-
-.center {
+  }
+  .center {
     position: absolute;
     left: 0;
     top: 50%;
     width: 100%;
     text-align: center;
     font-size: 18px;
-}
-
-.form-signin {
+  }
+  .form-signin {
     width: 100%;
     max-width: 330px;
     padding: 15px;
-    margin: auto;
-}
-
-.jumbotron {
+    margin-top: 1.875em;
+    margin-bottom: 1.875em;
+  }
+  .jumbotron {
+    margin-top: 1.875em;
     border-radius: 5px;
-}
+  }
+  /* part home awal end */
+  
+  /* part admin */
+  #body-row {
+    margin-left:0;
+    margin-right:0;
+  }
+  #sidebar-container {
+    min-height: 92.8vh;   
+    background-color: #333;
+    padding: 0;
+  }
+  .sidebar-expanded {
+    width: 220px;
+  }
+  .sidebar-collapsed {
+    width: 60px;
+  }
+  #sidebar-container .list-group a {
+    height: 50px;
+    color: white;
+  }
+  #sidebar-container .list-group .sidebar-submenu a {
+    height: 45px;
+    padding-left: 30px;
+  }
+  .sidebar-submenu {
+    font-size: 0.9rem;
+  }
+  .sidebar-separator-title {
+    background-color: #333;
+    height: 35px;
+  }
+  .sidebar-separator {
+    background-color: #333;
+    height: 25px;
+  }
+  .logo-separator {
+    background-color: #333;    
+    height: 60px;
+  }
+  #sidebar-container .list-group .list-group-item[aria-expanded="false"] .submenu-icon::after {
+    content: " \f0d7";
+    font-family: FontAwesome;
+    display: inline;
+    text-align: right;
+    padding-left: 10px;
+  }
+  
+  #sidebar-container .list-group .list-group-item[aria-expanded="true"] .submenu-icon::after {
+    content: " \f0da";
+    font-family: FontAwesome;
+    display: inline;
+    text-align: right;
+    padding-left: 10px;
+  }
+  
+  .card {
+    box-shadow: 0 0 20px rgba(0,0,0,.08);
+    border: 0 solid transparent;
+    margin-top: 2.5em;
+  }
+  .card-header {
+    font-size: 18px;
+    color: #455a64;
+  }
+  .navbar {
+    position: sticky;
+    height: 70px;
+  }
+  /* jadi gk ada scroll yang di baawah */
+  body {
+    overflow-x: hidden;
+  } 
+  .wall-color {
+    background-color: ghostwhite;
+  }
+  .sidenav {
+    transition: 0s; 
+  }
+  #main {
+    transition: margin-left 0s;
+  }
+  .sm-col-card {
+    min-height: 60px;
+  }
+  .sm-col-card .smc-icon {
+    font-size: 50px;
+    line-height: 50px;
+    position: absolute;
+    left: 60px;
+    top: 25px;
+  }
+  .sm-col-card .smc-content {
+    margin-left: 100px;
+  }
+  .sm-col-card .smc-head {
+    color: #455a64;
+    font-size: 20px;
+  }
+  .sm-col-card .smc-text {
+    color: #99abb4;
+    font-size: 14px;
+  }
+  .dib {
+    display: inline-block;
+  }
+  .aa {
+    color: #216583;
+  }
+  .flat-color-2 {
+    color: #f76262;
+  }
+  .flat-color-2:hover {
+    color: #f76262;
+  }
+  .flat-color-3 {
+    color: #fdef96;
+  }
+  .table {
+    width: 100%;
+    margin-bottom: 0.5rem;
+    color: #212529;
+  }
+  /* untuk notification */
+  .indicator {
+    content: '';
+    position: absolute;
+    top: 16px;
+    right: 18px;
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    border-radius: 100%;
+    background-color: #ef172c;
+    animation: .9s infinite beatHeart;
+    transform-origin: center;
+  }
+  .navbar-right-top .nav-item .nav-link{
+    padding: 13px 20px;
+    font-size: 16px;
+    line-height: 2;
+    color: #82849f;
+  }
+  .fa-exclamation-circle {
+    color: #c93838;
+  }
+  .user-avatar-md {
+    height: 32px;
+    width: 32px;
+  }
+  .dropdown, .dropleft, .dropright, .dropup {
+    position: relative;
+    z-index: 0;
+  }
+  .col {
+    z-index: auto;
+  }
+  /* part admin end*/
+  
+  /* part dosen */
+  #body-row {
+    margin-left:0;
+    margin-right:0;
+  }
+  body {
+    background-color: ghostwhite;
+  }
+  .card {
+    box-shadow: 0 0 20px rgba(0,0,0,.08);
+    border: 0 solid transparent;
+    margin-top: 1.875em;
+  }
+  .card-header {
+    font-size: 18px;
+    color: #455a64;
+  }
+  .navbar {
+    position: sticky;
+    height: 70px;
+  }
+  .container-fluid {
+    padding-right: 1.05em;
+    padding-left: 1.05em;
+  }
+  .wall-color {
+    background-color: ghostwhite;
+  }
+  
+  .sm-col-card {
+    min-height: 60px;
+  }
+  .sm-col-card .smc-icon {
+    font-size: 50px;
+    line-height: 50px;
+    position: absolute;
+    left: 60px;
+    top: 25px;
+  }
+  .sm-col-card .smc-content {
+    margin-left: 100px;
+  }
+  .sm-col-card .smc-head {
+    color: #455a64;
+    font-size: 20px;
+  }
+  .sm-col-card .smc-text {
+    color: #99abb4;
+    font-size: 14px;
+  }
+  .dib {
+    display: inline-block;
+  }
+  .table {
+    width: 100%;
+    margin-bottom: 0.5rem;
+    color: #212529;
+  }
+  /* untuk notification */
+  .indicator {
+    content: '';
+    position: absolute;
+    top: 16px;
+    right: 18px;
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    border-radius: 100%;
+    background-color: #ef172c;
+    animation: .9s infinite beatHeart;
+    transform-origin: center;
+  }
+  
+  .navbar-right-top .nav-item .nav-link{
+    padding: 13px 20px;
+    font-size: 16px;
+    line-height: 2;
+    color: #82849f;
+  }
+  .fa-exclamation-circle {
+    color: #c93838;
+  }
+  .user-avatar-md {
+    height: 32px;
+    width: 32px;
+  }
+  .dropdown, .dropleft, .dropright, .dropup {
+    position: relative;
+    z-index: 0;
+  }
+  .col {
+    z-index: auto;
+  }
+  .row {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  /* end part dosen*/  
