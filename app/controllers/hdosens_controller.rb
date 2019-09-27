@@ -11,7 +11,7 @@ class HdosensController < ApplicationController
     # @hdosens = Bab.select{|b| b.nim == @zhilka}
       #  @hdosens = Bab.find(params[:nim])
       #  rescue ActiveRecord::RecordNotFound
-    #    flash[:notice] = "Kosong"
+      #  flash[:notice] = "Kosong"
       #  redirect_to bimdosens_path
     end
 
@@ -19,7 +19,6 @@ class HdosensController < ApplicationController
     # GET /babs/1.json
     def show
         @hdosen = Bab.find(params[:id])
-
     end
 
     # GET /babs/new

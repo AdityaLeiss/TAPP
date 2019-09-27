@@ -1,72 +1,25 @@
-<table>
-  <tr>
-    <td>
-<p>
-  <strong>Ids:</strong>
-  <%= @hdosen.nama %>
-</p>
-
-<p>
-  <strong>Nama:</strong>
-  <%= @hdosen.bab %>
-</p>
-
-<p>
-  <strong>Progress:</strong>
-  <%= @hdosen.progress %>
-</p>
-</td>
-<td>
-<p>
-  <%= form_for @hdosen, url: hdosen_path(@hdosen),remote: true do |f| %>
-
-     <%= f.hidden_field :progress,:value => "Revisi" %>
-     <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
-     <%= f.submit "Revisi", class: 'btn btn-dark'  %>
-     <% end %>
-
-</p>
-
-<p>
-  <%= form_for @hdosen, url: hdosen_path(@hdosen),remote: true do |f| %>
-
-     <%= f.hidden_field :progress,:value => "Lulus" %>
-     <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
-     <%= f.submit "Lulus", class: 'btn btn-dark'  %>
-     <% end %>
-
-</p>
-</td>
-</tr>
-<tr>
+<%= render partial: 'bimdosens/navbar' %>
 
 <div class="container">
-<td>
-<iframe src="<%= url_for(@hdosen.pdf) %> " width="600" height="780" style="border: none;"></iframe>
-</td>
-<td>
-<p>Comments</p>
-
-
-<% @hdosen.sarans.each do |comment| %>
-  <p>
-    <strong>Page:</strong>
-    <%= comment.halaman %>
-  </p>
-
-  <p>
-    <strong>Comment:</strong>
-    <%= comment.isi %>
-  </p>
-  <p>
-  <%= link_to 'Delete Comment', [comment.bab, comment],
-               method: :delete,
-               data: { confirm: 'Are you sure?' } %>
- </p>
-<% end %>
-<%= render 'saran', hdosen: @hdosen %>
-
-</td>
-</tr>
-</table>
+  <div class="row">
+    <%= render 'bcProgres' %>
+  </div>
+  <div class="row">
+    <div class="col">
+    <%= render 'tampilanbab' %>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xl-7 col-lg-7 col-md-7 col-sm-7">
+      <%= render 'tampilanpdf' %>
+    </div>
+    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5">
+      <%= render 'pesandansaran' %>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+    </div>
+  </div>
+  <br>
 </div>
