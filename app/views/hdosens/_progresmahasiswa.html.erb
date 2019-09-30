@@ -1,0 +1,29 @@
+<div class="card">
+	<div class="card-header">Progres Mahasiswa</div>
+	<div class="card-body">
+		<div class="row table-responsive">
+      <table class="table table-hover" style="width: 100%;">
+				<thead>
+					<tr>
+						<th>Nama Mahasiswa</th>
+						<th>Bab</th>
+						<th>Tanggal Upload</th>
+						<th>Progress</th>
+						<th colspan="3"></th>
+					</tr>
+				</thead>
+				<tbody>
+					<% @hdosens.each do |hdosen| %>
+						<tr>
+							<td><%= Student.find_by(nim: hdosen.nim).nama %></td>
+							<td><%= hdosen.bab %></td>
+							<td><%= hdosen.created_at.strftime('%d-%m-%Y') %></td>
+							<td><%= hdosen.progress %></td>
+							<td><%= link_to 'Lihat File', hdosen_path(hdosen) %></td>
+						</tr>
+					<% end %>
+				</tbody>
+			</table>
+    </div>
+	</div>
+</div>

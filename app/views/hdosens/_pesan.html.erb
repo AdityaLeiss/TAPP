@@ -1,0 +1,20 @@
+<div class="container">
+  <strong>Comments</strong>
+  <br>
+    <% @hdosen.sarans.each do |comment| %>
+      <div class="card py-4 px-4 borderline">
+      <p>
+        <strong>Page:</strong>
+        <%= comment.halaman %>
+      </p>
+      <p>
+        <strong>Comment:</strong>
+        <%= comment.isi %>
+      </p>
+      <p>
+        <%= link_to 'Delete Comment', [comment.bab, comment], method: :delete, data: { confirm: 'Are you sure?' } %>
+      </p>
+      </div>
+    <% end %>
+  <br/>
+</div>

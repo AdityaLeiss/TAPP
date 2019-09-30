@@ -1,0 +1,31 @@
+<div class="card">
+	<div class="card-header">Mahasiswa Bimbingan</div>
+	<div class="card-body">
+		<div class="row my-2">
+			<input type="search" class="form-control" id="search" placeholder="Search...">
+		</div>
+		<div class="row table-responsive">
+      <table class="table table-hover" style="width: 100%;">
+        <thead>
+          <tr>
+            <th>NIM</th>
+            <th>Nama Mahasiswa</th>
+            <th>Judul TA</th>
+            <th>Aksi</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% @bimdosens.each do |bimdosen| %>
+            <tr>
+              <td><%= bimdosen.nim %></td>
+              <td><%= Student.find(bimdosen.nim).nama %></td>
+              <td><%= bimdosen.judul %></td>
+          <!--<td><%= link_to 'Show', bimdosen_path(bimdosen) %></td>-->
+              <td><%= link_to 'Show file',  hdosens_path(:nim => bimdosen.nim), :method => :get  %> </td>
+            </tr>
+          <% end %>
+        </tbody>
+      </table>
+    </div>
+	</div>
+</div>

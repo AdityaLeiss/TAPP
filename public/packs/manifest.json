@@ -1,14 +1,15 @@
 {
-  "application.js": "/packs/js/application-3407d73ecf0613dc5d5b.js",
-  "application.js.map": "/packs/js/application-3407d73ecf0613dc5d5b.js.map",
+  "application.js": "/packs/js/application-4a55bdd5ab3f73602166.js",
+  "application.js.map": "/packs/js/application-4a55bdd5ab3f73602166.js.map",
   "entrypoints": {
     "application": {
       "js": [
-        "/packs/js/application-3407d73ecf0613dc5d5b.js"
+        "/packs/js/application-4a55bdd5ab3f73602166.js"
       ],
       "js.map": [
-        "/packs/js/application-3407d73ecf0613dc5d5b.js.map"
+        "/packs/js/application-4a55bdd5ab3f73602166.js.map"
       ]
     }
-  }
+  },
+  "media/image/cantik.jpg": "/packs/media/image/cantik-b3e59a5b.jpg"
 }

@@ -1,0 +1,29 @@
+<div class="card mb-3" style="max-width: 540px;">
+  <div class="row no-gutters">
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Progres Mahasiswa</h5>
+        <p class="card-text spacing"><strong>Nama:</strong><%= Student.find_by(nim: @hdosen.nim).nama %></p>
+        <p class="card-text spacing"><strong>Bab ke-</strong><%= @hdosen.bab %></p>
+        <p class="card-text spacing"><strong>Progres:</strong><%= @hdosen.progress %></p>
+      </div>
+    </div>
+    <div class="col-md-3">
+      &nbsp
+      <p>
+        <%= form_for @hdosen, url: hdosen_path(@hdosen),remote: true do |f| %>
+          <%= f.hidden_field :progress,:value => "Revisi" %>
+          <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+          <%= f.submit "Revisi", class: 'btn btn-outline-secondary btn-block'  %>
+        <% end %>
+      </p>
+      <p>
+        <%= form_for @hdosen, url: hdosen_path(@hdosen),remote: true do |f| %>
+          <%= f.hidden_field :progress,:value => "Lulus" %>
+          <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+          <%= f.submit "Lulus", class: 'btn btn-outline-success btn-block'  %>
+        <% end %>
+      </p>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,48 @@
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+	<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+		data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+		aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<%= link_to bimdosens_path, :class => 'navbar-brand' do %>
+		<i class="fa fa-hand-o-right d-inline-block " aria-hidden="true"></i>
+		<span class="menu-collapsed">TAPP</span>
+		<% end %>
+	<div class="collapse navbar-collapse" id="navbarNavDropdown">
+		<ul class="navbar-nav ml-auto navbar-right-top">
+			<li class="nav-item dropdown notification">
+				<a class="nav-link nav-icons" href="#" id="navbarDropdownMenuLink1" data-toggle="dropdown"
+					aria-haspopup="true" aria-expanded="false">
+					<i class="fa fa-bell" aria-hidden="true"></i>
+					<span class="indicator"></span>
+				</a>
+			</li>
+			<li class="nav-item dropdown dropleft nav-user">
+				<a class="nav-link nav-user-img" href="#" id="navbarDropdownMenuLink" role="button"
+					data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					<img src="gambar/profil/cans.jpg" alt="" class="user-avatar-md rounded-circle">
+					Hellen
+				</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+					<a class="dropdown-item" href="#">Pengaturan</a>
+					<a class="dropdown-item" href="#">Notifikasi</a>
+					<%= link_to "Logout", destroy_mdosen_session_path, method: :delete, :class => 'navbar-link dropdown-item'  %>
+				</div>
+			</li>
+			<li class="nav-item dropdown d-sm-block d-md-none">
+				<a class="nav-link dropdown-toggle" href="#" id="smallerscreenmenu" data-toggle="dropdown"
+					aria-haspopup="true" aria-expanded="false">
+					Menu
+				</a>
+				<div class="dropdown-menu" aria-labelledby="smallerscreenmenu">
+					<a class="dropdown-item" href="#">Beranda</a>
+					<a class="dropdown-item" href="#">Admin</a>
+					<a class="dropdown-item" href="#">Dosen</a>
+					<a class="dropdown-item" href="#">Mahasiswa</a>
+					<a class="dropdown-item" href="#">Bimbingan</a>
+				</div>
+			</li>
+		</ul>
+	</div>
+</nav>
+
